@@ -1,0 +1,66 @@
+{
+  "experiment": "B_auxiliary_loss_ablation",
+  "analysis_stage": "review_defense_retraining",
+  "chemistry": "LFP",
+  "aux_config": "anchor_only",
+  "source_runner": "${SOURCE_WORKSPACE}/LFP_REMOTE_EXACT_COPY_20260713/DL/CEMA_LFP/lfp_confirmatory_minipanel/Scripts/run_confirmatory_minipanel.py",
+  "source_runner_sha256": "3a5a18ca85849b57306c595e350625867eaf3859fcd6ac96bd34eeb2e56b6c4e",
+  "training_harness": "${SOURCE_WORKSPACE}/LFP_REMOTE_EXACT_COPY_20260713/DL/CEMA_LFP/lfp_confirmatory_minipanel/source_repo/soc_decomp/nmc_vcorr_it_train_dst_selector_run.py",
+  "training_harness_sha256": "643e880d5e09d7e5d25ee879b86b468194fa1c515e3a36676ba7649e838fc6b2",
+  "jobs": [
+    {
+      "chemistry": "LFP",
+      "aux_config": "anchor_only",
+      "feature": "T6",
+      "fold": "DST",
+      "prefix": "fairB_lfp_anchor_only_gru_residual_t6_holdoutdst_s012_b2048_e200",
+      "status": "complete",
+      "elapsed_seconds": 199.95626783370972
+    },
+    {
+      "chemistry": "LFP",
+      "aux_config": "anchor_only",
+      "feature": "T6",
+      "fold": "FUDS",
+      "prefix": "fairB_lfp_anchor_only_gru_residual_t6_holdoutfuds_s012_b2048_e200",
+      "status": "complete",
+      "elapsed_seconds": 198.86440324783325
+    },
+    {
+      "chemistry": "LFP",
+      "aux_config": "anchor_only",
+      "feature": "T6",
+      "fold": "US06",
+      "prefix": "fairB_lfp_anchor_only_gru_residual_t6_holdoutus06_s012_b2048_e200",
+      "status": "complete",
+      "elapsed_seconds": 206.78737235069275
+    },
+    {
+      "chemistry": "LFP",
+      "aux_config": "anchor_only",
+      "feature": "G4",
+      "fold": "DST",
+      "prefix": "fairB_lfp_anchor_only_gru_residual_g4_holdoutdst_s012_b2048_e200",
+      "status": "complete",
+      "elapsed_seconds": 200.09596014022827
+    },
+    {
+      "chemistry": "LFP",
+      "aux_config": "anchor_only",
+      "feature": "G4",
+      "fold": "FUDS",
+      "prefix": "fairB_lfp_anchor_only_gru_residual_g4_holdoutfuds_s012_b2048_e200",
+      "status": "complete",
+      "elapsed_seconds": 198.92797708511353
+    },
+    {
+      "chemistry": "LFP",
+      "aux_config": "anchor_only",
+      "feature": "G4",
+      "fold": "US06",
+      "prefix": "fairB_lfp_anchor_only_gru_residual_g4_holdoutus06_s012_b2048_e200",
+      "status": "complete",
+      "elapsed_seconds": 206.31854510307312
+    }
+  ]
+}

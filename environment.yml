@@ -1,0 +1,21 @@
+name: cema_soc_repro
+channels:
+  - defaults
+dependencies:
+  # Build identifiers are intentionally omitted: they are platform-specific.
+  # The pinned package versions and MKL backend remain the numerical contract.
+  - python=3.13.5
+  - pip
+  - blas=1.0=mkl
+  - intel-openmp=2023.1.0
+  - mkl=2023.1.0
+  - mkl-service=2.4.0
+  - mkl_fft=1.3.11
+  - mkl_random=1.2.8
+  - numpy=2.1.3
+  - numpy-base=2.1.3
+  - scipy=1.15.3
+  - pandas=2.2.3
+  - scikit-learn=1.6.1
+  - pip:
+      - -r requirements.txt

@@ -1,0 +1,66 @@
+estimator,chemistry,precision,asset,bytes,refit_scope,requires_initial_soc,note
+proposed_G4,LFP,fp32,network_weights,479292,training profiles in each LOPO fold,False,ST lossless FP32 constants
+proposed_G4,LFP,fp32,R0_temperature_table,128,training profiles in each LOPO fold,False,temperature and R0 double arrays
+proposed_G4,LFP,fp32,normalization_stats,136,training profiles in each LOPO fold,False,float32 mean and std
+proposed_G4,LFP,fp32,EMA_runtime_state,72,training profiles in each LOPO fold,False,8 double states plus counters/padding
+proposed_G4,LFP,fp32,rolling_window,3400,training profiles in each LOPO fold,False,float32 50-sample window
+proposed_G4,LFP,fp32,activation_arena,58184,training profiles in each LOPO fold,False,ST runtime arena
+proposed_G4,LFP,fp32,initial_SOC,0,training profiles in each LOPO fold,False,not required
+proposed_T6,LFP,fp32,network_weights,475196,training profiles in each LOPO fold,False,ST lossless FP32 constants
+proposed_T6,LFP,fp32,R0_temperature_table,128,training profiles in each LOPO fold,False,temperature and R0 double arrays
+proposed_T6,LFP,fp32,normalization_stats,72,training profiles in each LOPO fold,False,float32 mean and std
+proposed_T6,LFP,fp32,EMA_runtime_state,72,training profiles in each LOPO fold,False,8 double states plus counters/padding
+proposed_T6,LFP,fp32,rolling_window,1800,training profiles in each LOPO fold,False,float32 50-sample window
+proposed_T6,LFP,fp32,activation_arena,56584,training profiles in each LOPO fold,False,ST runtime arena
+proposed_T6,LFP,fp32,initial_SOC,0,training profiles in each LOPO fold,False,not required
+proposed_T7,LFP,fp32,network_weights,473124,training profiles in each LOPO fold,False,ST lossless FP32 constants
+proposed_T7,LFP,fp32,R0_temperature_table,128,training profiles in each LOPO fold,False,temperature and R0 double arrays
+proposed_T7,LFP,fp32,normalization_stats,88,training profiles in each LOPO fold,False,float32 mean and std
+proposed_T7,LFP,fp32,EMA_runtime_state,72,training profiles in each LOPO fold,False,8 double states plus counters/padding
+proposed_T7,LFP,fp32,rolling_window,2200,training profiles in each LOPO fold,False,float32 50-sample window
+proposed_T7,LFP,fp32,activation_arena,56984,training profiles in each LOPO fold,False,ST runtime arena
+proposed_T7,LFP,fp32,initial_SOC,0,training profiles in each LOPO fold,False,not required
+proposed_G4,NMC,fp32,network_weights,479292,training profiles in each LOPO fold,False,ST lossless FP32 constants
+proposed_G4,NMC,fp32,R0_temperature_table,48,training profiles in each LOPO fold,False,temperature and R0 double arrays
+proposed_G4,NMC,fp32,normalization_stats,136,training profiles in each LOPO fold,False,float32 mean and std
+proposed_G4,NMC,fp32,EMA_runtime_state,72,training profiles in each LOPO fold,False,8 double states plus counters/padding
+proposed_G4,NMC,fp32,rolling_window,3400,training profiles in each LOPO fold,False,float32 50-sample window
+proposed_G4,NMC,fp32,activation_arena,58184,training profiles in each LOPO fold,False,ST runtime arena
+proposed_G4,NMC,fp32,initial_SOC,0,training profiles in each LOPO fold,False,not required
+proposed_T6,NMC,fp32,network_weights,475196,training profiles in each LOPO fold,False,ST lossless FP32 constants
+proposed_T6,NMC,fp32,R0_temperature_table,48,training profiles in each LOPO fold,False,temperature and R0 double arrays
+proposed_T6,NMC,fp32,normalization_stats,72,training profiles in each LOPO fold,False,float32 mean and std
+proposed_T6,NMC,fp32,EMA_runtime_state,72,training profiles in each LOPO fold,False,8 double states plus counters/padding
+proposed_T6,NMC,fp32,rolling_window,1800,training profiles in each LOPO fold,False,float32 50-sample window
+proposed_T6,NMC,fp32,activation_arena,56584,training profiles in each LOPO fold,False,ST runtime arena
+proposed_T6,NMC,fp32,initial_SOC,0,training profiles in each LOPO fold,False,not required
+adaptive_hysteresis_2rc_ekf,LFP,fp64,OCV_ECM_QR_bundle,385216,training profiles in each LOPO fold,True,compiled fold-specific constant bundle
+adaptive_hysteresis_2rc_ekf,LFP,fp64,runtime_state_and_covariance,200,training profiles in each LOPO fold,True,fixed CEMA_MAX_STATE allocation
+adaptive_hysteresis_2rc_ekf,LFP,fp64,initial_SOC,8,training profiles in each LOPO fold,True,oracle value supplied at reset and stored in state
+cc,LFP,fp32,OCV_ECM_QR_bundle,64,training profiles in each LOPO fold,True,compiled fold-specific constant bundle
+cc,LFP,fp32,runtime_state_and_covariance,104,training profiles in each LOPO fold,True,fixed CEMA_MAX_STATE allocation
+cc,LFP,fp32,initial_SOC,4,training profiles in each LOPO fold,True,oracle value supplied at reset and stored in state
+hysteresis_2rc_ekf,LFP,fp64,OCV_ECM_QR_bundle,385216,training profiles in each LOPO fold,True,compiled fold-specific constant bundle
+hysteresis_2rc_ekf,LFP,fp64,runtime_state_and_covariance,200,training profiles in each LOPO fold,True,fixed CEMA_MAX_STATE allocation
+hysteresis_2rc_ekf,LFP,fp64,initial_SOC,8,training profiles in each LOPO fold,True,oracle value supplied at reset and stored in state
+2rc_ukf,LFP,fp64,OCV_ECM_QR_bundle,385216,training profiles in each LOPO fold,True,compiled fold-specific constant bundle
+2rc_ukf,LFP,fp64,runtime_state_and_covariance,200,training profiles in each LOPO fold,True,fixed CEMA_MAX_STATE allocation
+2rc_ukf,LFP,fp64,initial_SOC,8,training profiles in each LOPO fold,True,oracle value supplied at reset and stored in state
+plain_2rc_ekf,LFP,fp64,OCV_ECM_QR_bundle,193024,training profiles in each LOPO fold,True,compiled fold-specific constant bundle
+plain_2rc_ekf,LFP,fp64,runtime_state_and_covariance,200,training profiles in each LOPO fold,True,fixed CEMA_MAX_STATE allocation
+plain_2rc_ekf,LFP,fp64,initial_SOC,8,training profiles in each LOPO fold,True,oracle value supplied at reset and stored in state
+1RC_EKF,NMC,fp64,OCV_ECM_QR_bundle,24456,training profiles in each LOPO fold,True,compiled fold-specific constant bundle
+1RC_EKF,NMC,fp64,runtime_state_and_covariance,200,training profiles in each LOPO fold,True,fixed CEMA_MAX_STATE allocation
+1RC_EKF,NMC,fp64,initial_SOC,8,training profiles in each LOPO fold,True,oracle value supplied at reset and stored in state
+2RC_EKF,NMC,fp64,OCV_ECM_QR_bundle,24456,training profiles in each LOPO fold,True,compiled fold-specific constant bundle
+2RC_EKF,NMC,fp64,runtime_state_and_covariance,200,training profiles in each LOPO fold,True,fixed CEMA_MAX_STATE allocation
+2RC_EKF,NMC,fp64,initial_SOC,8,training profiles in each LOPO fold,True,oracle value supplied at reset and stored in state
+2RC_UKF,NMC,fp64,OCV_ECM_QR_bundle,24456,training profiles in each LOPO fold,True,compiled fold-specific constant bundle
+2RC_UKF,NMC,fp64,runtime_state_and_covariance,200,training profiles in each LOPO fold,True,fixed CEMA_MAX_STATE allocation
+2RC_UKF,NMC,fp64,initial_SOC,8,training profiles in each LOPO fold,True,oracle value supplied at reset and stored in state
+Adaptive_2RC_EKF,NMC,fp64,OCV_ECM_QR_bundle,24456,training profiles in each LOPO fold,True,compiled fold-specific constant bundle
+Adaptive_2RC_EKF,NMC,fp64,runtime_state_and_covariance,200,training profiles in each LOPO fold,True,fixed CEMA_MAX_STATE allocation
+Adaptive_2RC_EKF,NMC,fp64,initial_SOC,8,training profiles in each LOPO fold,True,oracle value supplied at reset and stored in state
+CC,NMC,fp32,OCV_ECM_QR_bundle,24,training profiles in each LOPO fold,True,compiled fold-specific constant bundle
+CC,NMC,fp32,runtime_state_and_covariance,104,training profiles in each LOPO fold,True,fixed CEMA_MAX_STATE allocation
+CC,NMC,fp32,initial_SOC,4,training profiles in each LOPO fold,True,oracle value supplied at reset and stored in state

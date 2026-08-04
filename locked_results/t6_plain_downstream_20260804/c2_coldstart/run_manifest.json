@@ -1,0 +1,39 @@
+{
+  "feature": "T6_plain",
+  "folds": [
+    "DST",
+    "FUDS",
+    "US06"
+  ],
+  "seeds": [
+    0,
+    1,
+    2
+  ],
+  "reset_seed": 20260720,
+  "grid_s": [
+    0,
+    30,
+    60,
+    120,
+    300,
+    600,
+    900,
+    1200,
+    1800,
+    2400
+  ],
+  "reset_rule": "up to three deterministic uniform-random indices per available true-SOC band",
+  "warmup_nan_policy": "0/30 s remain NaN when the 50-sample post-reset buffer is incomplete",
+  "package_hash_before": {
+    "LFP": "df654a2e7b8a86d52bafbf20dbe4a7e1ab802af274ec1878675b4ceb5543a769",
+    "NMC": "899a19116957af0ae8686569b88d2869195b075da32fdbe3a4c6cf83e156d121"
+  },
+  "package_hash_after": {
+    "LFP": "df654a2e7b8a86d52bafbf20dbe4a7e1ab802af274ec1878675b4ceb5543a769",
+    "NMC": "899a19116957af0ae8686569b88d2869195b075da32fdbe3a4c6cf83e156d121"
+  },
+  "package_unchanged": true,
+  "elapsed_wall_s": 12.473620653152466,
+  "workers": 3
+}

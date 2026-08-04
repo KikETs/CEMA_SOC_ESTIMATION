@@ -1,0 +1,52 @@
+{
+  "fit_profiles": [
+    "DST",
+    "US06"
+  ],
+  "fit_scope": "training_profiles_only",
+  "interpolation": "linear_with_endpoint_hold",
+  "method": "train_temperature_event_median",
+  "source_file": "normalauxoff_lfp_gru_normal_t6_holdoutfuds_s0123456789_b2048_e200_decomposition_params.csv",
+  "table": [
+    {
+      "n_events": 4352,
+      "r0_ohm": 0.2570253236718319,
+      "temperature_C": -10.0
+    },
+    {
+      "n_events": 5402,
+      "r0_ohm": 0.1934647704393269,
+      "temperature_C": 0.0
+    },
+    {
+      "n_events": 5801,
+      "r0_ohm": 0.1685742955206237,
+      "temperature_C": 10.0
+    },
+    {
+      "n_events": 5909,
+      "r0_ohm": 0.1573336187496543,
+      "temperature_C": 20.0
+    },
+    {
+      "n_events": 5960,
+      "r0_ohm": 0.1568109964452828,
+      "temperature_C": 25.0
+    },
+    {
+      "n_events": 6026,
+      "r0_ohm": 0.1531479328440497,
+      "temperature_C": 30.0
+    },
+    {
+      "n_events": 6128,
+      "r0_ohm": 0.1521831369774782,
+      "temperature_C": 40.0
+    },
+    {
+      "n_events": 6149,
+      "r0_ohm": 0.1524809472528095,
+      "temperature_C": 50.0
+    }
+  ]
+}

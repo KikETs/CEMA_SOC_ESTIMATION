@@ -1,0 +1,201 @@
+{
+  "archived_predictions": "runs/all8_train_all8_test/tier1/nmc_goal_vcorr_it_train_dst_selector_results/lfpconfirm_all8_train_all8_test_tier1_gru_residual_t7_holdoutfuds_s012_b2048_e200_seed0_sel200_condinv_trainDST25_selected_seed0_ep200_base_test_prediction_rows.csv.gz",
+  "entry": {
+    "feature": "T7",
+    "fold": "FUDS",
+    "seed": 0
+  },
+  "evaluation_records": [
+    "prepared_data_ocv_discharge_soc/-10C/LFP_-10C_FUDS.csv",
+    "prepared_data_ocv_discharge_soc/0C/LFP_0C_FUDS.csv",
+    "prepared_data_ocv_discharge_soc/10C/LFP_10C_FUDS.csv",
+    "prepared_data_ocv_discharge_soc/20C/LFP_20C_FUDS.csv",
+    "prepared_data_ocv_discharge_soc/25C/LFP_25C_FUDS.csv",
+    "prepared_data_ocv_discharge_soc/30C/LFP_30C_FUDS.csv",
+    "prepared_data_ocv_discharge_soc/40C/LFP_40C_FUDS.csv",
+    "prepared_data_ocv_discharge_soc/50C/LFP_50C_FUDS.csv"
+  ],
+  "package_files": [
+    {
+      "path": "code/__init__.py",
+      "sha256": "cae1b55e8b1bc4d6d62c29cf6f9222eafc9aee86611f555280c975dbd206b422",
+      "size_bytes": 96
+    },
+    {
+      "path": "code/inference.py",
+      "sha256": "9619446adbf9f97c0fbc21ec08ed2f61858e47454e2ba7765dca07484d43b6db",
+      "size_bytes": 13113
+    },
+    {
+      "path": "config.json",
+      "sha256": "99692ab4c19262da4723c85a7f7c89a59b3f1b5bee47b5fd5d47df7020a4d332",
+      "size_bytes": 1904
+    },
+    {
+      "path": "lfpconfirm_all8_train_all8_test_tier1_gru_residual_t7_holdoutfuds_s012_b2048_e200_seed0_final_epoch200_weights.pt",
+      "sha256": "f32cbbe2624dbf334d787ee04416050b8e010dcf676240c16699f6eca8757911",
+      "size_bytes": 482136
+    },
+    {
+      "path": "r0_table.json",
+      "sha256": "30e408b2ff96418be3a737a497260cc5c0b66717197bcd6c34affcefd9f1249f",
+      "size_bytes": 1137
+    },
+    {
+      "path": "scaler.json",
+      "sha256": "191e776860972ca053a9e07ed92c781eec6912603c03bb1f13e0ced2a28b6ffe",
+      "size_bytes": 1414
+    }
+  ],
+  "schema_version": 1,
+  "source_artifacts": [
+    {
+      "path": "runs/all8_train_all8_test/tier1/nmc_goal_vcorr_it_train_dst_selector_results/lfpconfirm_all8_train_all8_test_tier1_gru_residual_t7_holdoutfuds_s012_b2048_e200_seed0_final_epoch200_weights.pt",
+      "sha256": "f32cbbe2624dbf334d787ee04416050b8e010dcf676240c16699f6eca8757911",
+      "size_bytes": 482136
+    },
+    {
+      "path": "runs/all8_train_all8_test/tier1/nmc_goal_vcorr_it_train_dst_selector_results/lfpconfirm_all8_train_all8_test_tier1_gru_residual_t7_holdoutfuds_s012_b2048_e200_seed0_sel200_condinv_trainDST25_selected_seed0_ep200_base_test_prediction_rows.csv.gz",
+      "sha256": "78ee2d35393f22fd63d4c8677a930c866542830182eb02cdf44130dd547ffe8c",
+      "size_bytes": 1299273
+    },
+    {
+      "path": "runs/all8_train_all8_test/tier1/nmc_goal_vcorr_it_train_dst_selector_results/lfpconfirm_all8_train_all8_test_tier1_gru_residual_t7_holdoutfuds_s012_b2048_e200_metadata.json",
+      "sha256": "b0f13a23fdeb3c2d170d18e2898ce70fa6065475d23e63482343e0418036307a",
+      "size_bytes": 7823
+    },
+    {
+      "path": "runs/all8_train_all8_test/tier1/nmc_goal_vcorr_it_train_dst_selector_results/lfpconfirm_all8_train_all8_test_tier1_gru_residual_t7_holdoutfuds_s012_b2048_e200_input_schema.csv",
+      "sha256": "901027948671ed266270c9ef0b8983aefb77dc9c3654fd02f6b6083badf92133",
+      "size_bytes": 881
+    },
+    {
+      "path": "runs/all8_train_all8_test/tier1/nmc_goal_vcorr_it_train_dst_selector_results/lfpconfirm_all8_train_all8_test_tier1_gru_residual_t7_holdoutfuds_s012_b2048_e200_decomposition_params.csv",
+      "sha256": "54a2a42adc8a621c208fad680540e3676cc529c74356ce22264ff12a4694065f",
+      "size_bytes": 605
+    },
+    {
+      "path": "prepared_data_ocv_discharge_soc/-10C/LFP_-10C_DST.csv",
+      "sha256": "a1c61ce62f41e5278b5f53d1db9b36539ce273e3f8ccc8cf8049c260ed4497cb",
+      "size_bytes": 1617043
+    },
+    {
+      "path": "prepared_data_ocv_discharge_soc/-10C/LFP_-10C_US06.csv",
+      "sha256": "7464de821388da9abb20f80ef68dc5c8038019ed970bacd1bd18da178b84d64a",
+      "size_bytes": 1548096
+    },
+    {
+      "path": "prepared_data_ocv_discharge_soc/0C/LFP_0C_DST.csv",
+      "sha256": "b9d65f6cc08652ef142f252284bbc558e1518e9a1f9e3564e750641c0ccdab8b",
+      "size_bytes": 2117738
+    },
+    {
+      "path": "prepared_data_ocv_discharge_soc/0C/LFP_0C_US06.csv",
+      "sha256": "9cfee7f5d8c8e5e4ed40876c9c61c3b7e78fda2dcfce764cceacfc783aba4b9b",
+      "size_bytes": 2009083
+    },
+    {
+      "path": "prepared_data_ocv_discharge_soc/10C/LFP_10C_DST.csv",
+      "sha256": "69ab856855289bf595eb95105980470a35a4d516fe3e4b89ccd94f4487b7aaa5",
+      "size_bytes": 2218853
+    },
+    {
+      "path": "prepared_data_ocv_discharge_soc/10C/LFP_10C_US06.csv",
+      "sha256": "1c4a5552b2373c6f838c68786e039c9916c1c8a9df0a0642f38ab5cd58dfe621",
+      "size_bytes": 2162456
+    },
+    {
+      "path": "prepared_data_ocv_discharge_soc/20C/LFP_20C_DST.csv",
+      "sha256": "e1f09fe07481d6fb3ca0c9b9f93617b70fbb1bf0dc31ca46af5e16de47b87db4",
+      "size_bytes": 2298459
+    },
+    {
+      "path": "prepared_data_ocv_discharge_soc/20C/LFP_20C_US06.csv",
+      "sha256": "bdbe02ee59c2dac625d8ac6fe40f595c1d8a5f9f813f572ca0cab455c187d8b0",
+      "size_bytes": 2204849
+    },
+    {
+      "path": "prepared_data_ocv_discharge_soc/25C/LFP_25C_DST.csv",
+      "sha256": "cc82549f6a31f8ab6faaee042fd90c515cff0457624111dc3fccb84ea0ff82fc",
+      "size_bytes": 2180952
+    },
+    {
+      "path": "prepared_data_ocv_discharge_soc/25C/LFP_25C_US06.csv",
+      "sha256": "59839273f722a9926b91d39f76493d72e0b588cac6ededdc58671eb187e15767",
+      "size_bytes": 2133218
+    },
+    {
+      "path": "prepared_data_ocv_discharge_soc/30C/LFP_30C_DST.csv",
+      "sha256": "b1c677cdc62b153e3d3ad4871556354e33ab923ddbdf9819a9d91819e0a5c32c",
+      "size_bytes": 2345550
+    },
+    {
+      "path": "prepared_data_ocv_discharge_soc/30C/LFP_30C_US06.csv",
+      "sha256": "fb4f0bf3495b05904dc9103e10bb7c71f537e1af055d6be454c60175bf191001",
+      "size_bytes": 2236750
+    },
+    {
+      "path": "prepared_data_ocv_discharge_soc/40C/LFP_40C_DST.csv",
+      "sha256": "b3e6acb96f463d52e8b8707ffb76ea08fd17c2af99230a44dd1d6563af2c37bb",
+      "size_bytes": 2261725
+    },
+    {
+      "path": "prepared_data_ocv_discharge_soc/40C/LFP_40C_US06.csv",
+      "sha256": "43d188581f49fbc832b30742b3e37d4c9e05f443d0a9da9c345e3464e3271794",
+      "size_bytes": 2150427
+    },
+    {
+      "path": "prepared_data_ocv_discharge_soc/50C/LFP_50C_DST.csv",
+      "sha256": "26345362c60928f04cf0408ed9ccb9485b43d3059cba6128e852e4dfc673ab34",
+      "size_bytes": 2264078
+    },
+    {
+      "path": "prepared_data_ocv_discharge_soc/50C/LFP_50C_US06.csv",
+      "sha256": "4dc9e66c2419de5b76b81e78eca3b1a0356624f2b1fa51daa038f7a43fbc5cd4",
+      "size_bytes": 2204159
+    },
+    {
+      "path": "prepared_data_ocv_discharge_soc/-10C/LFP_-10C_FUDS.csv",
+      "sha256": "fca4c4029fcf79349478028304e90b2049008ee75eb59b35c8037b1c765d96a5",
+      "size_bytes": 1719471
+    },
+    {
+      "path": "prepared_data_ocv_discharge_soc/0C/LFP_0C_FUDS.csv",
+      "sha256": "be97e397d8e0cc640b5d0228ef010ce93c2618d48e900446f3a9356676487eb7",
+      "size_bytes": 2222688
+    },
+    {
+      "path": "prepared_data_ocv_discharge_soc/10C/LFP_10C_FUDS.csv",
+      "sha256": "001f8d7cd09cefa9f05bb3ffdbe3d2e865f4e3ea284894ea6d700c4445a3bf3e",
+      "size_bytes": 2190972
+    },
+    {
+      "path": "prepared_data_ocv_discharge_soc/20C/LFP_20C_FUDS.csv",
+      "sha256": "f2e90aa53b4b6b4b008ee510801c394a117222211949e03f5a2965a0a804823d",
+      "size_bytes": 2326863
+    },
+    {
+      "path": "prepared_data_ocv_discharge_soc/25C/LFP_25C_FUDS.csv",
+      "sha256": "d8089862a0502881873d6d7de2ca91c4727e0636550f3d1038ce8124013fbab9",
+      "size_bytes": 2254884
+    },
+    {
+      "path": "prepared_data_ocv_discharge_soc/30C/LFP_30C_FUDS.csv",
+      "sha256": "29f63361ef64ae0901596dc02b9a85185f2a8776721b10c930e32aca7b75a1ea",
+      "size_bytes": 2318351
+    },
+    {
+      "path": "prepared_data_ocv_discharge_soc/40C/LFP_40C_FUDS.csv",
+      "sha256": "9b11a3cb0122e1db8685ed32ac7bbdc2260dd56c963e3fc055cda1468de9637f",
+      "size_bytes": 2326176
+    },
+    {
+      "path": "prepared_data_ocv_discharge_soc/50C/LFP_50C_FUDS.csv",
+      "sha256": "dea2411b645750917433b2fcbe14efddb7054cc18894357e00f9a8360d4e8e6b",
+      "size_bytes": 2337668
+    }
+  ],
+  "source_git_commit": null,
+  "source_git_status": "unavailable_unborn_git_branch",
+  "source_repo": "/home/lab/\ubc14\ud0d5\ud654\uba74/DL/CEMA_LFP/lfp_confirmatory_minipanel"
+}

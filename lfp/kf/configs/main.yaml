@@ -1,0 +1,70 @@
+project:
+  name: lfp_kf_lopo_baselines
+  output_root: results
+  seed: 0
+
+inputs:
+  prepared_root: /home/user/바탕화면/CEMA_SOC_ESTIMATION/Data/Preprocessed/LFP/prepared_data_ocv_discharge_soc
+  prepared_manifest: /home/user/바탕화면/CEMA_SOC_ESTIMATION/Data/Preprocessed/LFP/manifests_ocv_discharge_3lopo/prepared_dataset_manifest.csv
+  ocv_root: /home/user/바탕화면/CEMA_SOC_ESTIMATION/Data/Preprocessed/LFP/ocv_csv
+  proposed_results_root: /home/user/바탕화면/CEMA_SOC_ESTIMATION/runs/lfp_dl/nmc_goal_vcorr_it_train_dst_selector_results
+
+protocol:
+  profiles: [DST, FUDS, US06]
+  temperatures_C: [-10, 0, 10, 20, 25, 30, 40, 50]
+  window_len: 50
+  evaluation_start_index: 49
+  current_sign: discharge_positive_internal
+  raw_current_multiplier: -1.0
+  soc_column: SOC_CC
+  soc_percent_column: SOC_CC(%)
+  capacity_column: Q_ref_lc_ocv_discharge_Ah
+  time_column: Test_Time(s)
+  voltage_column: Voltage(V)
+  current_column: Current(A)
+
+ocv:
+  discharge_step: 5
+  charge_step: 7
+  grid_points: 1001
+  monotone_method: pchip_isotonic_accumulate
+  plateau_slope_v_per_soc: 0.10
+  transition_slope_v_per_soc: 0.50
+
+hppc:
+  temperatures_C: [5, 25, 45]
+  current_scale_A_per_raw: 0.001
+  active_threshold_raw: 100.0
+  minimum_rest_s: 60
+  tau1_bounds_s: [1.1, 40.0]
+  tau2_bounds_s: [20.0, 600.0]
+  resistance_bounds_ohm: [0.0001, 0.5]
+
+filter:
+  soc_bounds: [0.0, 1.0]
+  covariance_eigen_floor: 1.0e-12
+  covariance_eigen_ceiling: 1.0
+  initial_soc_conditions: [oracle, ocv]
+  perturbations_pct: [-20, -10, -5, 0, 5, 10, 20]
+  initial_polarization: [zero, training_mean]
+  initial_hysteresis: [zero, discharge, charge]
+  hysteresis_gamma_grid: [1.0, 3.0, 10.0, 30.0]
+  q_soc_grid: [1.0e-10, 1.0e-9, 1.0e-8]
+  q_vp_grid: [1.0e-8, 1.0e-7, 1.0e-6]
+  q_h_grid: [1.0e-8, 1.0e-7, 1.0e-6]
+  r_voltage_grid: [2.5e-7, 1.0e-6, 4.0e-6, 1.6e-5]
+  adaptive_r_alpha: 0.01
+  adaptive_r_bounds: [1.0e-7, 1.0e-3]
+
+robustness:
+  voltage_bias_V: [-0.010, -0.005, 0.0, 0.005, 0.010]
+  current_offset_A: [-0.02, -0.01, 0.0, 0.01, 0.02]
+  temperature_bias_C: [-2.0, -1.0, 0.0, 1.0, 2.0]
+  illustrative_sensor_stress_test: true
+  cold_start_horizons_s: [10, 30, 60, 300]
+  transition_horizon_s: 30
+
+statistics:
+  bootstrap_replicates: 10000
+  bootstrap_seed: 20260711
+  paired_unit: fold_temperature

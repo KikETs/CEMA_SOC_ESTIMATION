@@ -1,0 +1,6 @@
+chemistry,asset,grid_description,dtype,bytes,accuracy_cost_pct,note
+NMC,OCV PCHIP knots and coefficients,3 temperatures; fold-specific monotone PCHIP representation,fp64,24144,MISSING_not_measured,Total non-CC bundle 24456 B; 312 B are temperature ECM/Q/R arrays
+NMC,temperature ECM and Q/R arrays,13 arrays x 3 temperatures,fp64,312,MISSING_not_measured,training-fold-only fitted assets
+LFP,"base OCV, derivative, discharge-slope tables",SOC 0.001 grid x 8 temperatures x 3 arrays,fp64,192192,MISSING_not_measured,plain 2RC-EKF total bundle 193024 B including 832 B parameters
+LFP,"hysteresis magnitude, derivative, raw-mid tables",SOC 0.001 grid x 8 temperatures x 3 arrays,fp64,192192,MISSING_not_measured,included only by hysteresis EKF/UKF methods
+LFP,"temperature ECM, hysteresis and Q/R arrays",13 arrays x 8 temperatures,fp64,832,MISSING_not_measured,training-fold-only fitted assets

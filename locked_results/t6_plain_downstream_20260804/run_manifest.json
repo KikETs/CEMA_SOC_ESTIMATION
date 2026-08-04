@@ -1,0 +1,37 @@
+{
+  "proposal": {
+    "feature": "T6: base V_corr/I/T plus VEMA state and deviation at tau 50/200/800",
+    "channels": 9,
+    "model": "GRU hidden_size=128 dropout=0.06",
+    "head": "plain_linear",
+    "auxiliary_losses": {
+      "lambda_rex": 0.0,
+      "lambda_cond": 0.0,
+      "lambda_anchor": 0.0
+    },
+    "window_len": 50
+  },
+  "frozen_package_entries": 60,
+  "required_entries": "2 chemistries x 3 folds x seeds 0-9",
+  "proposed_weight_retraining": false,
+  "completed_scopes": [
+    "frozen inference packages and archived-prediction golden tests",
+    "NMC and LFP tier-3 sensor, R0, and cold-start robustness",
+    "SOC-band-stratified C2 cold-start",
+    "hysteresis-EKF paired block bootstrap",
+    "LFP C1 fair-input baselines",
+    "NMC-to-LFP C4 zero-shot",
+    "18 STM32H563 FP32 batch-1 builds and measurements"
+  ],
+  "source_workspaces_read_only": [
+    "/home/user/\ubc14\ud0d5\ud654\uba74/DL/CEMA_CARRIER_FAIRNESS_ABLATIONS_20260803/normalhead_auxoff",
+    "/home/user/\ubc14\ud0d5\ud654\uba74/DL/CEMA_MLP_OCVSTART_FULLGRID",
+    "/home/user/\ubc14\ud0d5\ud654\uba74/LFP_REMOTE_EXACT_COPY_20260713"
+  ],
+  "declared_exceptions": {
+    "c1_raw_w800": "physical microbatch 1024 with gradient accumulation 2; effective training batch 2048",
+    "mcu": "batch 1 only; one 50x9 window per estimate",
+    "mcu_preprocessing": "raw V/I/T end-to-end measured on one representative build per chemistry because preprocessing is common across folds and seeds"
+  },
+  "all_required_gates_passed": true
+}

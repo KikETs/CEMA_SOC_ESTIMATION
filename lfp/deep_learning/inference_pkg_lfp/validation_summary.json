@@ -1,0 +1,5 @@
+{
+  "all_passed": true,
+  "entries": 27,
+  "note": "MAC unavailable; CPU wall benchmark includes feature regeneration and batched window inference."
+}

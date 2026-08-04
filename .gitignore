@@ -1,0 +1,79 @@
+# Python/runtime caches
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Local environments and editor files
+.venv/
+venv/
+.env
+.idea/
+.vscode/
+
+# Preprocessed battery trajectories must never be published.
+/nmc/data/preprocessed/
+/nmc/data/raw_dynamic/
+/lfp/data/preprocessed/
+/lfp/data/hppc/
+/lfp/data/raw_dynamic/
+
+# User-supplied CALCE archives and every generated data artifact stay local.
+/Data/NMC/OCV/*
+/Data/NMC/Profiles/*
+/Data/LFP/OCV/*
+/Data/LFP/Profiles/*
+/Data/Preprocessed/
+/Data/logs/
+/Data/**
+!/Data/README.md
+!/Data/PROVENANCE.md
+
+# Prediction exports copied locally for direct comparisons.
+/lfp/data/proposed_results/
+
+# Generated experiment artifacts
+**/logs/
+**/results/
+**/results_v*/
+**/figures/
+**/artifacts/
+**/runs/
+**/checkpoints/
+**/*_weights.pt
+**/*.pth
+**/*.ckpt
+**/*prediction_rows*.csv
+**/*prediction_rows*.csv.gz
+
+# Frozen inference-package weights are required runtime assets, not checkpoints.
+!/nmc/kf/inference_pkg_nmc/**/*_weights.pt
+!/lfp/deep_learning/inference_pkg_lfp/**/*_weights.pt
+
+# Compact frozen KF parameter tables are source protocol assets, not raw data.
+!/lfp/kf/locked_parameters/
+!/lfp/kf/locked_parameters/**
+
+# MCU deployment source and compact measured summaries are tracked.
+!/deployment/mcu/results/
+!/deployment/mcu/results/**
+
+# Vendor-generated runtime, raw traces, and build products stay local.
+/deployment/stm32_int8/smoke_*/
+/deployment/mcu/stedgeai/
+/deployment/mcu/golden_windows/
+/deployment/mcu/onchip_windows/
+/deployment/mcu/*_logs/
+/deployment/mcu/firmware/*/AI/
+/deployment/mcu/firmware/*/Generated/
+/deployment/mcu/firmware/*/Build/
+/deployment/mcu/firmware/*/Debug/
+/deployment/mcu/firmware/*/Release/
+/deployment/mcu/**/*_raw.csv
+/deployment/mcu/**/*_rows.csv
+/deployment/mcu/**/*_rows.csv.gz
+
+# Publication-locked, data-free experiment outputs and frozen T6-plain assets.
+!/locked_results/
+!/locked_results/**

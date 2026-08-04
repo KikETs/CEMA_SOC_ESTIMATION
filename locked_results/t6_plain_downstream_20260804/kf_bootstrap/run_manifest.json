@@ -1,0 +1,194 @@
+{
+  "method": "hysteresis_2rc_ekf",
+  "reference_method": "T6_plain_GRU_linear_auxoff",
+  "filter_retraining": false,
+  "proposed_retraining": false,
+  "block_samples": 60,
+  "bootstrap_replicates": 10000,
+  "bootstrap_seed": 20260804,
+  "circular_blocks_within_record_only": true,
+  "initial_conditions": [
+    "oracle",
+    "minus5pp",
+    "minus10pp"
+  ],
+  "proposed_seeds": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9
+  ],
+  "source_files": [
+    {
+      "path": "/home/user/\ubc14\ud0d5\ud654\uba74/LFP_KF_LOPO_BASELINES_ISOLATED_v2_2_WORK/results_v2_1/prediction_rows_v2_1.csv.gz",
+      "size_bytes": 76550787,
+      "sha256": "3a386eaddf4b7cdd6d04d50e91b8c1b496be0a29c5a6b75f2f863efa6f1b8b86"
+    },
+    {
+      "path": "/home/user/\ubc14\ud0d5\ud654\uba74/LFP_KF_LOPO_BASELINES_ISOLATED_v2_2_WORK/results_v2_2/prediction_rows_minus10pp.csv.gz",
+      "size_bytes": 17909905,
+      "sha256": "420ee9fba55fe0b447348bfbbf29cca3707b772842f9af5df52af0c8aea96646"
+    },
+    {
+      "path": "/home/user/\ubc14\ud0d5\ud654\uba74/LFP_KF_LOPO_BASELINES_ISOLATED_v2_2_WORK/results_v2_2/main_table.csv",
+      "size_bytes": 1577,
+      "sha256": "a8d1937f60cd856866a7d65edd912d2d163d0c904fd4e132d1d91d61e7d782c1"
+    },
+    {
+      "path": "/home/user/\ubc14\ud0d5\ud654\uba74/DL/CEMA_CARRIER_FAIRNESS_ABLATIONS_20260803/normalhead_auxoff/runs/lfp/nmc_goal_vcorr_it_train_dst_selector_results/normalauxoff_lfp_gru_normal_t6_holdoutdst_s0123456789_b2048_e200_seed0_sel200_condinv_trainDST25_selected_seed0_ep200_base_test_prediction_rows.csv.gz",
+      "size_bytes": 1274479,
+      "sha256": "e6586e7521f616deb690bee79608c148dfb3643cd65fdcd48cf79f9d73b01742"
+    },
+    {
+      "path": "/home/user/\ubc14\ud0d5\ud654\uba74/DL/CEMA_CARRIER_FAIRNESS_ABLATIONS_20260803/normalhead_auxoff/runs/lfp/nmc_goal_vcorr_it_train_dst_selector_results/normalauxoff_lfp_gru_normal_t6_holdoutdst_s0123456789_b2048_e200_seed1_sel200_condinv_trainDST25_selected_seed1_ep200_base_test_prediction_rows.csv.gz",
+      "size_bytes": 1265075,
+      "sha256": "eaeef22f4cdef3aa389d1aa5b647f6ffb7996e0d8bddf41fb584a11397efb32f"
+    },
+    {
+      "path": "/home/user/\ubc14\ud0d5\ud654\uba74/DL/CEMA_CARRIER_FAIRNESS_ABLATIONS_20260803/normalhead_auxoff/runs/lfp/nmc_goal_vcorr_it_train_dst_selector_results/normalauxoff_lfp_gru_normal_t6_holdoutdst_s0123456789_b2048_e200_seed2_sel200_condinv_trainDST25_selected_seed2_ep200_base_test_prediction_rows.csv.gz",
+      "size_bytes": 1274530,
+      "sha256": "118e04ea98a51b9d125320892b0adb35ed77dabe418ecb1ce4e78692913dafff"
+    },
+    {
+      "path": "/home/user/\ubc14\ud0d5\ud654\uba74/DL/CEMA_CARRIER_FAIRNESS_ABLATIONS_20260803/normalhead_auxoff/runs/lfp/nmc_goal_vcorr_it_train_dst_selector_results/normalauxoff_lfp_gru_normal_t6_holdoutdst_s0123456789_b2048_e200_seed3_sel200_condinv_trainDST25_selected_seed3_ep200_base_test_prediction_rows.csv.gz",
+      "size_bytes": 1276544,
+      "sha256": "731d691162b6ddada42282301c46d30b83e3a52349322809bdcbcd2fe33eae52"
+    },
+    {
+      "path": "/home/user/\ubc14\ud0d5\ud654\uba74/DL/CEMA_CARRIER_FAIRNESS_ABLATIONS_20260803/normalhead_auxoff/runs/lfp/nmc_goal_vcorr_it_train_dst_selector_results/normalauxoff_lfp_gru_normal_t6_holdoutdst_s0123456789_b2048_e200_seed4_sel200_condinv_trainDST25_selected_seed4_ep200_base_test_prediction_rows.csv.gz",
+      "size_bytes": 1268021,
+      "sha256": "98413c21682bb75927b0af3db80bf1212fa4d23e5c2e92a0fa9b0e4f7807a859"
+    },
+    {
+      "path": "/home/user/\ubc14\ud0d5\ud654\uba74/DL/CEMA_CARRIER_FAIRNESS_ABLATIONS_20260803/normalhead_auxoff/runs/lfp/nmc_goal_vcorr_it_train_dst_selector_results/normalauxoff_lfp_gru_normal_t6_holdoutdst_s0123456789_b2048_e200_seed5_sel200_condinv_trainDST25_selected_seed5_ep200_base_test_prediction_rows.csv.gz",
+      "size_bytes": 1275285,
+      "sha256": "b9a0d6dc4655c3848617d53a4e3b4b9d306125482540d1b8174d9765f795bc05"
+    },
+    {
+      "path": "/home/user/\ubc14\ud0d5\ud654\uba74/DL/CEMA_CARRIER_FAIRNESS_ABLATIONS_20260803/normalhead_auxoff/runs/lfp/nmc_goal_vcorr_it_train_dst_selector_results/normalauxoff_lfp_gru_normal_t6_holdoutdst_s0123456789_b2048_e200_seed6_sel200_condinv_trainDST25_selected_seed6_ep200_base_test_prediction_rows.csv.gz",
+      "size_bytes": 1267643,
+      "sha256": "892e1bcacb112022c3cbf0db386db2ec5b521dce579e62e8b83988f941a040a9"
+    },
+    {
+      "path": "/home/user/\ubc14\ud0d5\ud654\uba74/DL/CEMA_CARRIER_FAIRNESS_ABLATIONS_20260803/normalhead_auxoff/runs/lfp/nmc_goal_vcorr_it_train_dst_selector_results/normalauxoff_lfp_gru_normal_t6_holdoutdst_s0123456789_b2048_e200_seed7_sel200_condinv_trainDST25_selected_seed7_ep200_base_test_prediction_rows.csv.gz",
+      "size_bytes": 1277568,
+      "sha256": "e715462f358b4359b2bd8f1db25f6e9ab0e5ea04f72e28fca9fdb21c3cca1cdd"
+    },
+    {
+      "path": "/home/user/\ubc14\ud0d5\ud654\uba74/DL/CEMA_CARRIER_FAIRNESS_ABLATIONS_20260803/normalhead_auxoff/runs/lfp/nmc_goal_vcorr_it_train_dst_selector_results/normalauxoff_lfp_gru_normal_t6_holdoutdst_s0123456789_b2048_e200_seed8_sel200_condinv_trainDST25_selected_seed8_ep200_base_test_prediction_rows.csv.gz",
+      "size_bytes": 1270314,
+      "sha256": "903b630d49aba2f27efa5041f80d130c4d9c08a3ef7b77b59b9467ece5f3878d"
+    },
+    {
+      "path": "/home/user/\ubc14\ud0d5\ud654\uba74/DL/CEMA_CARRIER_FAIRNESS_ABLATIONS_20260803/normalhead_auxoff/runs/lfp/nmc_goal_vcorr_it_train_dst_selector_results/normalauxoff_lfp_gru_normal_t6_holdoutdst_s0123456789_b2048_e200_seed9_sel200_condinv_trainDST25_selected_seed9_ep200_base_test_prediction_rows.csv.gz",
+      "size_bytes": 1279784,
+      "sha256": "ec402797dae328eb65a27d75a42fec5b3771bc571af66f200b4edba6fdf6a030"
+    },
+    {
+      "path": "/home/user/\ubc14\ud0d5\ud654\uba74/DL/CEMA_CARRIER_FAIRNESS_ABLATIONS_20260803/normalhead_auxoff/runs/lfp/nmc_goal_vcorr_it_train_dst_selector_results/normalauxoff_lfp_gru_normal_t6_holdoutfuds_s0123456789_b2048_e200_seed0_sel200_condinv_trainDST25_selected_seed0_ep200_base_test_prediction_rows.csv.gz",
+      "size_bytes": 1284195,
+      "sha256": "9082caf7de5e931d8cf051705a80fea0fb4f02d54e8ef30cefba906bdeb17725"
+    },
+    {
+      "path": "/home/user/\ubc14\ud0d5\ud654\uba74/DL/CEMA_CARRIER_FAIRNESS_ABLATIONS_20260803/normalhead_auxoff/runs/lfp/nmc_goal_vcorr_it_train_dst_selector_results/normalauxoff_lfp_gru_normal_t6_holdoutfuds_s0123456789_b2048_e200_seed1_sel200_condinv_trainDST25_selected_seed1_ep200_base_test_prediction_rows.csv.gz",
+      "size_bytes": 1287710,
+      "sha256": "0052891d18807868dacfe6d50ab7b9b5f3edb5d8f059dedbc3f7565981304189"
+    },
+    {
+      "path": "/home/user/\ubc14\ud0d5\ud654\uba74/DL/CEMA_CARRIER_FAIRNESS_ABLATIONS_20260803/normalhead_auxoff/runs/lfp/nmc_goal_vcorr_it_train_dst_selector_results/normalauxoff_lfp_gru_normal_t6_holdoutfuds_s0123456789_b2048_e200_seed2_sel200_condinv_trainDST25_selected_seed2_ep200_base_test_prediction_rows.csv.gz",
+      "size_bytes": 1285462,
+      "sha256": "d52fe0b5b4e5a61ae0f0c6c594dbbf4489fff4440634f3fc5d1b667c01dc657a"
+    },
+    {
+      "path": "/home/user/\ubc14\ud0d5\ud654\uba74/DL/CEMA_CARRIER_FAIRNESS_ABLATIONS_20260803/normalhead_auxoff/runs/lfp/nmc_goal_vcorr_it_train_dst_selector_results/normalauxoff_lfp_gru_normal_t6_holdoutfuds_s0123456789_b2048_e200_seed3_sel200_condinv_trainDST25_selected_seed3_ep200_base_test_prediction_rows.csv.gz",
+      "size_bytes": 1283364,
+      "sha256": "d4976ef8bc133388584252656526d268b1091b588679d0f013ef823b0465dede"
+    },
+    {
+      "path": "/home/user/\ubc14\ud0d5\ud654\uba74/DL/CEMA_CARRIER_FAIRNESS_ABLATIONS_20260803/normalhead_auxoff/runs/lfp/nmc_goal_vcorr_it_train_dst_selector_results/normalauxoff_lfp_gru_normal_t6_holdoutfuds_s0123456789_b2048_e200_seed4_sel200_condinv_trainDST25_selected_seed4_ep200_base_test_prediction_rows.csv.gz",
+      "size_bytes": 1283915,
+      "sha256": "9c4d85971001457301f931171bb4fcb9c446e507a91852901c7af72a1bfad4f5"
+    },
+    {
+      "path": "/home/user/\ubc14\ud0d5\ud654\uba74/DL/CEMA_CARRIER_FAIRNESS_ABLATIONS_20260803/normalhead_auxoff/runs/lfp/nmc_goal_vcorr_it_train_dst_selector_results/normalauxoff_lfp_gru_normal_t6_holdoutfuds_s0123456789_b2048_e200_seed5_sel200_condinv_trainDST25_selected_seed5_ep200_base_test_prediction_rows.csv.gz",
+      "size_bytes": 1274919,
+      "sha256": "d8de89d655b4cab46a2706975582fcba66b3dac3c32d1f9eb1861d9499b56f8a"
+    },
+    {
+      "path": "/home/user/\ubc14\ud0d5\ud654\uba74/DL/CEMA_CARRIER_FAIRNESS_ABLATIONS_20260803/normalhead_auxoff/runs/lfp/nmc_goal_vcorr_it_train_dst_selector_results/normalauxoff_lfp_gru_normal_t6_holdoutfuds_s0123456789_b2048_e200_seed6_sel200_condinv_trainDST25_selected_seed6_ep200_base_test_prediction_rows.csv.gz",
+      "size_bytes": 1283189,
+      "sha256": "6684255881c5f34e95347604fa6ed7a04b72984b1c0130cef8ea89574451f4a7"
+    },
+    {
+      "path": "/home/user/\ubc14\ud0d5\ud654\uba74/DL/CEMA_CARRIER_FAIRNESS_ABLATIONS_20260803/normalhead_auxoff/runs/lfp/nmc_goal_vcorr_it_train_dst_selector_results/normalauxoff_lfp_gru_normal_t6_holdoutfuds_s0123456789_b2048_e200_seed7_sel200_condinv_trainDST25_selected_seed7_ep200_base_test_prediction_rows.csv.gz",
+      "size_bytes": 1282847,
+      "sha256": "7aa5c29b8a9c9d8ab2c41cf57ad2e8b79404a2b8c5daa5ef4540d80efb76c995"
+    },
+    {
+      "path": "/home/user/\ubc14\ud0d5\ud654\uba74/DL/CEMA_CARRIER_FAIRNESS_ABLATIONS_20260803/normalhead_auxoff/runs/lfp/nmc_goal_vcorr_it_train_dst_selector_results/normalauxoff_lfp_gru_normal_t6_holdoutfuds_s0123456789_b2048_e200_seed8_sel200_condinv_trainDST25_selected_seed8_ep200_base_test_prediction_rows.csv.gz",
+      "size_bytes": 1282983,
+      "sha256": "884c8866f5723bd8020ab2b667012d3901a53fd3ef4c3cb5a00c5d07be051642"
+    },
+    {
+      "path": "/home/user/\ubc14\ud0d5\ud654\uba74/DL/CEMA_CARRIER_FAIRNESS_ABLATIONS_20260803/normalhead_auxoff/runs/lfp/nmc_goal_vcorr_it_train_dst_selector_results/normalauxoff_lfp_gru_normal_t6_holdoutfuds_s0123456789_b2048_e200_seed9_sel200_condinv_trainDST25_selected_seed9_ep200_base_test_prediction_rows.csv.gz",
+      "size_bytes": 1286919,
+      "sha256": "41a5a49611d83e0bc255c12044660efb3afe943047356b71fff488bfacde12f1"
+    },
+    {
+      "path": "/home/user/\ubc14\ud0d5\ud654\uba74/DL/CEMA_CARRIER_FAIRNESS_ABLATIONS_20260803/normalhead_auxoff/runs/lfp/nmc_goal_vcorr_it_train_dst_selector_results/normalauxoff_lfp_gru_normal_t6_holdoutus06_s0123456789_b2048_e200_seed0_sel200_condinv_trainDST25_selected_seed0_ep200_base_test_prediction_rows.csv.gz",
+      "size_bytes": 1236369,
+      "sha256": "276129e1c8eedb85c0686ed9bb2540721d2645508aecb93688a49958beb44ac5"
+    },
+    {
+      "path": "/home/user/\ubc14\ud0d5\ud654\uba74/DL/CEMA_CARRIER_FAIRNESS_ABLATIONS_20260803/normalhead_auxoff/runs/lfp/nmc_goal_vcorr_it_train_dst_selector_results/normalauxoff_lfp_gru_normal_t6_holdoutus06_s0123456789_b2048_e200_seed1_sel200_condinv_trainDST25_selected_seed1_ep200_base_test_prediction_rows.csv.gz",
+      "size_bytes": 1234844,
+      "sha256": "b489e3b9c732c00051cd50ba314f1826cd96b32bb43a65d4eee67d02cac9421b"
+    },
+    {
+      "path": "/home/user/\ubc14\ud0d5\ud654\uba74/DL/CEMA_CARRIER_FAIRNESS_ABLATIONS_20260803/normalhead_auxoff/runs/lfp/nmc_goal_vcorr_it_train_dst_selector_results/normalauxoff_lfp_gru_normal_t6_holdoutus06_s0123456789_b2048_e200_seed2_sel200_condinv_trainDST25_selected_seed2_ep200_base_test_prediction_rows.csv.gz",
+      "size_bytes": 1231818,
+      "sha256": "8354a3d93c194b463016206aefc311cbee80e8def5264ca16a8467d6e01d35b0"
+    },
+    {
+      "path": "/home/user/\ubc14\ud0d5\ud654\uba74/DL/CEMA_CARRIER_FAIRNESS_ABLATIONS_20260803/normalhead_auxoff/runs/lfp/nmc_goal_vcorr_it_train_dst_selector_results/normalauxoff_lfp_gru_normal_t6_holdoutus06_s0123456789_b2048_e200_seed3_sel200_condinv_trainDST25_selected_seed3_ep200_base_test_prediction_rows.csv.gz",
+      "size_bytes": 1227164,
+      "sha256": "3ec97892e34702905a7917ac742f687563fcc15970bb3ac98e4c6e35d4018a50"
+    },
+    {
+      "path": "/home/user/\ubc14\ud0d5\ud654\uba74/DL/CEMA_CARRIER_FAIRNESS_ABLATIONS_20260803/normalhead_auxoff/runs/lfp/nmc_goal_vcorr_it_train_dst_selector_results/normalauxoff_lfp_gru_normal_t6_holdoutus06_s0123456789_b2048_e200_seed4_sel200_condinv_trainDST25_selected_seed4_ep200_base_test_prediction_rows.csv.gz",
+      "size_bytes": 1235479,
+      "sha256": "65626ea538e0a0401204b0267517549ab90a7e338999007061e98b689ca9f40f"
+    },
+    {
+      "path": "/home/user/\ubc14\ud0d5\ud654\uba74/DL/CEMA_CARRIER_FAIRNESS_ABLATIONS_20260803/normalhead_auxoff/runs/lfp/nmc_goal_vcorr_it_train_dst_selector_results/normalauxoff_lfp_gru_normal_t6_holdoutus06_s0123456789_b2048_e200_seed5_sel200_condinv_trainDST25_selected_seed5_ep200_base_test_prediction_rows.csv.gz",
+      "size_bytes": 1234040,
+      "sha256": "cff4bf3cab2b5a3bcbe5c7d4c2de2e612aedb663e48089134f2eb3476a1041e0"
+    },
+    {
+      "path": "/home/user/\ubc14\ud0d5\ud654\uba74/DL/CEMA_CARRIER_FAIRNESS_ABLATIONS_20260803/normalhead_auxoff/runs/lfp/nmc_goal_vcorr_it_train_dst_selector_results/normalauxoff_lfp_gru_normal_t6_holdoutus06_s0123456789_b2048_e200_seed6_sel200_condinv_trainDST25_selected_seed6_ep200_base_test_prediction_rows.csv.gz",
+      "size_bytes": 1235993,
+      "sha256": "e59389c1018808ffced3b69b85d2d8b3b5b922e9f14e7b7300a52dee5b74a818"
+    },
+    {
+      "path": "/home/user/\ubc14\ud0d5\ud654\uba74/DL/CEMA_CARRIER_FAIRNESS_ABLATIONS_20260803/normalhead_auxoff/runs/lfp/nmc_goal_vcorr_it_train_dst_selector_results/normalauxoff_lfp_gru_normal_t6_holdoutus06_s0123456789_b2048_e200_seed7_sel200_condinv_trainDST25_selected_seed7_ep200_base_test_prediction_rows.csv.gz",
+      "size_bytes": 1234976,
+      "sha256": "1ea02c8a70514a71db480456480d94f45c785d0296b20bf803a3f918f6d64a1b"
+    },
+    {
+      "path": "/home/user/\ubc14\ud0d5\ud654\uba74/DL/CEMA_CARRIER_FAIRNESS_ABLATIONS_20260803/normalhead_auxoff/runs/lfp/nmc_goal_vcorr_it_train_dst_selector_results/normalauxoff_lfp_gru_normal_t6_holdoutus06_s0123456789_b2048_e200_seed8_sel200_condinv_trainDST25_selected_seed8_ep200_base_test_prediction_rows.csv.gz",
+      "size_bytes": 1228441,
+      "sha256": "a903ec234e92c0031d9d877b0182e9e6ade4dba89923b2d392d1de014f738bd5"
+    },
+    {
+      "path": "/home/user/\ubc14\ud0d5\ud654\uba74/DL/CEMA_CARRIER_FAIRNESS_ABLATIONS_20260803/normalhead_auxoff/runs/lfp/nmc_goal_vcorr_it_train_dst_selector_results/normalauxoff_lfp_gru_normal_t6_holdoutus06_s0123456789_b2048_e200_seed9_sel200_condinv_trainDST25_selected_seed9_ep200_base_test_prediction_rows.csv.gz",
+      "size_bytes": 1230470,
+      "sha256": "34ea8bef012b1676f12a8d3a6426833bc208613a01a21253c09dc7008fdfdc3d"
+    }
+  ]
+}

@@ -1,0 +1,776 @@
+{
+  "status": "PASS",
+  "leakage_count": 0,
+  "held_out_used_for": "final evaluation only",
+  "characterization_is_independent": true,
+  "characterization_files": [
+    "/home/user/\ubc14\ud0d5\ud654\uba74/DL/CEMA-TCN/Data/raw_reference/02_24_2016_SP20-1_0C_lowcurrentOCV.xls",
+    "/home/user/\ubc14\ud0d5\ud654\uba74/DL/CEMA-TCN/Data/raw_reference/11_5_2015_low current OCV test_SP20-1.xlsx",
+    "/home/user/\ubc14\ud0d5\ud654\uba74/DL/CEMA-TCN/Data/raw_reference/11_21_2015_low current OCV test_SP20-1.xlsx"
+  ],
+  "folds": [
+    {
+      "fold": "US06",
+      "test_profile": "US06",
+      "test_files": [
+        "/home/user/\ubc14\ud0d5\ud654\uba74/DL/CEMA_MLP_OCVSTART_FULLGRID/nmc_ocvstart_25c_us06_soc0_dstfudsmean_lopo_clean/0C/NMC_0C_US06.csv",
+        "/home/user/\ubc14\ud0d5\ud654\uba74/DL/CEMA_MLP_OCVSTART_FULLGRID/nmc_ocvstart_25c_us06_soc0_dstfudsmean_lopo_clean/25C/NMC_25C_US06.csv",
+        "/home/user/\ubc14\ud0d5\ud654\uba74/DL/CEMA_MLP_OCVSTART_FULLGRID/nmc_ocvstart_25c_us06_soc0_dstfudsmean_lopo_clean/45C/NMC_45C_US06.csv"
+      ],
+      "fit_events": [
+        {
+          "stage": "0C_1RC_bounds_selection",
+          "files": [
+            "/home/user/\ubc14\ud0d5\ud654\uba74/DL/CEMA_MLP_OCVSTART_FULLGRID/nmc_ocvstart_25c_us06_soc0_dstfudsmean_lopo_clean/0C/NMC_0C_DST.csv",
+            "/home/user/\ubc14\ud0d5\ud654\uba74/DL/CEMA_MLP_OCVSTART_FULLGRID/nmc_ocvstart_25c_us06_soc0_dstfudsmean_lopo_clean/0C/NMC_0C_FUDS.csv"
+          ],
+          "test_overlap": [],
+          "test_profile_name_hits": [],
+          "passed": true
+        },
+        {
+          "stage": "0C_1RC_final_parameter_fit",
+          "files": [
+            "/home/user/\ubc14\ud0d5\ud654\uba74/DL/CEMA_MLP_OCVSTART_FULLGRID/nmc_ocvstart_25c_us06_soc0_dstfudsmean_lopo_clean/0C/NMC_0C_DST.csv",
+            "/home/user/\ubc14\ud0d5\ud654\uba74/DL/CEMA_MLP_OCVSTART_FULLGRID/nmc_ocvstart_25c_us06_soc0_dstfudsmean_lopo_clean/0C/NMC_0C_FUDS.csv"
+          ],
+          "test_overlap": [],
+          "test_profile_name_hits": [],
+          "passed": true
+        },
+        {
+          "stage": "0C_2RC_bounds_selection",
+          "files": [
+            "/home/user/\ubc14\ud0d5\ud654\uba74/DL/CEMA_MLP_OCVSTART_FULLGRID/nmc_ocvstart_25c_us06_soc0_dstfudsmean_lopo_clean/0C/NMC_0C_DST.csv",
+            "/home/user/\ubc14\ud0d5\ud654\uba74/DL/CEMA_MLP_OCVSTART_FULLGRID/nmc_ocvstart_25c_us06_soc0_dstfudsmean_lopo_clean/0C/NMC_0C_FUDS.csv"
+          ],
+          "test_overlap": [],
+          "test_profile_name_hits": [],
+          "passed": true
+        },
+        {
+          "stage": "0C_2RC_final_parameter_fit",
+          "files": [
+            "/home/user/\ubc14\ud0d5\ud654\uba74/DL/CEMA_MLP_OCVSTART_FULLGRID/nmc_ocvstart_25c_us06_soc0_dstfudsmean_lopo_clean/0C/NMC_0C_DST.csv",
+            "/home/user/\ubc14\ud0d5\ud654\uba74/DL/CEMA_MLP_OCVSTART_FULLGRID/nmc_ocvstart_25c_us06_soc0_dstfudsmean_lopo_clean/0C/NMC_0C_FUDS.csv"
+          ],
+          "test_overlap": [],
+          "test_profile_name_hits": [],
+          "passed": true
+        },
+        {
+          "stage": "0C_1RC_EKF_QR_selection",
+          "files": [
+            "/home/user/\ubc14\ud0d5\ud654\uba74/DL/CEMA_MLP_OCVSTART_FULLGRID/nmc_ocvstart_25c_us06_soc0_dstfudsmean_lopo_clean/0C/NMC_0C_DST.csv",
+            "/home/user/\ubc14\ud0d5\ud654\uba74/DL/CEMA_MLP_OCVSTART_FULLGRID/nmc_ocvstart_25c_us06_soc0_dstfudsmean_lopo_clean/0C/NMC_0C_FUDS.csv"
+          ],
+          "test_overlap": [],
+          "test_profile_name_hits": [],
+          "passed": true
+        },
+        {
+          "stage": "0C_2RC_EKF_QR_selection",
+          "files": [
+            "/home/user/\ubc14\ud0d5\ud654\uba74/DL/CEMA_MLP_OCVSTART_FULLGRID/nmc_ocvstart_25c_us06_soc0_dstfudsmean_lopo_clean/0C/NMC_0C_DST.csv",
+            "/home/user/\ubc14\ud0d5\ud654\uba74/DL/CEMA_MLP_OCVSTART_FULLGRID/nmc_ocvstart_25c_us06_soc0_dstfudsmean_lopo_clean/0C/NMC_0C_FUDS.csv"
+          ],
+          "test_overlap": [],
+          "test_profile_name_hits": [],
+          "passed": true
+        },
+        {
+          "stage": "0C_2RC_UKF_QR_selection",
+          "files": [
+            "/home/user/\ubc14\ud0d5\ud654\uba74/DL/CEMA_MLP_OCVSTART_FULLGRID/nmc_ocvstart_25c_us06_soc0_dstfudsmean_lopo_clean/0C/NMC_0C_DST.csv",
+            "/home/user/\ubc14\ud0d5\ud654\uba74/DL/CEMA_MLP_OCVSTART_FULLGRID/nmc_ocvstart_25c_us06_soc0_dstfudsmean_lopo_clean/0C/NMC_0C_FUDS.csv"
+          ],
+          "test_overlap": [],
+          "test_profile_name_hits": [],
+          "passed": true
+        },
+        {
+          "stage": "0C_adaptive_R_selection",
+          "files": [
+            "/home/user/\ubc14\ud0d5\ud654\uba74/DL/CEMA_MLP_OCVSTART_FULLGRID/nmc_ocvstart_25c_us06_soc0_dstfudsmean_lopo_clean/0C/NMC_0C_DST.csv",
+            "/home/user/\ubc14\ud0d5\ud654\uba74/DL/CEMA_MLP_OCVSTART_FULLGRID/nmc_ocvstart_25c_us06_soc0_dstfudsmean_lopo_clean/0C/NMC_0C_FUDS.csv"
+          ],
+          "test_overlap": [],
+          "test_profile_name_hits": [],
+          "passed": true
+        },
+        {
+          "stage": "25C_1RC_bounds_selection",
+          "files": [
+            "/home/user/\ubc14\ud0d5\ud654\uba74/DL/CEMA_MLP_OCVSTART_FULLGRID/nmc_ocvstart_25c_us06_soc0_dstfudsmean_lopo_clean/25C/NMC_25C_DST.csv",
+            "/home/user/\ubc14\ud0d5\ud654\uba74/DL/CEMA_MLP_OCVSTART_FULLGRID/nmc_ocvstart_25c_us06_soc0_dstfudsmean_lopo_clean/25C/NMC_25C_FUDS.csv"
+          ],
+          "test_overlap": [],
+          "test_profile_name_hits": [],
+          "passed": true
+        },
+        {
+          "stage": "25C_1RC_final_parameter_fit",
+          "files": [
+            "/home/user/\ubc14\ud0d5\ud654\uba74/DL/CEMA_MLP_OCVSTART_FULLGRID/nmc_ocvstart_25c_us06_soc0_dstfudsmean_lopo_clean/25C/NMC_25C_DST.csv",
+            "/home/user/\ubc14\ud0d5\ud654\uba74/DL/CEMA_MLP_OCVSTART_FULLGRID/nmc_ocvstart_25c_us06_soc0_dstfudsmean_lopo_clean/25C/NMC_25C_FUDS.csv"
+          ],
+          "test_overlap": [],
+          "test_profile_name_hits": [],
+          "passed": true
+        },
+        {
+          "stage": "25C_2RC_bounds_selection",
+          "files": [
+            "/home/user/\ubc14\ud0d5\ud654\uba74/DL/CEMA_MLP_OCVSTART_FULLGRID/nmc_ocvstart_25c_us06_soc0_dstfudsmean_lopo_clean/25C/NMC_25C_DST.csv",
+            "/home/user/\ubc14\ud0d5\ud654\uba74/DL/CEMA_MLP_OCVSTART_FULLGRID/nmc_ocvstart_25c_us06_soc0_dstfudsmean_lopo_clean/25C/NMC_25C_FUDS.csv"
+          ],
+          "test_overlap": [],
+          "test_profile_name_hits": [],
+          "passed": true
+        },
+        {
+          "stage": "25C_2RC_final_parameter_fit",
+          "files": [
+            "/home/user/\ubc14\ud0d5\ud654\uba74/DL/CEMA_MLP_OCVSTART_FULLGRID/nmc_ocvstart_25c_us06_soc0_dstfudsmean_lopo_clean/25C/NMC_25C_DST.csv",
+            "/home/user/\ubc14\ud0d5\ud654\uba74/DL/CEMA_MLP_OCVSTART_FULLGRID/nmc_ocvstart_25c_us06_soc0_dstfudsmean_lopo_clean/25C/NMC_25C_FUDS.csv"
+          ],
+          "test_overlap": [],
+          "test_profile_name_hits": [],
+          "passed": true
+        },
+        {
+          "stage": "25C_1RC_EKF_QR_selection",
+          "files": [
+            "/home/user/\ubc14\ud0d5\ud654\uba74/DL/CEMA_MLP_OCVSTART_FULLGRID/nmc_ocvstart_25c_us06_soc0_dstfudsmean_lopo_clean/25C/NMC_25C_DST.csv",
+            "/home/user/\ubc14\ud0d5\ud654\uba74/DL/CEMA_MLP_OCVSTART_FULLGRID/nmc_ocvstart_25c_us06_soc0_dstfudsmean_lopo_clean/25C/NMC_25C_FUDS.csv"
+          ],
+          "test_overlap": [],
+          "test_profile_name_hits": [],
+          "passed": true
+        },
+        {
+          "stage": "25C_2RC_EKF_QR_selection",
+          "files": [
+            "/home/user/\ubc14\ud0d5\ud654\uba74/DL/CEMA_MLP_OCVSTART_FULLGRID/nmc_ocvstart_25c_us06_soc0_dstfudsmean_lopo_clean/25C/NMC_25C_DST.csv",
+            "/home/user/\ubc14\ud0d5\ud654\uba74/DL/CEMA_MLP_OCVSTART_FULLGRID/nmc_ocvstart_25c_us06_soc0_dstfudsmean_lopo_clean/25C/NMC_25C_FUDS.csv"
+          ],
+          "test_overlap": [],
+          "test_profile_name_hits": [],
+          "passed": true
+        },
+        {
+          "stage": "25C_2RC_UKF_QR_selection",
+          "files": [
+            "/home/user/\ubc14\ud0d5\ud654\uba74/DL/CEMA_MLP_OCVSTART_FULLGRID/nmc_ocvstart_25c_us06_soc0_dstfudsmean_lopo_clean/25C/NMC_25C_DST.csv",
+            "/home/user/\ubc14\ud0d5\ud654\uba74/DL/CEMA_MLP_OCVSTART_FULLGRID/nmc_ocvstart_25c_us06_soc0_dstfudsmean_lopo_clean/25C/NMC_25C_FUDS.csv"
+          ],
+          "test_overlap": [],
+          "test_profile_name_hits": [],
+          "passed": true
+        },
+        {
+          "stage": "25C_adaptive_R_selection",
+          "files": [
+            "/home/user/\ubc14\ud0d5\ud654\uba74/DL/CEMA_MLP_OCVSTART_FULLGRID/nmc_ocvstart_25c_us06_soc0_dstfudsmean_lopo_clean/25C/NMC_25C_DST.csv",
+            "/home/user/\ubc14\ud0d5\ud654\uba74/DL/CEMA_MLP_OCVSTART_FULLGRID/nmc_ocvstart_25c_us06_soc0_dstfudsmean_lopo_clean/25C/NMC_25C_FUDS.csv"
+          ],
+          "test_overlap": [],
+          "test_profile_name_hits": [],
+          "passed": true
+        },
+        {
+          "stage": "45C_1RC_bounds_selection",
+          "files": [
+            "/home/user/\ubc14\ud0d5\ud654\uba74/DL/CEMA_MLP_OCVSTART_FULLGRID/nmc_ocvstart_25c_us06_soc0_dstfudsmean_lopo_clean/45C/NMC_45C_DST.csv",
+            "/home/user/\ubc14\ud0d5\ud654\uba74/DL/CEMA_MLP_OCVSTART_FULLGRID/nmc_ocvstart_25c_us06_soc0_dstfudsmean_lopo_clean/45C/NMC_45C_FUDS.csv"
+          ],
+          "test_overlap": [],
+          "test_profile_name_hits": [],
+          "passed": true
+        },
+        {
+          "stage": "45C_1RC_final_parameter_fit",
+          "files": [
+            "/home/user/\ubc14\ud0d5\ud654\uba74/DL/CEMA_MLP_OCVSTART_FULLGRID/nmc_ocvstart_25c_us06_soc0_dstfudsmean_lopo_clean/45C/NMC_45C_DST.csv",
+            "/home/user/\ubc14\ud0d5\ud654\uba74/DL/CEMA_MLP_OCVSTART_FULLGRID/nmc_ocvstart_25c_us06_soc0_dstfudsmean_lopo_clean/45C/NMC_45C_FUDS.csv"
+          ],
+          "test_overlap": [],
+          "test_profile_name_hits": [],
+          "passed": true
+        },
+        {
+          "stage": "45C_2RC_bounds_selection",
+          "files": [
+            "/home/user/\ubc14\ud0d5\ud654\uba74/DL/CEMA_MLP_OCVSTART_FULLGRID/nmc_ocvstart_25c_us06_soc0_dstfudsmean_lopo_clean/45C/NMC_45C_DST.csv",
+            "/home/user/\ubc14\ud0d5\ud654\uba74/DL/CEMA_MLP_OCVSTART_FULLGRID/nmc_ocvstart_25c_us06_soc0_dstfudsmean_lopo_clean/45C/NMC_45C_FUDS.csv"
+          ],
+          "test_overlap": [],
+          "test_profile_name_hits": [],
+          "passed": true
+        },
+        {
+          "stage": "45C_2RC_final_parameter_fit",
+          "files": [
+            "/home/user/\ubc14\ud0d5\ud654\uba74/DL/CEMA_MLP_OCVSTART_FULLGRID/nmc_ocvstart_25c_us06_soc0_dstfudsmean_lopo_clean/45C/NMC_45C_DST.csv",
+            "/home/user/\ubc14\ud0d5\ud654\uba74/DL/CEMA_MLP_OCVSTART_FULLGRID/nmc_ocvstart_25c_us06_soc0_dstfudsmean_lopo_clean/45C/NMC_45C_FUDS.csv"
+          ],
+          "test_overlap": [],
+          "test_profile_name_hits": [],
+          "passed": true
+        },
+        {
+          "stage": "45C_1RC_EKF_QR_selection",
+          "files": [
+            "/home/user/\ubc14\ud0d5\ud654\uba74/DL/CEMA_MLP_OCVSTART_FULLGRID/nmc_ocvstart_25c_us06_soc0_dstfudsmean_lopo_clean/45C/NMC_45C_DST.csv",
+            "/home/user/\ubc14\ud0d5\ud654\uba74/DL/CEMA_MLP_OCVSTART_FULLGRID/nmc_ocvstart_25c_us06_soc0_dstfudsmean_lopo_clean/45C/NMC_45C_FUDS.csv"
+          ],
+          "test_overlap": [],
+          "test_profile_name_hits": [],
+          "passed": true
+        },
+        {
+          "stage": "45C_2RC_EKF_QR_selection",
+          "files": [
+            "/home/user/\ubc14\ud0d5\ud654\uba74/DL/CEMA_MLP_OCVSTART_FULLGRID/nmc_ocvstart_25c_us06_soc0_dstfudsmean_lopo_clean/45C/NMC_45C_DST.csv",
+            "/home/user/\ubc14\ud0d5\ud654\uba74/DL/CEMA_MLP_OCVSTART_FULLGRID/nmc_ocvstart_25c_us06_soc0_dstfudsmean_lopo_clean/45C/NMC_45C_FUDS.csv"
+          ],
+          "test_overlap": [],
+          "test_profile_name_hits": [],
+          "passed": true
+        },
+        {
+          "stage": "45C_2RC_UKF_QR_selection",
+          "files": [
+            "/home/user/\ubc14\ud0d5\ud654\uba74/DL/CEMA_MLP_OCVSTART_FULLGRID/nmc_ocvstart_25c_us06_soc0_dstfudsmean_lopo_clean/45C/NMC_45C_DST.csv",
+            "/home/user/\ubc14\ud0d5\ud654\uba74/DL/CEMA_MLP_OCVSTART_FULLGRID/nmc_ocvstart_25c_us06_soc0_dstfudsmean_lopo_clean/45C/NMC_45C_FUDS.csv"
+          ],
+          "test_overlap": [],
+          "test_profile_name_hits": [],
+          "passed": true
+        },
+        {
+          "stage": "45C_adaptive_R_selection",
+          "files": [
+            "/home/user/\ubc14\ud0d5\ud654\uba74/DL/CEMA_MLP_OCVSTART_FULLGRID/nmc_ocvstart_25c_us06_soc0_dstfudsmean_lopo_clean/45C/NMC_45C_DST.csv",
+            "/home/user/\ubc14\ud0d5\ud654\uba74/DL/CEMA_MLP_OCVSTART_FULLGRID/nmc_ocvstart_25c_us06_soc0_dstfudsmean_lopo_clean/45C/NMC_45C_FUDS.csv"
+          ],
+          "test_overlap": [],
+          "test_profile_name_hits": [],
+          "passed": true
+        }
+      ],
+      "leakage_count": 0,
+      "status": "PASS"
+    },
+    {
+      "fold": "DST",
+      "test_profile": "DST",
+      "test_files": [
+        "/home/user/\ubc14\ud0d5\ud654\uba74/DL/CEMA_MLP_OCVSTART_FULLGRID/nmc_ocvstart_25c_us06_soc0_dstfudsmean_lopo_clean/0C/NMC_0C_DST.csv",
+        "/home/user/\ubc14\ud0d5\ud654\uba74/DL/CEMA_MLP_OCVSTART_FULLGRID/nmc_ocvstart_25c_us06_soc0_dstfudsmean_lopo_clean/25C/NMC_25C_DST.csv",
+        "/home/user/\ubc14\ud0d5\ud654\uba74/DL/CEMA_MLP_OCVSTART_FULLGRID/nmc_ocvstart_25c_us06_soc0_dstfudsmean_lopo_clean/45C/NMC_45C_DST.csv"
+      ],
+      "fit_events": [
+        {
+          "stage": "0C_1RC_bounds_selection",
+          "files": [
+            "/home/user/\ubc14\ud0d5\ud654\uba74/DL/CEMA_MLP_OCVSTART_FULLGRID/nmc_ocvstart_25c_us06_soc0_dstfudsmean_lopo_clean/0C/NMC_0C_FUDS.csv",
+            "/home/user/\ubc14\ud0d5\ud654\uba74/DL/CEMA_MLP_OCVSTART_FULLGRID/nmc_ocvstart_25c_us06_soc0_dstfudsmean_lopo_clean/0C/NMC_0C_US06.csv"
+          ],
+          "test_overlap": [],
+          "test_profile_name_hits": [],
+          "passed": true
+        },
+        {
+          "stage": "0C_1RC_final_parameter_fit",
+          "files": [
+            "/home/user/\ubc14\ud0d5\ud654\uba74/DL/CEMA_MLP_OCVSTART_FULLGRID/nmc_ocvstart_25c_us06_soc0_dstfudsmean_lopo_clean/0C/NMC_0C_FUDS.csv",
+            "/home/user/\ubc14\ud0d5\ud654\uba74/DL/CEMA_MLP_OCVSTART_FULLGRID/nmc_ocvstart_25c_us06_soc0_dstfudsmean_lopo_clean/0C/NMC_0C_US06.csv"
+          ],
+          "test_overlap": [],
+          "test_profile_name_hits": [],
+          "passed": true
+        },
+        {
+          "stage": "0C_2RC_bounds_selection",
+          "files": [
+            "/home/user/\ubc14\ud0d5\ud654\uba74/DL/CEMA_MLP_OCVSTART_FULLGRID/nmc_ocvstart_25c_us06_soc0_dstfudsmean_lopo_clean/0C/NMC_0C_FUDS.csv",
+            "/home/user/\ubc14\ud0d5\ud654\uba74/DL/CEMA_MLP_OCVSTART_FULLGRID/nmc_ocvstart_25c_us06_soc0_dstfudsmean_lopo_clean/0C/NMC_0C_US06.csv"
+          ],
+          "test_overlap": [],
+          "test_profile_name_hits": [],
+          "passed": true
+        },
+        {
+          "stage": "0C_2RC_final_parameter_fit",
+          "files": [
+            "/home/user/\ubc14\ud0d5\ud654\uba74/DL/CEMA_MLP_OCVSTART_FULLGRID/nmc_ocvstart_25c_us06_soc0_dstfudsmean_lopo_clean/0C/NMC_0C_FUDS.csv",
+            "/home/user/\ubc14\ud0d5\ud654\uba74/DL/CEMA_MLP_OCVSTART_FULLGRID/nmc_ocvstart_25c_us06_soc0_dstfudsmean_lopo_clean/0C/NMC_0C_US06.csv"
+          ],
+          "test_overlap": [],
+          "test_profile_name_hits": [],
+          "passed": true
+        },
+        {
+          "stage": "0C_1RC_EKF_QR_selection",
+          "files": [
+            "/home/user/\ubc14\ud0d5\ud654\uba74/DL/CEMA_MLP_OCVSTART_FULLGRID/nmc_ocvstart_25c_us06_soc0_dstfudsmean_lopo_clean/0C/NMC_0C_FUDS.csv",
+            "/home/user/\ubc14\ud0d5\ud654\uba74/DL/CEMA_MLP_OCVSTART_FULLGRID/nmc_ocvstart_25c_us06_soc0_dstfudsmean_lopo_clean/0C/NMC_0C_US06.csv"
+          ],
+          "test_overlap": [],
+          "test_profile_name_hits": [],
+          "passed": true
+        },
+        {
+          "stage": "0C_2RC_EKF_QR_selection",
+          "files": [
+            "/home/user/\ubc14\ud0d5\ud654\uba74/DL/CEMA_MLP_OCVSTART_FULLGRID/nmc_ocvstart_25c_us06_soc0_dstfudsmean_lopo_clean/0C/NMC_0C_FUDS.csv",
+            "/home/user/\ubc14\ud0d5\ud654\uba74/DL/CEMA_MLP_OCVSTART_FULLGRID/nmc_ocvstart_25c_us06_soc0_dstfudsmean_lopo_clean/0C/NMC_0C_US06.csv"
+          ],
+          "test_overlap": [],
+          "test_profile_name_hits": [],
+          "passed": true
+        },
+        {
+          "stage": "0C_2RC_UKF_QR_selection",
+          "files": [
+            "/home/user/\ubc14\ud0d5\ud654\uba74/DL/CEMA_MLP_OCVSTART_FULLGRID/nmc_ocvstart_25c_us06_soc0_dstfudsmean_lopo_clean/0C/NMC_0C_FUDS.csv",
+            "/home/user/\ubc14\ud0d5\ud654\uba74/DL/CEMA_MLP_OCVSTART_FULLGRID/nmc_ocvstart_25c_us06_soc0_dstfudsmean_lopo_clean/0C/NMC_0C_US06.csv"
+          ],
+          "test_overlap": [],
+          "test_profile_name_hits": [],
+          "passed": true
+        },
+        {
+          "stage": "0C_adaptive_R_selection",
+          "files": [
+            "/home/user/\ubc14\ud0d5\ud654\uba74/DL/CEMA_MLP_OCVSTART_FULLGRID/nmc_ocvstart_25c_us06_soc0_dstfudsmean_lopo_clean/0C/NMC_0C_FUDS.csv",
+            "/home/user/\ubc14\ud0d5\ud654\uba74/DL/CEMA_MLP_OCVSTART_FULLGRID/nmc_ocvstart_25c_us06_soc0_dstfudsmean_lopo_clean/0C/NMC_0C_US06.csv"
+          ],
+          "test_overlap": [],
+          "test_profile_name_hits": [],
+          "passed": true
+        },
+        {
+          "stage": "25C_1RC_bounds_selection",
+          "files": [
+            "/home/user/\ubc14\ud0d5\ud654\uba74/DL/CEMA_MLP_OCVSTART_FULLGRID/nmc_ocvstart_25c_us06_soc0_dstfudsmean_lopo_clean/25C/NMC_25C_FUDS.csv",
+            "/home/user/\ubc14\ud0d5\ud654\uba74/DL/CEMA_MLP_OCVSTART_FULLGRID/nmc_ocvstart_25c_us06_soc0_dstfudsmean_lopo_clean/25C/NMC_25C_US06.csv"
+          ],
+          "test_overlap": [],
+          "test_profile_name_hits": [],
+          "passed": true
+        },
+        {
+          "stage": "25C_1RC_final_parameter_fit",
+          "files": [
+            "/home/user/\ubc14\ud0d5\ud654\uba74/DL/CEMA_MLP_OCVSTART_FULLGRID/nmc_ocvstart_25c_us06_soc0_dstfudsmean_lopo_clean/25C/NMC_25C_FUDS.csv",
+            "/home/user/\ubc14\ud0d5\ud654\uba74/DL/CEMA_MLP_OCVSTART_FULLGRID/nmc_ocvstart_25c_us06_soc0_dstfudsmean_lopo_clean/25C/NMC_25C_US06.csv"
+          ],
+          "test_overlap": [],
+          "test_profile_name_hits": [],
+          "passed": true
+        },
+        {
+          "stage": "25C_2RC_bounds_selection",
+          "files": [
+            "/home/user/\ubc14\ud0d5\ud654\uba74/DL/CEMA_MLP_OCVSTART_FULLGRID/nmc_ocvstart_25c_us06_soc0_dstfudsmean_lopo_clean/25C/NMC_25C_FUDS.csv",
+            "/home/user/\ubc14\ud0d5\ud654\uba74/DL/CEMA_MLP_OCVSTART_FULLGRID/nmc_ocvstart_25c_us06_soc0_dstfudsmean_lopo_clean/25C/NMC_25C_US06.csv"
+          ],
+          "test_overlap": [],
+          "test_profile_name_hits": [],
+          "passed": true
+        },
+        {
+          "stage": "25C_2RC_final_parameter_fit",
+          "files": [
+            "/home/user/\ubc14\ud0d5\ud654\uba74/DL/CEMA_MLP_OCVSTART_FULLGRID/nmc_ocvstart_25c_us06_soc0_dstfudsmean_lopo_clean/25C/NMC_25C_FUDS.csv",
+            "/home/user/\ubc14\ud0d5\ud654\uba74/DL/CEMA_MLP_OCVSTART_FULLGRID/nmc_ocvstart_25c_us06_soc0_dstfudsmean_lopo_clean/25C/NMC_25C_US06.csv"
+          ],
+          "test_overlap": [],
+          "test_profile_name_hits": [],
+          "passed": true
+        },
+        {
+          "stage": "25C_1RC_EKF_QR_selection",
+          "files": [
+            "/home/user/\ubc14\ud0d5\ud654\uba74/DL/CEMA_MLP_OCVSTART_FULLGRID/nmc_ocvstart_25c_us06_soc0_dstfudsmean_lopo_clean/25C/NMC_25C_FUDS.csv",
+            "/home/user/\ubc14\ud0d5\ud654\uba74/DL/CEMA_MLP_OCVSTART_FULLGRID/nmc_ocvstart_25c_us06_soc0_dstfudsmean_lopo_clean/25C/NMC_25C_US06.csv"
+          ],
+          "test_overlap": [],
+          "test_profile_name_hits": [],
+          "passed": true
+        },
+        {
+          "stage": "25C_2RC_EKF_QR_selection",
+          "files": [
+            "/home/user/\ubc14\ud0d5\ud654\uba74/DL/CEMA_MLP_OCVSTART_FULLGRID/nmc_ocvstart_25c_us06_soc0_dstfudsmean_lopo_clean/25C/NMC_25C_FUDS.csv",
+            "/home/user/\ubc14\ud0d5\ud654\uba74/DL/CEMA_MLP_OCVSTART_FULLGRID/nmc_ocvstart_25c_us06_soc0_dstfudsmean_lopo_clean/25C/NMC_25C_US06.csv"
+          ],
+          "test_overlap": [],
+          "test_profile_name_hits": [],
+          "passed": true
+        },
+        {
+          "stage": "25C_2RC_UKF_QR_selection",
+          "files": [
+            "/home/user/\ubc14\ud0d5\ud654\uba74/DL/CEMA_MLP_OCVSTART_FULLGRID/nmc_ocvstart_25c_us06_soc0_dstfudsmean_lopo_clean/25C/NMC_25C_FUDS.csv",
+            "/home/user/\ubc14\ud0d5\ud654\uba74/DL/CEMA_MLP_OCVSTART_FULLGRID/nmc_ocvstart_25c_us06_soc0_dstfudsmean_lopo_clean/25C/NMC_25C_US06.csv"
+          ],
+          "test_overlap": [],
+          "test_profile_name_hits": [],
+          "passed": true
+        },
+        {
+          "stage": "25C_adaptive_R_selection",
+          "files": [
+            "/home/user/\ubc14\ud0d5\ud654\uba74/DL/CEMA_MLP_OCVSTART_FULLGRID/nmc_ocvstart_25c_us06_soc0_dstfudsmean_lopo_clean/25C/NMC_25C_FUDS.csv",
+            "/home/user/\ubc14\ud0d5\ud654\uba74/DL/CEMA_MLP_OCVSTART_FULLGRID/nmc_ocvstart_25c_us06_soc0_dstfudsmean_lopo_clean/25C/NMC_25C_US06.csv"
+          ],
+          "test_overlap": [],
+          "test_profile_name_hits": [],
+          "passed": true
+        },
+        {
+          "stage": "45C_1RC_bounds_selection",
+          "files": [
+            "/home/user/\ubc14\ud0d5\ud654\uba74/DL/CEMA_MLP_OCVSTART_FULLGRID/nmc_ocvstart_25c_us06_soc0_dstfudsmean_lopo_clean/45C/NMC_45C_FUDS.csv",
+            "/home/user/\ubc14\ud0d5\ud654\uba74/DL/CEMA_MLP_OCVSTART_FULLGRID/nmc_ocvstart_25c_us06_soc0_dstfudsmean_lopo_clean/45C/NMC_45C_US06.csv"
+          ],
+          "test_overlap": [],
+          "test_profile_name_hits": [],
+          "passed": true
+        },
+        {
+          "stage": "45C_1RC_final_parameter_fit",
+          "files": [
+            "/home/user/\ubc14\ud0d5\ud654\uba74/DL/CEMA_MLP_OCVSTART_FULLGRID/nmc_ocvstart_25c_us06_soc0_dstfudsmean_lopo_clean/45C/NMC_45C_FUDS.csv",
+            "/home/user/\ubc14\ud0d5\ud654\uba74/DL/CEMA_MLP_OCVSTART_FULLGRID/nmc_ocvstart_25c_us06_soc0_dstfudsmean_lopo_clean/45C/NMC_45C_US06.csv"
+          ],
+          "test_overlap": [],
+          "test_profile_name_hits": [],
+          "passed": true
+        },
+        {
+          "stage": "45C_2RC_bounds_selection",
+          "files": [
+            "/home/user/\ubc14\ud0d5\ud654\uba74/DL/CEMA_MLP_OCVSTART_FULLGRID/nmc_ocvstart_25c_us06_soc0_dstfudsmean_lopo_clean/45C/NMC_45C_FUDS.csv",
+            "/home/user/\ubc14\ud0d5\ud654\uba74/DL/CEMA_MLP_OCVSTART_FULLGRID/nmc_ocvstart_25c_us06_soc0_dstfudsmean_lopo_clean/45C/NMC_45C_US06.csv"
+          ],
+          "test_overlap": [],
+          "test_profile_name_hits": [],
+          "passed": true
+        },
+        {
+          "stage": "45C_2RC_final_parameter_fit",
+          "files": [
+            "/home/user/\ubc14\ud0d5\ud654\uba74/DL/CEMA_MLP_OCVSTART_FULLGRID/nmc_ocvstart_25c_us06_soc0_dstfudsmean_lopo_clean/45C/NMC_45C_FUDS.csv",
+            "/home/user/\ubc14\ud0d5\ud654\uba74/DL/CEMA_MLP_OCVSTART_FULLGRID/nmc_ocvstart_25c_us06_soc0_dstfudsmean_lopo_clean/45C/NMC_45C_US06.csv"
+          ],
+          "test_overlap": [],
+          "test_profile_name_hits": [],
+          "passed": true
+        },
+        {
+          "stage": "45C_1RC_EKF_QR_selection",
+          "files": [
+            "/home/user/\ubc14\ud0d5\ud654\uba74/DL/CEMA_MLP_OCVSTART_FULLGRID/nmc_ocvstart_25c_us06_soc0_dstfudsmean_lopo_clean/45C/NMC_45C_FUDS.csv",
+            "/home/user/\ubc14\ud0d5\ud654\uba74/DL/CEMA_MLP_OCVSTART_FULLGRID/nmc_ocvstart_25c_us06_soc0_dstfudsmean_lopo_clean/45C/NMC_45C_US06.csv"
+          ],
+          "test_overlap": [],
+          "test_profile_name_hits": [],
+          "passed": true
+        },
+        {
+          "stage": "45C_2RC_EKF_QR_selection",
+          "files": [
+            "/home/user/\ubc14\ud0d5\ud654\uba74/DL/CEMA_MLP_OCVSTART_FULLGRID/nmc_ocvstart_25c_us06_soc0_dstfudsmean_lopo_clean/45C/NMC_45C_FUDS.csv",
+            "/home/user/\ubc14\ud0d5\ud654\uba74/DL/CEMA_MLP_OCVSTART_FULLGRID/nmc_ocvstart_25c_us06_soc0_dstfudsmean_lopo_clean/45C/NMC_45C_US06.csv"
+          ],
+          "test_overlap": [],
+          "test_profile_name_hits": [],
+          "passed": true
+        },
+        {
+          "stage": "45C_2RC_UKF_QR_selection",
+          "files": [
+            "/home/user/\ubc14\ud0d5\ud654\uba74/DL/CEMA_MLP_OCVSTART_FULLGRID/nmc_ocvstart_25c_us06_soc0_dstfudsmean_lopo_clean/45C/NMC_45C_FUDS.csv",
+            "/home/user/\ubc14\ud0d5\ud654\uba74/DL/CEMA_MLP_OCVSTART_FULLGRID/nmc_ocvstart_25c_us06_soc0_dstfudsmean_lopo_clean/45C/NMC_45C_US06.csv"
+          ],
+          "test_overlap": [],
+          "test_profile_name_hits": [],
+          "passed": true
+        },
+        {
+          "stage": "45C_adaptive_R_selection",
+          "files": [
+            "/home/user/\ubc14\ud0d5\ud654\uba74/DL/CEMA_MLP_OCVSTART_FULLGRID/nmc_ocvstart_25c_us06_soc0_dstfudsmean_lopo_clean/45C/NMC_45C_FUDS.csv",
+            "/home/user/\ubc14\ud0d5\ud654\uba74/DL/CEMA_MLP_OCVSTART_FULLGRID/nmc_ocvstart_25c_us06_soc0_dstfudsmean_lopo_clean/45C/NMC_45C_US06.csv"
+          ],
+          "test_overlap": [],
+          "test_profile_name_hits": [],
+          "passed": true
+        }
+      ],
+      "leakage_count": 0,
+      "status": "PASS"
+    },
+    {
+      "fold": "FUDS",
+      "test_profile": "FUDS",
+      "test_files": [
+        "/home/user/\ubc14\ud0d5\ud654\uba74/DL/CEMA_MLP_OCVSTART_FULLGRID/nmc_ocvstart_25c_us06_soc0_dstfudsmean_lopo_clean/0C/NMC_0C_FUDS.csv",
+        "/home/user/\ubc14\ud0d5\ud654\uba74/DL/CEMA_MLP_OCVSTART_FULLGRID/nmc_ocvstart_25c_us06_soc0_dstfudsmean_lopo_clean/25C/NMC_25C_FUDS.csv",
+        "/home/user/\ubc14\ud0d5\ud654\uba74/DL/CEMA_MLP_OCVSTART_FULLGRID/nmc_ocvstart_25c_us06_soc0_dstfudsmean_lopo_clean/45C/NMC_45C_FUDS.csv"
+      ],
+      "fit_events": [
+        {
+          "stage": "0C_1RC_bounds_selection",
+          "files": [
+            "/home/user/\ubc14\ud0d5\ud654\uba74/DL/CEMA_MLP_OCVSTART_FULLGRID/nmc_ocvstart_25c_us06_soc0_dstfudsmean_lopo_clean/0C/NMC_0C_DST.csv",
+            "/home/user/\ubc14\ud0d5\ud654\uba74/DL/CEMA_MLP_OCVSTART_FULLGRID/nmc_ocvstart_25c_us06_soc0_dstfudsmean_lopo_clean/0C/NMC_0C_US06.csv"
+          ],
+          "test_overlap": [],
+          "test_profile_name_hits": [],
+          "passed": true
+        },
+        {
+          "stage": "0C_1RC_final_parameter_fit",
+          "files": [
+            "/home/user/\ubc14\ud0d5\ud654\uba74/DL/CEMA_MLP_OCVSTART_FULLGRID/nmc_ocvstart_25c_us06_soc0_dstfudsmean_lopo_clean/0C/NMC_0C_DST.csv",
+            "/home/user/\ubc14\ud0d5\ud654\uba74/DL/CEMA_MLP_OCVSTART_FULLGRID/nmc_ocvstart_25c_us06_soc0_dstfudsmean_lopo_clean/0C/NMC_0C_US06.csv"
+          ],
+          "test_overlap": [],
+          "test_profile_name_hits": [],
+          "passed": true
+        },
+        {
+          "stage": "0C_2RC_bounds_selection",
+          "files": [
+            "/home/user/\ubc14\ud0d5\ud654\uba74/DL/CEMA_MLP_OCVSTART_FULLGRID/nmc_ocvstart_25c_us06_soc0_dstfudsmean_lopo_clean/0C/NMC_0C_DST.csv",
+            "/home/user/\ubc14\ud0d5\ud654\uba74/DL/CEMA_MLP_OCVSTART_FULLGRID/nmc_ocvstart_25c_us06_soc0_dstfudsmean_lopo_clean/0C/NMC_0C_US06.csv"
+          ],
+          "test_overlap": [],
+          "test_profile_name_hits": [],
+          "passed": true
+        },
+        {
+          "stage": "0C_2RC_final_parameter_fit",
+          "files": [
+            "/home/user/\ubc14\ud0d5\ud654\uba74/DL/CEMA_MLP_OCVSTART_FULLGRID/nmc_ocvstart_25c_us06_soc0_dstfudsmean_lopo_clean/0C/NMC_0C_DST.csv",
+            "/home/user/\ubc14\ud0d5\ud654\uba74/DL/CEMA_MLP_OCVSTART_FULLGRID/nmc_ocvstart_25c_us06_soc0_dstfudsmean_lopo_clean/0C/NMC_0C_US06.csv"
+          ],
+          "test_overlap": [],
+          "test_profile_name_hits": [],
+          "passed": true
+        },
+        {
+          "stage": "0C_1RC_EKF_QR_selection",
+          "files": [
+            "/home/user/\ubc14\ud0d5\ud654\uba74/DL/CEMA_MLP_OCVSTART_FULLGRID/nmc_ocvstart_25c_us06_soc0_dstfudsmean_lopo_clean/0C/NMC_0C_DST.csv",
+            "/home/user/\ubc14\ud0d5\ud654\uba74/DL/CEMA_MLP_OCVSTART_FULLGRID/nmc_ocvstart_25c_us06_soc0_dstfudsmean_lopo_clean/0C/NMC_0C_US06.csv"
+          ],
+          "test_overlap": [],
+          "test_profile_name_hits": [],
+          "passed": true
+        },
+        {
+          "stage": "0C_2RC_EKF_QR_selection",
+          "files": [
+            "/home/user/\ubc14\ud0d5\ud654\uba74/DL/CEMA_MLP_OCVSTART_FULLGRID/nmc_ocvstart_25c_us06_soc0_dstfudsmean_lopo_clean/0C/NMC_0C_DST.csv",
+            "/home/user/\ubc14\ud0d5\ud654\uba74/DL/CEMA_MLP_OCVSTART_FULLGRID/nmc_ocvstart_25c_us06_soc0_dstfudsmean_lopo_clean/0C/NMC_0C_US06.csv"
+          ],
+          "test_overlap": [],
+          "test_profile_name_hits": [],
+          "passed": true
+        },
+        {
+          "stage": "0C_2RC_UKF_QR_selection",
+          "files": [
+            "/home/user/\ubc14\ud0d5\ud654\uba74/DL/CEMA_MLP_OCVSTART_FULLGRID/nmc_ocvstart_25c_us06_soc0_dstfudsmean_lopo_clean/0C/NMC_0C_DST.csv",
+            "/home/user/\ubc14\ud0d5\ud654\uba74/DL/CEMA_MLP_OCVSTART_FULLGRID/nmc_ocvstart_25c_us06_soc0_dstfudsmean_lopo_clean/0C/NMC_0C_US06.csv"
+          ],
+          "test_overlap": [],
+          "test_profile_name_hits": [],
+          "passed": true
+        },
+        {
+          "stage": "0C_adaptive_R_selection",
+          "files": [
+            "/home/user/\ubc14\ud0d5\ud654\uba74/DL/CEMA_MLP_OCVSTART_FULLGRID/nmc_ocvstart_25c_us06_soc0_dstfudsmean_lopo_clean/0C/NMC_0C_DST.csv",
+            "/home/user/\ubc14\ud0d5\ud654\uba74/DL/CEMA_MLP_OCVSTART_FULLGRID/nmc_ocvstart_25c_us06_soc0_dstfudsmean_lopo_clean/0C/NMC_0C_US06.csv"
+          ],
+          "test_overlap": [],
+          "test_profile_name_hits": [],
+          "passed": true
+        },
+        {
+          "stage": "25C_1RC_bounds_selection",
+          "files": [
+            "/home/user/\ubc14\ud0d5\ud654\uba74/DL/CEMA_MLP_OCVSTART_FULLGRID/nmc_ocvstart_25c_us06_soc0_dstfudsmean_lopo_clean/25C/NMC_25C_DST.csv",
+            "/home/user/\ubc14\ud0d5\ud654\uba74/DL/CEMA_MLP_OCVSTART_FULLGRID/nmc_ocvstart_25c_us06_soc0_dstfudsmean_lopo_clean/25C/NMC_25C_US06.csv"
+          ],
+          "test_overlap": [],
+          "test_profile_name_hits": [],
+          "passed": true
+        },
+        {
+          "stage": "25C_1RC_final_parameter_fit",
+          "files": [
+            "/home/user/\ubc14\ud0d5\ud654\uba74/DL/CEMA_MLP_OCVSTART_FULLGRID/nmc_ocvstart_25c_us06_soc0_dstfudsmean_lopo_clean/25C/NMC_25C_DST.csv",
+            "/home/user/\ubc14\ud0d5\ud654\uba74/DL/CEMA_MLP_OCVSTART_FULLGRID/nmc_ocvstart_25c_us06_soc0_dstfudsmean_lopo_clean/25C/NMC_25C_US06.csv"
+          ],
+          "test_overlap": [],
+          "test_profile_name_hits": [],
+          "passed": true
+        },
+        {
+          "stage": "25C_2RC_bounds_selection",
+          "files": [
+            "/home/user/\ubc14\ud0d5\ud654\uba74/DL/CEMA_MLP_OCVSTART_FULLGRID/nmc_ocvstart_25c_us06_soc0_dstfudsmean_lopo_clean/25C/NMC_25C_DST.csv",
+            "/home/user/\ubc14\ud0d5\ud654\uba74/DL/CEMA_MLP_OCVSTART_FULLGRID/nmc_ocvstart_25c_us06_soc0_dstfudsmean_lopo_clean/25C/NMC_25C_US06.csv"
+          ],
+          "test_overlap": [],
+          "test_profile_name_hits": [],
+          "passed": true
+        },
+        {
+          "stage": "25C_2RC_final_parameter_fit",
+          "files": [
+            "/home/user/\ubc14\ud0d5\ud654\uba74/DL/CEMA_MLP_OCVSTART_FULLGRID/nmc_ocvstart_25c_us06_soc0_dstfudsmean_lopo_clean/25C/NMC_25C_DST.csv",
+            "/home/user/\ubc14\ud0d5\ud654\uba74/DL/CEMA_MLP_OCVSTART_FULLGRID/nmc_ocvstart_25c_us06_soc0_dstfudsmean_lopo_clean/25C/NMC_25C_US06.csv"
+          ],
+          "test_overlap": [],
+          "test_profile_name_hits": [],
+          "passed": true
+        },
+        {
+          "stage": "25C_1RC_EKF_QR_selection",
+          "files": [
+            "/home/user/\ubc14\ud0d5\ud654\uba74/DL/CEMA_MLP_OCVSTART_FULLGRID/nmc_ocvstart_25c_us06_soc0_dstfudsmean_lopo_clean/25C/NMC_25C_DST.csv",
+            "/home/user/\ubc14\ud0d5\ud654\uba74/DL/CEMA_MLP_OCVSTART_FULLGRID/nmc_ocvstart_25c_us06_soc0_dstfudsmean_lopo_clean/25C/NMC_25C_US06.csv"
+          ],
+          "test_overlap": [],
+          "test_profile_name_hits": [],
+          "passed": true
+        },
+        {
+          "stage": "25C_2RC_EKF_QR_selection",
+          "files": [
+            "/home/user/\ubc14\ud0d5\ud654\uba74/DL/CEMA_MLP_OCVSTART_FULLGRID/nmc_ocvstart_25c_us06_soc0_dstfudsmean_lopo_clean/25C/NMC_25C_DST.csv",
+            "/home/user/\ubc14\ud0d5\ud654\uba74/DL/CEMA_MLP_OCVSTART_FULLGRID/nmc_ocvstart_25c_us06_soc0_dstfudsmean_lopo_clean/25C/NMC_25C_US06.csv"
+          ],
+          "test_overlap": [],
+          "test_profile_name_hits": [],
+          "passed": true
+        },
+        {
+          "stage": "25C_2RC_UKF_QR_selection",
+          "files": [
+            "/home/user/\ubc14\ud0d5\ud654\uba74/DL/CEMA_MLP_OCVSTART_FULLGRID/nmc_ocvstart_25c_us06_soc0_dstfudsmean_lopo_clean/25C/NMC_25C_DST.csv",
+            "/home/user/\ubc14\ud0d5\ud654\uba74/DL/CEMA_MLP_OCVSTART_FULLGRID/nmc_ocvstart_25c_us06_soc0_dstfudsmean_lopo_clean/25C/NMC_25C_US06.csv"
+          ],
+          "test_overlap": [],
+          "test_profile_name_hits": [],
+          "passed": true
+        },
+        {
+          "stage": "25C_adaptive_R_selection",
+          "files": [
+            "/home/user/\ubc14\ud0d5\ud654\uba74/DL/CEMA_MLP_OCVSTART_FULLGRID/nmc_ocvstart_25c_us06_soc0_dstfudsmean_lopo_clean/25C/NMC_25C_DST.csv",
+            "/home/user/\ubc14\ud0d5\ud654\uba74/DL/CEMA_MLP_OCVSTART_FULLGRID/nmc_ocvstart_25c_us06_soc0_dstfudsmean_lopo_clean/25C/NMC_25C_US06.csv"
+          ],
+          "test_overlap": [],
+          "test_profile_name_hits": [],
+          "passed": true
+        },
+        {
+          "stage": "45C_1RC_bounds_selection",
+          "files": [
+            "/home/user/\ubc14\ud0d5\ud654\uba74/DL/CEMA_MLP_OCVSTART_FULLGRID/nmc_ocvstart_25c_us06_soc0_dstfudsmean_lopo_clean/45C/NMC_45C_DST.csv",
+            "/home/user/\ubc14\ud0d5\ud654\uba74/DL/CEMA_MLP_OCVSTART_FULLGRID/nmc_ocvstart_25c_us06_soc0_dstfudsmean_lopo_clean/45C/NMC_45C_US06.csv"
+          ],
+          "test_overlap": [],
+          "test_profile_name_hits": [],
+          "passed": true
+        },
+        {
+          "stage": "45C_1RC_final_parameter_fit",
+          "files": [
+            "/home/user/\ubc14\ud0d5\ud654\uba74/DL/CEMA_MLP_OCVSTART_FULLGRID/nmc_ocvstart_25c_us06_soc0_dstfudsmean_lopo_clean/45C/NMC_45C_DST.csv",
+            "/home/user/\ubc14\ud0d5\ud654\uba74/DL/CEMA_MLP_OCVSTART_FULLGRID/nmc_ocvstart_25c_us06_soc0_dstfudsmean_lopo_clean/45C/NMC_45C_US06.csv"
+          ],
+          "test_overlap": [],
+          "test_profile_name_hits": [],
+          "passed": true
+        },
+        {
+          "stage": "45C_2RC_bounds_selection",
+          "files": [
+            "/home/user/\ubc14\ud0d5\ud654\uba74/DL/CEMA_MLP_OCVSTART_FULLGRID/nmc_ocvstart_25c_us06_soc0_dstfudsmean_lopo_clean/45C/NMC_45C_DST.csv",
+            "/home/user/\ubc14\ud0d5\ud654\uba74/DL/CEMA_MLP_OCVSTART_FULLGRID/nmc_ocvstart_25c_us06_soc0_dstfudsmean_lopo_clean/45C/NMC_45C_US06.csv"
+          ],
+          "test_overlap": [],
+          "test_profile_name_hits": [],
+          "passed": true
+        },
+        {
+          "stage": "45C_2RC_final_parameter_fit",
+          "files": [
+            "/home/user/\ubc14\ud0d5\ud654\uba74/DL/CEMA_MLP_OCVSTART_FULLGRID/nmc_ocvstart_25c_us06_soc0_dstfudsmean_lopo_clean/45C/NMC_45C_DST.csv",
+            "/home/user/\ubc14\ud0d5\ud654\uba74/DL/CEMA_MLP_OCVSTART_FULLGRID/nmc_ocvstart_25c_us06_soc0_dstfudsmean_lopo_clean/45C/NMC_45C_US06.csv"
+          ],
+          "test_overlap": [],
+          "test_profile_name_hits": [],
+          "passed": true
+        },
+        {
+          "stage": "45C_1RC_EKF_QR_selection",
+          "files": [
+            "/home/user/\ubc14\ud0d5\ud654\uba74/DL/CEMA_MLP_OCVSTART_FULLGRID/nmc_ocvstart_25c_us06_soc0_dstfudsmean_lopo_clean/45C/NMC_45C_DST.csv",
+            "/home/user/\ubc14\ud0d5\ud654\uba74/DL/CEMA_MLP_OCVSTART_FULLGRID/nmc_ocvstart_25c_us06_soc0_dstfudsmean_lopo_clean/45C/NMC_45C_US06.csv"
+          ],
+          "test_overlap": [],
+          "test_profile_name_hits": [],
+          "passed": true
+        },
+        {
+          "stage": "45C_2RC_EKF_QR_selection",
+          "files": [
+            "/home/user/\ubc14\ud0d5\ud654\uba74/DL/CEMA_MLP_OCVSTART_FULLGRID/nmc_ocvstart_25c_us06_soc0_dstfudsmean_lopo_clean/45C/NMC_45C_DST.csv",
+            "/home/user/\ubc14\ud0d5\ud654\uba74/DL/CEMA_MLP_OCVSTART_FULLGRID/nmc_ocvstart_25c_us06_soc0_dstfudsmean_lopo_clean/45C/NMC_45C_US06.csv"
+          ],
+          "test_overlap": [],
+          "test_profile_name_hits": [],
+          "passed": true
+        },
+        {
+          "stage": "45C_2RC_UKF_QR_selection",
+          "files": [
+            "/home/user/\ubc14\ud0d5\ud654\uba74/DL/CEMA_MLP_OCVSTART_FULLGRID/nmc_ocvstart_25c_us06_soc0_dstfudsmean_lopo_clean/45C/NMC_45C_DST.csv",
+            "/home/user/\ubc14\ud0d5\ud654\uba74/DL/CEMA_MLP_OCVSTART_FULLGRID/nmc_ocvstart_25c_us06_soc0_dstfudsmean_lopo_clean/45C/NMC_45C_US06.csv"
+          ],
+          "test_overlap": [],
+          "test_profile_name_hits": [],
+          "passed": true
+        },
+        {
+          "stage": "45C_adaptive_R_selection",
+          "files": [
+            "/home/user/\ubc14\ud0d5\ud654\uba74/DL/CEMA_MLP_OCVSTART_FULLGRID/nmc_ocvstart_25c_us06_soc0_dstfudsmean_lopo_clean/45C/NMC_45C_DST.csv",
+            "/home/user/\ubc14\ud0d5\ud654\uba74/DL/CEMA_MLP_OCVSTART_FULLGRID/nmc_ocvstart_25c_us06_soc0_dstfudsmean_lopo_clean/45C/NMC_45C_US06.csv"
+          ],
+          "test_overlap": [],
+          "test_profile_name_hits": [],
+          "passed": true
+        }
+      ],
+      "leakage_count": 0,
+      "status": "PASS"
+    }
+  ],
+  "config_files": [
+    "/home/user/\ubc14\ud0d5\ud654\uba74/DL/NMC_KF_3LOPO_BASELINES/configs/protocol.yaml",
+    "/home/user/\ubc14\ud0d5\ud654\uba74/DL/NMC_KF_3LOPO_BASELINES/configs/ecm.yaml"
+  ]
+}

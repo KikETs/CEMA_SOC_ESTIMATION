@@ -1,0 +1,4 @@
+comparison,mean_delta_mae_pct,ci_lo_pct,ci_hi_pct,n_matched_seeds,method
+RAW_W200-T6_plain,1.5179584061400409,1.2640457981702065,1.7718710141098752,3,matched-seed Student-t 95% CI
+RAW_W800-T6_plain,0.5733346484313309,0.29559762497877917,0.8510716718838826,3,matched-seed Student-t 95% CI
+SMA9-T6_plain,0.537164028570531,0.4193661385233399,0.6549619186177221,3,matched-seed Student-t 95% CI

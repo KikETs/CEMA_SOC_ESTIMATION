@@ -1,0 +1,145 @@
+{
+  "experiment": "A_lfp_plain_head_minipanel",
+  "analysis_stage": "review_defense_retraining",
+  "source_runner": "${SOURCE_WORKSPACE}/LFP_REMOTE_EXACT_COPY_20260713/DL/CEMA_LFP/lfp_confirmatory_minipanel/Scripts/run_confirmatory_minipanel.py",
+  "source_runner_sha256": "3a5a18ca85849b57306c595e350625867eaf3859fcd6ac96bd34eeb2e56b6c4e",
+  "training_harness": "${SOURCE_WORKSPACE}/LFP_REMOTE_EXACT_COPY_20260713/DL/CEMA_LFP/lfp_confirmatory_minipanel/source_repo/soc_decomp/nmc_vcorr_it_train_dst_selector_run.py",
+  "training_harness_sha256": "643e880d5e09d7e5d25ee879b86b468194fa1c515e3a36676ba7649e838fc6b2",
+  "features": [
+    "G0",
+    "T6",
+    "T7",
+    "G4"
+  ],
+  "folds": [
+    "DST",
+    "FUDS",
+    "US06"
+  ],
+  "seeds": [
+    0,
+    1,
+    2
+  ],
+  "new_training_runs": 36,
+  "recipe": {
+    "optimizer": "AdamW",
+    "lr": 0.0008,
+    "weight_decay": 0.0002,
+    "huber_beta": 0.02,
+    "batch_size": 2048,
+    "epochs": 200,
+    "checkpoint_selection": "final_epoch",
+    "temperature_weights": [
+      1.0,
+      1.0,
+      1.0
+    ],
+    "window": 50,
+    "train_stride": 3,
+    "eval_stride": 1,
+    "head": "plain_linear"
+  },
+  "jobs": [
+    {
+      "feature": "G0",
+      "fold": "DST",
+      "prefix": "fairA_lfp_plain_gru_g0_holdoutdst_s012_b2048_e200",
+      "status": "complete",
+      "started_unix": 1785752518.259626,
+      "elapsed_seconds": 183.7297911643982
+    },
+    {
+      "feature": "G0",
+      "fold": "FUDS",
+      "prefix": "fairA_lfp_plain_gru_g0_holdoutfuds_s012_b2048_e200",
+      "status": "complete",
+      "started_unix": 1785752702.0925374,
+      "elapsed_seconds": 182.78560376167297
+    },
+    {
+      "feature": "G0",
+      "fold": "US06",
+      "prefix": "fairA_lfp_plain_gru_g0_holdoutus06_s012_b2048_e200",
+      "status": "complete",
+      "started_unix": 1785752884.9918785,
+      "elapsed_seconds": 189.56582760810852
+    },
+    {
+      "feature": "T6",
+      "fold": "DST",
+      "prefix": "fairA_lfp_plain_gru_t6_holdoutdst_s012_b2048_e200",
+      "status": "complete",
+      "started_unix": 1785753074.6689599,
+      "elapsed_seconds": 183.518737077713
+    },
+    {
+      "feature": "T6",
+      "fold": "FUDS",
+      "prefix": "fairA_lfp_plain_gru_t6_holdoutfuds_s012_b2048_e200",
+      "status": "complete",
+      "started_unix": 1785753258.2969785,
+      "elapsed_seconds": 182.70324659347534
+    },
+    {
+      "feature": "T6",
+      "fold": "US06",
+      "prefix": "fairA_lfp_plain_gru_t6_holdoutus06_s012_b2048_e200",
+      "status": "complete",
+      "started_unix": 1785753441.111191,
+      "elapsed_seconds": 189.68382358551025
+    },
+    {
+      "feature": "T7",
+      "fold": "DST",
+      "prefix": "fairA_lfp_plain_gru_t7_holdoutdst_s012_b2048_e200",
+      "status": "complete",
+      "started_unix": 1785753630.9085956,
+      "elapsed_seconds": 183.5453474521637
+    },
+    {
+      "feature": "T7",
+      "fold": "FUDS",
+      "prefix": "fairA_lfp_plain_gru_t7_holdoutfuds_s012_b2048_e200",
+      "status": "complete",
+      "started_unix": 1785753814.5599797,
+      "elapsed_seconds": 182.6379907131195
+    },
+    {
+      "feature": "T7",
+      "fold": "US06",
+      "prefix": "fairA_lfp_plain_gru_t7_holdoutus06_s012_b2048_e200",
+      "status": "complete",
+      "started_unix": 1785753997.3090696,
+      "elapsed_seconds": 189.71830534934998
+    },
+    {
+      "feature": "G4",
+      "fold": "DST",
+      "prefix": "fairA_lfp_plain_gru_g4_holdoutdst_s012_b2048_e200",
+      "status": "complete",
+      "started_unix": 1785754187.136621,
+      "elapsed_seconds": 184.1874041557312
+    },
+    {
+      "feature": "G4",
+      "fold": "FUDS",
+      "prefix": "fairA_lfp_plain_gru_g4_holdoutfuds_s012_b2048_e200",
+      "status": "complete",
+      "started_unix": 1785754371.433274,
+      "elapsed_seconds": 182.9560751914978
+    },
+    {
+      "feature": "G4",
+      "fold": "US06",
+      "prefix": "fairA_lfp_plain_gru_g4_holdoutus06_s012_b2048_e200",
+      "status": "complete",
+      "started_unix": 1785754554.4987123,
+      "elapsed_seconds": 190.2566270828247
+    }
+  ],
+  "coverage": {
+    "condition_rows": 288,
+    "seed_slice_rows": 12
+  }
+}

@@ -1,0 +1,133 @@
+{
+  "archived_predictions": "normalauxoff_nmc_gru_normal_t6_holdoutus06_s0123456789_b2048_e200_seed8_sel200_condinv_trainDST25_selected_seed8_ep200_base_test_prediction_rows.csv.gz",
+  "entry": {
+    "chemistry": "nmc",
+    "feature": "T6",
+    "fold": "US06",
+    "seed": 8
+  },
+  "evaluation_records": [
+    "0C/NMC_0C_US06.csv",
+    "25C/NMC_25C_US06.csv",
+    "45C/NMC_45C_US06.csv"
+  ],
+  "package_files": [
+    {
+      "path": "code/__init__.py",
+      "sha256": "cae1b55e8b1bc4d6d62c29cf6f9222eafc9aee86611f555280c975dbd206b422",
+      "size_bytes": 96
+    },
+    {
+      "path": "code/inference.py",
+      "sha256": "a51d264c8c987a3808ffd753552bbcc1af38614f3dae65c59627b81f2b8ead47",
+      "size_bytes": 12436
+    },
+    {
+      "path": "config.json",
+      "sha256": "fbe04d857236dc92a7c7d2922b046954f751c93fe557737298b416f4c6596911",
+      "size_bytes": 2221
+    },
+    {
+      "path": "normalauxoff_nmc_gru_normal_t6_holdoutus06_s0123456789_b2048_e200_seed8_final_epoch200_weights.pt",
+      "sha256": "7bf046db06de2bceaafeb36c93a641d8697e659afeae67793b1ab42283dfd798",
+      "size_bytes": 408319
+    },
+    {
+      "path": "r0_table.json",
+      "sha256": "e3abca798af3344045d9c69ed4788538a40bcd24150061ceefdd18aa690f96fd",
+      "size_bytes": 615
+    },
+    {
+      "path": "scaler.json",
+      "sha256": "18d5a751e16813dbf99ef50c6e839bcf2ac324f259b27c7eb968cc50315305f9",
+      "size_bytes": 1075
+    }
+  ],
+  "schema_version": 2,
+  "source_artifacts": [
+    {
+      "path": "normalauxoff_nmc_gru_normal_t6_holdoutus06_s0123456789_b2048_e200_seed8_final_epoch200_weights.pt",
+      "sha256": "7bf046db06de2bceaafeb36c93a641d8697e659afeae67793b1ab42283dfd798",
+      "size_bytes": 408319
+    },
+    {
+      "path": "normalauxoff_nmc_gru_normal_t6_holdoutus06_s0123456789_b2048_e200_seed8_sel200_condinv_trainDST25_selected_seed8_ep200_base_test_prediction_rows.csv.gz",
+      "sha256": "9ed74e2965eab935731d45baf2139269fd2d8e58cdecd3535c89af3a01c5f744",
+      "size_bytes": 712714
+    },
+    {
+      "path": "normalauxoff_nmc_gru_normal_t6_holdoutus06_s0123456789_b2048_e200_metadata.json",
+      "sha256": "ed2ed0fd501be9cd2208b5a16d087b170e004db6cb5ed8a8fa97faec30b5a2a3",
+      "size_bytes": 8324
+    },
+    {
+      "path": "normalauxoff_nmc_gru_normal_t6_holdoutus06_s0123456789_b2048_e200_input_schema.csv",
+      "sha256": "1d86766fee30b27628e1a786d68fa9ea8f329ccd21de30ae79f3ccb38f2ebd48",
+      "size_bytes": 765
+    },
+    {
+      "path": "normalauxoff_nmc_gru_normal_t6_holdoutus06_s0123456789_b2048_e200_decomposition_params.csv",
+      "sha256": "2f093fe6330f4dc43c3ea61294f3a8ee3d28fd805644e7fbc05a0623a76b75e2",
+      "size_bytes": 260
+    },
+    {
+      "path": "NMC_0C_DST.csv",
+      "sha256": "4b777cce3ec960281180f656e4f66c070355f1d47ca4deb282afeb5623afd842",
+      "size_bytes": 6370829
+    },
+    {
+      "path": "NMC_0C_FUDS.csv",
+      "sha256": "b858aa2800df0c7395a90856d13e2d52a2eaba362eebf26de8d221ec1b02848a",
+      "size_bytes": 6604801
+    },
+    {
+      "path": "NMC_25C_DST.csv",
+      "sha256": "28db046b6f290450ad3e0e45d6b51d01c5826d2196758680adff5b55655e380a",
+      "size_bytes": 7239546
+    },
+    {
+      "path": "NMC_25C_FUDS.csv",
+      "sha256": "ef4d47e12c45a29e3e3f39a7d21efcce2e0bdbe1b4947e3d32a6cb6e8c944071",
+      "size_bytes": 7542253
+    },
+    {
+      "path": "NMC_45C_DST.csv",
+      "sha256": "6ec8f99d3bee331efd6eebcfb9328d6bbae8f1b0fd3fc4b1ae73c708fda5ee45",
+      "size_bytes": 7639836
+    },
+    {
+      "path": "NMC_45C_FUDS.csv",
+      "sha256": "53105b6f99f2ab0a5644929d5ce28ceffc3d2d872fe78f1cb8cf1f9d915be239",
+      "size_bytes": 7832774
+    },
+    {
+      "path": "NMC_0C_US06.csv",
+      "sha256": "46ebea30d8185b20962f16c748f397fd391ac9ad5dd096d1d27e9c850360d612",
+      "size_bytes": 6487002
+    },
+    {
+      "path": "NMC_25C_US06.csv",
+      "sha256": "0b46a9f471beda42ae8e94520078d166695c23e681bd4a7fffd80d10789b5bc2",
+      "size_bytes": 7113197
+    },
+    {
+      "path": "NMC_45C_US06.csv",
+      "sha256": "ba6ca20ca6a375cab32810418ce2dac00253d56ff5e7b7b51f178c110c20f0d7",
+      "size_bytes": 7331843
+    }
+  ],
+  "source_git_commits": [
+    {
+      "commit": null,
+      "path": "/home/user/\ubc14\ud0d5\ud654\uba74/DL/CEMA_CARRIER_FAIRNESS_ABLATIONS_20260803",
+      "status": "unavailable"
+    },
+    {
+      "commit": null,
+      "path": "/home/user/\ubc14\ud0d5\ud654\uba74/DL/CEMA_MLP_OCVSTART_FULLGRID",
+      "status": "unavailable"
+    }
+  ],
+  "source_root": "/home/user/\ubc14\ud0d5\ud654\uba74",
+  "source_repo": "external_training_workspace_not_distributed"
+}

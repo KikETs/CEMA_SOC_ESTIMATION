@@ -1,0 +1,160 @@
+{
+  "held_out_used_for_identification": false,
+  "held_out_used_for_QR_tuning": false,
+  "ocv_files": [
+    "/home/lab/\ubc14\ud0d5\ud654\uba74/LFP_KF_LOPO_BASELINES_ISOLATED/inputs/ocv/LFP_OCV_-10.csv",
+    "/home/lab/\ubc14\ud0d5\ud654\uba74/LFP_KF_LOPO_BASELINES_ISOLATED/inputs/ocv/LFP_OCV_0.csv",
+    "/home/lab/\ubc14\ud0d5\ud654\uba74/LFP_KF_LOPO_BASELINES_ISOLATED/inputs/ocv/LFP_OCV_10.csv",
+    "/home/lab/\ubc14\ud0d5\ud654\uba74/LFP_KF_LOPO_BASELINES_ISOLATED/inputs/ocv/LFP_OCV_20.csv",
+    "/home/lab/\ubc14\ud0d5\ud654\uba74/LFP_KF_LOPO_BASELINES_ISOLATED/inputs/ocv/LFP_OCV_25.csv",
+    "/home/lab/\ubc14\ud0d5\ud654\uba74/LFP_KF_LOPO_BASELINES_ISOLATED/inputs/ocv/LFP_OCV_30.csv",
+    "/home/lab/\ubc14\ud0d5\ud654\uba74/LFP_KF_LOPO_BASELINES_ISOLATED/inputs/ocv/LFP_OCV_40.csv",
+    "/home/lab/\ubc14\ud0d5\ud654\uba74/LFP_KF_LOPO_BASELINES_ISOLATED/inputs/ocv/LFP_OCV_50.csv"
+  ],
+  "ecm_files": [
+    "/home/lab/\ubc14\ud0d5\ud654\uba74/LFP_KF_LOPO_BASELINES_ISOLATED/inputs/hppc/25 Degree/DST FUDS UDDS HPPC WLTS US06.xlsx",
+    "/home/lab/\ubc14\ud0d5\ud654\uba74/LFP_KF_LOPO_BASELINES_ISOLATED/inputs/hppc/45 DEGREE/DST FUDS UDDS HPPC WLTS US06.xlsx",
+    "/home/lab/\ubc14\ud0d5\ud654\uba74/LFP_KF_LOPO_BASELINES_ISOLATED/inputs/hppc/5 Degree/DST FUDS UDDS HPPC WLTS US06.xlsx"
+  ],
+  "reference_soc_used_for_parameter_fitting": false,
+  "reference_soc_uses": [
+    "evaluation",
+    "oracle_initial_SOC"
+  ],
+  "evaluation_mask_source": "exact proposed prediction end_index",
+  "config_sha256": "4fe31650aa18585b2a3c1847daeeca75e2d7be9fa826ec4b58fda119f1f1e26e",
+  "source_sha256": {
+    "src/__init__.py": "0951beec71c0deb2f0931eb29368638b4bad0142ca0c27092726aba027583b77",
+    "src/data_io.py": "a13ec07e01c7f5a986aa680620d439a9cf4bac149022a611f4583e150586b03c",
+    "src/ekf.py": "a2f6255688214473445cb1e335c6d13645b0d09041a6f642dd29636484213a67",
+    "src/hysteresis_model.py": "6ce24081e55d5e398b500be3caa5584a92a3c72632368ea60799522a1c258681",
+    "src/lfp_ecm.py": "4365d5116d3d3b5fa42969fcb64aabd02727ac134a1e7a45b3f2a38f69bbddc1",
+    "src/metrics.py": "133ea626d38cc1eefb458ad318193371b75a8eee1715a4a70d7998f859d5349f",
+    "src/parameter_identification.py": "09f2eac875bb2b9fbd82b8c6ff106974ad481052421873bd79c2e68675d758a3",
+    "src/ukf.py": "d6a47b93be31710c2a8d8a11501d8be6f36ab1a16cc0e42412df7ed2faf560a7"
+  },
+  "fold_training_files": {
+    "DST": [
+      "/home/lab/\ubc14\ud0d5\ud654\uba74/LFP_KF_LOPO_BASELINES_ISOLATED/inputs/prepared_data_ocv_discharge_soc/-10C/LFP_-10C_FUDS.csv",
+      "/home/lab/\ubc14\ud0d5\ud654\uba74/LFP_KF_LOPO_BASELINES_ISOLATED/inputs/prepared_data_ocv_discharge_soc/-10C/LFP_-10C_US06.csv",
+      "/home/lab/\ubc14\ud0d5\ud654\uba74/LFP_KF_LOPO_BASELINES_ISOLATED/inputs/prepared_data_ocv_discharge_soc/0C/LFP_0C_FUDS.csv",
+      "/home/lab/\ubc14\ud0d5\ud654\uba74/LFP_KF_LOPO_BASELINES_ISOLATED/inputs/prepared_data_ocv_discharge_soc/0C/LFP_0C_US06.csv",
+      "/home/lab/\ubc14\ud0d5\ud654\uba74/LFP_KF_LOPO_BASELINES_ISOLATED/inputs/prepared_data_ocv_discharge_soc/10C/LFP_10C_FUDS.csv",
+      "/home/lab/\ubc14\ud0d5\ud654\uba74/LFP_KF_LOPO_BASELINES_ISOLATED/inputs/prepared_data_ocv_discharge_soc/10C/LFP_10C_US06.csv",
+      "/home/lab/\ubc14\ud0d5\ud654\uba74/LFP_KF_LOPO_BASELINES_ISOLATED/inputs/prepared_data_ocv_discharge_soc/20C/LFP_20C_FUDS.csv",
+      "/home/lab/\ubc14\ud0d5\ud654\uba74/LFP_KF_LOPO_BASELINES_ISOLATED/inputs/prepared_data_ocv_discharge_soc/20C/LFP_20C_US06.csv",
+      "/home/lab/\ubc14\ud0d5\ud654\uba74/LFP_KF_LOPO_BASELINES_ISOLATED/inputs/prepared_data_ocv_discharge_soc/25C/LFP_25C_FUDS.csv",
+      "/home/lab/\ubc14\ud0d5\ud654\uba74/LFP_KF_LOPO_BASELINES_ISOLATED/inputs/prepared_data_ocv_discharge_soc/25C/LFP_25C_US06.csv",
+      "/home/lab/\ubc14\ud0d5\ud654\uba74/LFP_KF_LOPO_BASELINES_ISOLATED/inputs/prepared_data_ocv_discharge_soc/30C/LFP_30C_FUDS.csv",
+      "/home/lab/\ubc14\ud0d5\ud654\uba74/LFP_KF_LOPO_BASELINES_ISOLATED/inputs/prepared_data_ocv_discharge_soc/30C/LFP_30C_US06.csv",
+      "/home/lab/\ubc14\ud0d5\ud654\uba74/LFP_KF_LOPO_BASELINES_ISOLATED/inputs/prepared_data_ocv_discharge_soc/40C/LFP_40C_FUDS.csv",
+      "/home/lab/\ubc14\ud0d5\ud654\uba74/LFP_KF_LOPO_BASELINES_ISOLATED/inputs/prepared_data_ocv_discharge_soc/40C/LFP_40C_US06.csv",
+      "/home/lab/\ubc14\ud0d5\ud654\uba74/LFP_KF_LOPO_BASELINES_ISOLATED/inputs/prepared_data_ocv_discharge_soc/50C/LFP_50C_FUDS.csv",
+      "/home/lab/\ubc14\ud0d5\ud654\uba74/LFP_KF_LOPO_BASELINES_ISOLATED/inputs/prepared_data_ocv_discharge_soc/50C/LFP_50C_US06.csv"
+    ],
+    "FUDS": [
+      "/home/lab/\ubc14\ud0d5\ud654\uba74/LFP_KF_LOPO_BASELINES_ISOLATED/inputs/prepared_data_ocv_discharge_soc/-10C/LFP_-10C_DST.csv",
+      "/home/lab/\ubc14\ud0d5\ud654\uba74/LFP_KF_LOPO_BASELINES_ISOLATED/inputs/prepared_data_ocv_discharge_soc/-10C/LFP_-10C_US06.csv",
+      "/home/lab/\ubc14\ud0d5\ud654\uba74/LFP_KF_LOPO_BASELINES_ISOLATED/inputs/prepared_data_ocv_discharge_soc/0C/LFP_0C_DST.csv",
+      "/home/lab/\ubc14\ud0d5\ud654\uba74/LFP_KF_LOPO_BASELINES_ISOLATED/inputs/prepared_data_ocv_discharge_soc/0C/LFP_0C_US06.csv",
+      "/home/lab/\ubc14\ud0d5\ud654\uba74/LFP_KF_LOPO_BASELINES_ISOLATED/inputs/prepared_data_ocv_discharge_soc/10C/LFP_10C_DST.csv",
+      "/home/lab/\ubc14\ud0d5\ud654\uba74/LFP_KF_LOPO_BASELINES_ISOLATED/inputs/prepared_data_ocv_discharge_soc/10C/LFP_10C_US06.csv",
+      "/home/lab/\ubc14\ud0d5\ud654\uba74/LFP_KF_LOPO_BASELINES_ISOLATED/inputs/prepared_data_ocv_discharge_soc/20C/LFP_20C_DST.csv",
+      "/home/lab/\ubc14\ud0d5\ud654\uba74/LFP_KF_LOPO_BASELINES_ISOLATED/inputs/prepared_data_ocv_discharge_soc/20C/LFP_20C_US06.csv",
+      "/home/lab/\ubc14\ud0d5\ud654\uba74/LFP_KF_LOPO_BASELINES_ISOLATED/inputs/prepared_data_ocv_discharge_soc/25C/LFP_25C_DST.csv",
+      "/home/lab/\ubc14\ud0d5\ud654\uba74/LFP_KF_LOPO_BASELINES_ISOLATED/inputs/prepared_data_ocv_discharge_soc/25C/LFP_25C_US06.csv",
+      "/home/lab/\ubc14\ud0d5\ud654\uba74/LFP_KF_LOPO_BASELINES_ISOLATED/inputs/prepared_data_ocv_discharge_soc/30C/LFP_30C_DST.csv",
+      "/home/lab/\ubc14\ud0d5\ud654\uba74/LFP_KF_LOPO_BASELINES_ISOLATED/inputs/prepared_data_ocv_discharge_soc/30C/LFP_30C_US06.csv",
+      "/home/lab/\ubc14\ud0d5\ud654\uba74/LFP_KF_LOPO_BASELINES_ISOLATED/inputs/prepared_data_ocv_discharge_soc/40C/LFP_40C_DST.csv",
+      "/home/lab/\ubc14\ud0d5\ud654\uba74/LFP_KF_LOPO_BASELINES_ISOLATED/inputs/prepared_data_ocv_discharge_soc/40C/LFP_40C_US06.csv",
+      "/home/lab/\ubc14\ud0d5\ud654\uba74/LFP_KF_LOPO_BASELINES_ISOLATED/inputs/prepared_data_ocv_discharge_soc/50C/LFP_50C_DST.csv",
+      "/home/lab/\ubc14\ud0d5\ud654\uba74/LFP_KF_LOPO_BASELINES_ISOLATED/inputs/prepared_data_ocv_discharge_soc/50C/LFP_50C_US06.csv"
+    ],
+    "US06": [
+      "/home/lab/\ubc14\ud0d5\ud654\uba74/LFP_KF_LOPO_BASELINES_ISOLATED/inputs/prepared_data_ocv_discharge_soc/-10C/LFP_-10C_DST.csv",
+      "/home/lab/\ubc14\ud0d5\ud654\uba74/LFP_KF_LOPO_BASELINES_ISOLATED/inputs/prepared_data_ocv_discharge_soc/-10C/LFP_-10C_FUDS.csv",
+      "/home/lab/\ubc14\ud0d5\ud654\uba74/LFP_KF_LOPO_BASELINES_ISOLATED/inputs/prepared_data_ocv_discharge_soc/0C/LFP_0C_DST.csv",
+      "/home/lab/\ubc14\ud0d5\ud654\uba74/LFP_KF_LOPO_BASELINES_ISOLATED/inputs/prepared_data_ocv_discharge_soc/0C/LFP_0C_FUDS.csv",
+      "/home/lab/\ubc14\ud0d5\ud654\uba74/LFP_KF_LOPO_BASELINES_ISOLATED/inputs/prepared_data_ocv_discharge_soc/10C/LFP_10C_DST.csv",
+      "/home/lab/\ubc14\ud0d5\ud654\uba74/LFP_KF_LOPO_BASELINES_ISOLATED/inputs/prepared_data_ocv_discharge_soc/10C/LFP_10C_FUDS.csv",
+      "/home/lab/\ubc14\ud0d5\ud654\uba74/LFP_KF_LOPO_BASELINES_ISOLATED/inputs/prepared_data_ocv_discharge_soc/20C/LFP_20C_DST.csv",
+      "/home/lab/\ubc14\ud0d5\ud654\uba74/LFP_KF_LOPO_BASELINES_ISOLATED/inputs/prepared_data_ocv_discharge_soc/20C/LFP_20C_FUDS.csv",
+      "/home/lab/\ubc14\ud0d5\ud654\uba74/LFP_KF_LOPO_BASELINES_ISOLATED/inputs/prepared_data_ocv_discharge_soc/25C/LFP_25C_DST.csv",
+      "/home/lab/\ubc14\ud0d5\ud654\uba74/LFP_KF_LOPO_BASELINES_ISOLATED/inputs/prepared_data_ocv_discharge_soc/25C/LFP_25C_FUDS.csv",
+      "/home/lab/\ubc14\ud0d5\ud654\uba74/LFP_KF_LOPO_BASELINES_ISOLATED/inputs/prepared_data_ocv_discharge_soc/30C/LFP_30C_DST.csv",
+      "/home/lab/\ubc14\ud0d5\ud654\uba74/LFP_KF_LOPO_BASELINES_ISOLATED/inputs/prepared_data_ocv_discharge_soc/30C/LFP_30C_FUDS.csv",
+      "/home/lab/\ubc14\ud0d5\ud654\uba74/LFP_KF_LOPO_BASELINES_ISOLATED/inputs/prepared_data_ocv_discharge_soc/40C/LFP_40C_DST.csv",
+      "/home/lab/\ubc14\ud0d5\ud654\uba74/LFP_KF_LOPO_BASELINES_ISOLATED/inputs/prepared_data_ocv_discharge_soc/40C/LFP_40C_FUDS.csv",
+      "/home/lab/\ubc14\ud0d5\ud654\uba74/LFP_KF_LOPO_BASELINES_ISOLATED/inputs/prepared_data_ocv_discharge_soc/50C/LFP_50C_DST.csv",
+      "/home/lab/\ubc14\ud0d5\ud654\uba74/LFP_KF_LOPO_BASELINES_ISOLATED/inputs/prepared_data_ocv_discharge_soc/50C/LFP_50C_FUDS.csv"
+    ]
+  },
+  "fold_test_files": {
+    "DST": [
+      "/home/lab/\ubc14\ud0d5\ud654\uba74/LFP_KF_LOPO_BASELINES_ISOLATED/inputs/prepared_data_ocv_discharge_soc/-10C/LFP_-10C_DST.csv",
+      "/home/lab/\ubc14\ud0d5\ud654\uba74/LFP_KF_LOPO_BASELINES_ISOLATED/inputs/prepared_data_ocv_discharge_soc/0C/LFP_0C_DST.csv",
+      "/home/lab/\ubc14\ud0d5\ud654\uba74/LFP_KF_LOPO_BASELINES_ISOLATED/inputs/prepared_data_ocv_discharge_soc/10C/LFP_10C_DST.csv",
+      "/home/lab/\ubc14\ud0d5\ud654\uba74/LFP_KF_LOPO_BASELINES_ISOLATED/inputs/prepared_data_ocv_discharge_soc/20C/LFP_20C_DST.csv",
+      "/home/lab/\ubc14\ud0d5\ud654\uba74/LFP_KF_LOPO_BASELINES_ISOLATED/inputs/prepared_data_ocv_discharge_soc/25C/LFP_25C_DST.csv",
+      "/home/lab/\ubc14\ud0d5\ud654\uba74/LFP_KF_LOPO_BASELINES_ISOLATED/inputs/prepared_data_ocv_discharge_soc/30C/LFP_30C_DST.csv",
+      "/home/lab/\ubc14\ud0d5\ud654\uba74/LFP_KF_LOPO_BASELINES_ISOLATED/inputs/prepared_data_ocv_discharge_soc/40C/LFP_40C_DST.csv",
+      "/home/lab/\ubc14\ud0d5\ud654\uba74/LFP_KF_LOPO_BASELINES_ISOLATED/inputs/prepared_data_ocv_discharge_soc/50C/LFP_50C_DST.csv"
+    ],
+    "FUDS": [
+      "/home/lab/\ubc14\ud0d5\ud654\uba74/LFP_KF_LOPO_BASELINES_ISOLATED/inputs/prepared_data_ocv_discharge_soc/-10C/LFP_-10C_FUDS.csv",
+      "/home/lab/\ubc14\ud0d5\ud654\uba74/LFP_KF_LOPO_BASELINES_ISOLATED/inputs/prepared_data_ocv_discharge_soc/0C/LFP_0C_FUDS.csv",
+      "/home/lab/\ubc14\ud0d5\ud654\uba74/LFP_KF_LOPO_BASELINES_ISOLATED/inputs/prepared_data_ocv_discharge_soc/10C/LFP_10C_FUDS.csv",
+      "/home/lab/\ubc14\ud0d5\ud654\uba74/LFP_KF_LOPO_BASELINES_ISOLATED/inputs/prepared_data_ocv_discharge_soc/20C/LFP_20C_FUDS.csv",
+      "/home/lab/\ubc14\ud0d5\ud654\uba74/LFP_KF_LOPO_BASELINES_ISOLATED/inputs/prepared_data_ocv_discharge_soc/25C/LFP_25C_FUDS.csv",
+      "/home/lab/\ubc14\ud0d5\ud654\uba74/LFP_KF_LOPO_BASELINES_ISOLATED/inputs/prepared_data_ocv_discharge_soc/30C/LFP_30C_FUDS.csv",
+      "/home/lab/\ubc14\ud0d5\ud654\uba74/LFP_KF_LOPO_BASELINES_ISOLATED/inputs/prepared_data_ocv_discharge_soc/40C/LFP_40C_FUDS.csv",
+      "/home/lab/\ubc14\ud0d5\ud654\uba74/LFP_KF_LOPO_BASELINES_ISOLATED/inputs/prepared_data_ocv_discharge_soc/50C/LFP_50C_FUDS.csv"
+    ],
+    "US06": [
+      "/home/lab/\ubc14\ud0d5\ud654\uba74/LFP_KF_LOPO_BASELINES_ISOLATED/inputs/prepared_data_ocv_discharge_soc/-10C/LFP_-10C_US06.csv",
+      "/home/lab/\ubc14\ud0d5\ud654\uba74/LFP_KF_LOPO_BASELINES_ISOLATED/inputs/prepared_data_ocv_discharge_soc/0C/LFP_0C_US06.csv",
+      "/home/lab/\ubc14\ud0d5\ud654\uba74/LFP_KF_LOPO_BASELINES_ISOLATED/inputs/prepared_data_ocv_discharge_soc/10C/LFP_10C_US06.csv",
+      "/home/lab/\ubc14\ud0d5\ud654\uba74/LFP_KF_LOPO_BASELINES_ISOLATED/inputs/prepared_data_ocv_discharge_soc/20C/LFP_20C_US06.csv",
+      "/home/lab/\ubc14\ud0d5\ud654\uba74/LFP_KF_LOPO_BASELINES_ISOLATED/inputs/prepared_data_ocv_discharge_soc/25C/LFP_25C_US06.csv",
+      "/home/lab/\ubc14\ud0d5\ud654\uba74/LFP_KF_LOPO_BASELINES_ISOLATED/inputs/prepared_data_ocv_discharge_soc/30C/LFP_30C_US06.csv",
+      "/home/lab/\ubc14\ud0d5\ud654\uba74/LFP_KF_LOPO_BASELINES_ISOLATED/inputs/prepared_data_ocv_discharge_soc/40C/LFP_40C_US06.csv",
+      "/home/lab/\ubc14\ud0d5\ud654\uba74/LFP_KF_LOPO_BASELINES_ISOLATED/inputs/prepared_data_ocv_discharge_soc/50C/LFP_50C_US06.csv"
+    ]
+  },
+  "q_r_gamma_tuning_files": {
+    "DST": [
+      "/home/lab/\ubc14\ud0d5\ud654\uba74/LFP_KF_LOPO_BASELINES_ISOLATED/inputs/prepared_data_ocv_discharge_soc/-10C/LFP_-10C_US06.csv",
+      "/home/lab/\ubc14\ud0d5\ud654\uba74/LFP_KF_LOPO_BASELINES_ISOLATED/inputs/prepared_data_ocv_discharge_soc/0C/LFP_0C_US06.csv",
+      "/home/lab/\ubc14\ud0d5\ud654\uba74/LFP_KF_LOPO_BASELINES_ISOLATED/inputs/prepared_data_ocv_discharge_soc/10C/LFP_10C_US06.csv",
+      "/home/lab/\ubc14\ud0d5\ud654\uba74/LFP_KF_LOPO_BASELINES_ISOLATED/inputs/prepared_data_ocv_discharge_soc/20C/LFP_20C_US06.csv",
+      "/home/lab/\ubc14\ud0d5\ud654\uba74/LFP_KF_LOPO_BASELINES_ISOLATED/inputs/prepared_data_ocv_discharge_soc/25C/LFP_25C_US06.csv",
+      "/home/lab/\ubc14\ud0d5\ud654\uba74/LFP_KF_LOPO_BASELINES_ISOLATED/inputs/prepared_data_ocv_discharge_soc/30C/LFP_30C_US06.csv",
+      "/home/lab/\ubc14\ud0d5\ud654\uba74/LFP_KF_LOPO_BASELINES_ISOLATED/inputs/prepared_data_ocv_discharge_soc/40C/LFP_40C_US06.csv",
+      "/home/lab/\ubc14\ud0d5\ud654\uba74/LFP_KF_LOPO_BASELINES_ISOLATED/inputs/prepared_data_ocv_discharge_soc/50C/LFP_50C_US06.csv"
+    ],
+    "FUDS": [
+      "/home/lab/\ubc14\ud0d5\ud654\uba74/LFP_KF_LOPO_BASELINES_ISOLATED/inputs/prepared_data_ocv_discharge_soc/-10C/LFP_-10C_US06.csv",
+      "/home/lab/\ubc14\ud0d5\ud654\uba74/LFP_KF_LOPO_BASELINES_ISOLATED/inputs/prepared_data_ocv_discharge_soc/0C/LFP_0C_US06.csv",
+      "/home/lab/\ubc14\ud0d5\ud654\uba74/LFP_KF_LOPO_BASELINES_ISOLATED/inputs/prepared_data_ocv_discharge_soc/10C/LFP_10C_US06.csv",
+      "/home/lab/\ubc14\ud0d5\ud654\uba74/LFP_KF_LOPO_BASELINES_ISOLATED/inputs/prepared_data_ocv_discharge_soc/20C/LFP_20C_US06.csv",
+      "/home/lab/\ubc14\ud0d5\ud654\uba74/LFP_KF_LOPO_BASELINES_ISOLATED/inputs/prepared_data_ocv_discharge_soc/25C/LFP_25C_US06.csv",
+      "/home/lab/\ubc14\ud0d5\ud654\uba74/LFP_KF_LOPO_BASELINES_ISOLATED/inputs/prepared_data_ocv_discharge_soc/30C/LFP_30C_US06.csv",
+      "/home/lab/\ubc14\ud0d5\ud654\uba74/LFP_KF_LOPO_BASELINES_ISOLATED/inputs/prepared_data_ocv_discharge_soc/40C/LFP_40C_US06.csv",
+      "/home/lab/\ubc14\ud0d5\ud654\uba74/LFP_KF_LOPO_BASELINES_ISOLATED/inputs/prepared_data_ocv_discharge_soc/50C/LFP_50C_US06.csv"
+    ],
+    "US06": [
+      "/home/lab/\ubc14\ud0d5\ud654\uba74/LFP_KF_LOPO_BASELINES_ISOLATED/inputs/prepared_data_ocv_discharge_soc/-10C/LFP_-10C_FUDS.csv",
+      "/home/lab/\ubc14\ud0d5\ud654\uba74/LFP_KF_LOPO_BASELINES_ISOLATED/inputs/prepared_data_ocv_discharge_soc/0C/LFP_0C_FUDS.csv",
+      "/home/lab/\ubc14\ud0d5\ud654\uba74/LFP_KF_LOPO_BASELINES_ISOLATED/inputs/prepared_data_ocv_discharge_soc/10C/LFP_10C_FUDS.csv",
+      "/home/lab/\ubc14\ud0d5\ud654\uba74/LFP_KF_LOPO_BASELINES_ISOLATED/inputs/prepared_data_ocv_discharge_soc/20C/LFP_20C_FUDS.csv",
+      "/home/lab/\ubc14\ud0d5\ud654\uba74/LFP_KF_LOPO_BASELINES_ISOLATED/inputs/prepared_data_ocv_discharge_soc/25C/LFP_25C_FUDS.csv",
+      "/home/lab/\ubc14\ud0d5\ud654\uba74/LFP_KF_LOPO_BASELINES_ISOLATED/inputs/prepared_data_ocv_discharge_soc/30C/LFP_30C_FUDS.csv",
+      "/home/lab/\ubc14\ud0d5\ud654\uba74/LFP_KF_LOPO_BASELINES_ISOLATED/inputs/prepared_data_ocv_discharge_soc/40C/LFP_40C_FUDS.csv",
+      "/home/lab/\ubc14\ud0d5\ud654\uba74/LFP_KF_LOPO_BASELINES_ISOLATED/inputs/prepared_data_ocv_discharge_soc/50C/LFP_50C_FUDS.csv"
+    ]
+  },
+  "fold_file_manifest": "/home/lab/\ubc14\ud0d5\ud654\uba74/LFP_KF_LOPO_BASELINES_ISOLATED/manifests/fold_file_manifest.csv",
+  "tuning_trace": "/home/lab/\ubc14\ud0d5\ud654\uba74/LFP_KF_LOPO_BASELINES_ISOLATED/results/inner_validation_tuning.csv",
+  "assertions": "PASS",
+  "test_profile_tuning_events": 0
+}

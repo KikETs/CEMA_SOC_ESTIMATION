@@ -1,0 +1,155 @@
+{
+  "status": "PASS",
+  "method": "vff_hysteresis_2rc_ekf",
+  "mechanism": {
+    "name": "innovation_triggered_variable_forgetting_factor",
+    "equation": "nis_ema=beta*previous+(1-beta)*innovation^2/S; lambda=clip(threshold/max(threshold,nis_ema),lambda_min,1); P_prior=P_prior/lambda",
+    "scope": "prediction covariance only; frozen state equations, OCV, ECM, Q/R, slope-aware R, and Joseph update",
+    "literature_claim": "same mechanism family only; not claimed as an exact reproduction of a named paper"
+  },
+  "protocol": {
+    "profiles": [
+      "DST",
+      "FUDS",
+      "US06"
+    ],
+    "temperatures_C": [
+      -10,
+      0,
+      10,
+      20,
+      25,
+      30,
+      40,
+      50
+    ],
+    "initial_conditions": [
+      "oracle",
+      "minus5pp",
+      "minus10pp"
+    ],
+    "aggregation": "24 fold-temperature slices equally weighted",
+    "recovery": "first |SOC error|<1.5 pp interval sustained for 60 s",
+    "bootstrap": {
+      "circular_within_record": true,
+      "block_samples": 60,
+      "B": 10000
+    }
+  },
+  "selection": {
+    "grid": {
+      "lambda_min": [
+        0.9,
+        0.95,
+        0.98,
+        0.99,
+        0.995
+      ],
+      "nis_threshold": [
+        1.0,
+        2.0,
+        4.0,
+        9.0
+      ],
+      "nis_ema_beta": [
+        0.0,
+        0.5,
+        0.9,
+        0.99
+      ]
+    },
+    "per_fold_training_only": {
+      "DST": {
+        "training_profiles": [
+          "FUDS",
+          "US06"
+        ],
+        "training_files_sha256": "aa74c95e4ccb9756631f45832a3a890c580960f97746cc352518b41520259f9a",
+        "heldout_files_passed_to_selection": false,
+        "selected": {
+          "lambda_min": 0.9,
+          "nis_threshold": 9.0,
+          "nis_ema_beta": 0.5
+        },
+        "objective": "equal mean of record MAE across oracle, minus5pp, minus10pp on 16 training records"
+      },
+      "FUDS": {
+        "training_profiles": [
+          "DST",
+          "US06"
+        ],
+        "training_files_sha256": "bf97c05ba391510312bdd5e67b3a3e39de0f41beffd18fa9435fe5abd5e574be",
+        "heldout_files_passed_to_selection": false,
+        "selected": {
+          "lambda_min": 0.95,
+          "nis_threshold": 9.0,
+          "nis_ema_beta": 0.5
+        },
+        "objective": "equal mean of record MAE across oracle, minus5pp, minus10pp on 16 training records"
+      },
+      "US06": {
+        "training_profiles": [
+          "DST",
+          "FUDS"
+        ],
+        "training_files_sha256": "dc6b3ff0b63dc6e95cd0e2904503b3d0773c5aa68d516db82d1a5fb3eaa083ce",
+        "heldout_files_passed_to_selection": false,
+        "selected": {
+          "lambda_min": 0.95,
+          "nis_threshold": 2.0,
+          "nis_ema_beta": 0.0
+        },
+        "objective": "equal mean of record MAE across oracle, minus5pp, minus10pp on 16 training records"
+      }
+    }
+  },
+  "proposed_prediction_sources": [
+    "/home/user/\ubc14\ud0d5\ud654\uba74/soc_paper_drop4_trajectories/LFP/lfpconfirm_all8_train_all8_test_tier1_gru_residual_g4_holdoutdst_s012_b2048_e200_seed0_sel200_condinv_trainDST25_selected_seed0_ep200_base_test_prediction_rows.csv.gz",
+    "/home/user/\ubc14\ud0d5\ud654\uba74/soc_paper_drop4_trajectories/LFP/lfpconfirm_all8_train_all8_test_tier1_gru_residual_g4_holdoutdst_s012_b2048_e200_seed1_sel200_condinv_trainDST25_selected_seed1_ep200_base_test_prediction_rows.csv.gz",
+    "/home/user/\ubc14\ud0d5\ud654\uba74/soc_paper_drop4_trajectories/LFP/lfpconfirm_all8_train_all8_test_tier1_gru_residual_g4_holdoutdst_s012_b2048_e200_seed2_sel200_condinv_trainDST25_selected_seed2_ep200_base_test_prediction_rows.csv.gz",
+    "/home/user/\ubc14\ud0d5\ud654\uba74/soc_paper_drop4_trajectories/LFP/lfpconfirm_all8_train_all8_test_tier1_gru_residual_g4_holdoutfuds_s012_b2048_e200_seed0_sel200_condinv_trainDST25_selected_seed0_ep200_base_test_prediction_rows.csv.gz",
+    "/home/user/\ubc14\ud0d5\ud654\uba74/soc_paper_drop4_trajectories/LFP/lfpconfirm_all8_train_all8_test_tier1_gru_residual_g4_holdoutfuds_s012_b2048_e200_seed1_sel200_condinv_trainDST25_selected_seed1_ep200_base_test_prediction_rows.csv.gz",
+    "/home/user/\ubc14\ud0d5\ud654\uba74/soc_paper_drop4_trajectories/LFP/lfpconfirm_all8_train_all8_test_tier1_gru_residual_g4_holdoutfuds_s012_b2048_e200_seed2_sel200_condinv_trainDST25_selected_seed2_ep200_base_test_prediction_rows.csv.gz",
+    "/home/user/\ubc14\ud0d5\ud654\uba74/soc_paper_drop4_trajectories/LFP/lfpconfirm_all8_train_all8_test_tier1_gru_residual_g4_holdoutus06_s012_b2048_e200_seed0_sel200_condinv_trainDST25_selected_seed0_ep200_base_test_prediction_rows.csv.gz",
+    "/home/user/\ubc14\ud0d5\ud654\uba74/soc_paper_drop4_trajectories/LFP/lfpconfirm_all8_train_all8_test_tier1_gru_residual_g4_holdoutus06_s012_b2048_e200_seed1_sel200_condinv_trainDST25_selected_seed1_ep200_base_test_prediction_rows.csv.gz",
+    "/home/user/\ubc14\ud0d5\ud654\uba74/soc_paper_drop4_trajectories/LFP/lfpconfirm_all8_train_all8_test_tier1_gru_residual_g4_holdoutus06_s012_b2048_e200_seed2_sel200_condinv_trainDST25_selected_seed2_ep200_base_test_prediction_rows.csv.gz",
+    "/home/user/\ubc14\ud0d5\ud654\uba74/soc_paper_drop4_trajectories/LFP/lfpconfirm_all8_train_all8_test_winner_promotion_gru_residual_g4_holdoutdst_s34_b2048_e200_seed3_sel200_condinv_trainDST25_selected_seed3_ep200_base_test_prediction_rows.csv.gz",
+    "/home/user/\ubc14\ud0d5\ud654\uba74/soc_paper_drop4_trajectories/LFP/lfpconfirm_all8_train_all8_test_winner_promotion_gru_residual_g4_holdoutdst_s34_b2048_e200_seed4_sel200_condinv_trainDST25_selected_seed4_ep200_base_test_prediction_rows.csv.gz",
+    "/home/user/\ubc14\ud0d5\ud654\uba74/soc_paper_drop4_trajectories/LFP/lfpconfirm_all8_train_all8_test_winner_promotion_gru_residual_g4_holdoutfuds_s34_b2048_e200_seed3_sel200_condinv_trainDST25_selected_seed3_ep200_base_test_prediction_rows.csv.gz",
+    "/home/user/\ubc14\ud0d5\ud654\uba74/soc_paper_drop4_trajectories/LFP/lfpconfirm_all8_train_all8_test_winner_promotion_gru_residual_g4_holdoutfuds_s34_b2048_e200_seed4_sel200_condinv_trainDST25_selected_seed4_ep200_base_test_prediction_rows.csv.gz",
+    "/home/user/\ubc14\ud0d5\ud654\uba74/soc_paper_drop4_trajectories/LFP/lfpconfirm_all8_train_all8_test_winner_promotion_gru_residual_g4_holdoutus06_s34_b2048_e200_seed3_sel200_condinv_trainDST25_selected_seed3_ep200_base_test_prediction_rows.csv.gz",
+    "/home/user/\ubc14\ud0d5\ud654\uba74/soc_paper_drop4_trajectories/LFP/lfpconfirm_all8_train_all8_test_winner_promotion_gru_residual_g4_holdoutus06_s34_b2048_e200_seed4_sel200_condinv_trainDST25_selected_seed4_ep200_base_test_prediction_rows.csv.gz"
+  ],
+  "frozen_hashes_before": {
+    "src/data_io.py": "74745ca28fd35751b96063bf5164da0f38b6fcc730715d6b288f94656a9b3167",
+    "src/v2_core.py": "9440a299ca1c72b93f17b4c9782261114dab55c2644e02ced17b3bc96e411ec7",
+    "src/v2_1_core.py": "6e9d2397d731affa5f57e07854de7b20ddf4c063f34aaeee89ba08e9d92e09af",
+    "results_v2_1/qr_selection.csv": "63ccb00a9e25645cabc72df83c873b3761d0ebc2e494f61d7fa7ce9280b63cb2",
+    "results_v2_1/ecm_fit_quality.csv": "b014e5501a2c8d2e4edcb68e7083c5fe47c9803444c5e8dae6c8db60db0f82a9",
+    "results_v2_1/r0_estimates.csv": "e061c74c3ff5128759ea89016f6aa720c8db6ad89f0fd958eef6a667c5590d94",
+    "results_v2_1/prediction_rows_v2_1.csv.gz": "3a386eaddf4b7cdd6d04d50e91b8c1b496be0a29c5a6b75f2f863efa6f1b8b86",
+    "results_v2_2/main_table.csv": "a8d1937f60cd856866a7d65edd912d2d163d0c904fd4e132d1d91d61e7d782c1",
+    "artifacts/ocv_table.csv": "ba450da99facf8d75e744e1b67064e7e8c83f6dfa79beb1ac130c58b7e6e68e3",
+    "artifacts/ecm_parameter_map.csv": "01f8fe57ec7f5e810e60a67b1dfbd73d461a374567426d3ceba5475581d0337f",
+    "configs/v2.yaml": "2619cfe748aa09a8ef77fd8511c261d15d955f5e60dc272c4680545b336beba4",
+    "configs/v2_1.yaml": "7b104375f30b6c8857cf712ed91ca622ffe093d4e06a4d2d5da3816317ddf2d8"
+  },
+  "frozen_hashes_after": {
+    "src/data_io.py": "74745ca28fd35751b96063bf5164da0f38b6fcc730715d6b288f94656a9b3167",
+    "src/v2_core.py": "9440a299ca1c72b93f17b4c9782261114dab55c2644e02ced17b3bc96e411ec7",
+    "src/v2_1_core.py": "6e9d2397d731affa5f57e07854de7b20ddf4c063f34aaeee89ba08e9d92e09af",
+    "results_v2_1/qr_selection.csv": "63ccb00a9e25645cabc72df83c873b3761d0ebc2e494f61d7fa7ce9280b63cb2",
+    "results_v2_1/ecm_fit_quality.csv": "b014e5501a2c8d2e4edcb68e7083c5fe47c9803444c5e8dae6c8db60db0f82a9",
+    "results_v2_1/r0_estimates.csv": "e061c74c3ff5128759ea89016f6aa720c8db6ad89f0fd958eef6a667c5590d94",
+    "results_v2_1/prediction_rows_v2_1.csv.gz": "3a386eaddf4b7cdd6d04d50e91b8c1b496be0a29c5a6b75f2f863efa6f1b8b86",
+    "results_v2_2/main_table.csv": "a8d1937f60cd856866a7d65edd912d2d163d0c904fd4e132d1d91d61e7d782c1",
+    "artifacts/ocv_table.csv": "ba450da99facf8d75e744e1b67064e7e8c83f6dfa79beb1ac130c58b7e6e68e3",
+    "artifacts/ecm_parameter_map.csv": "01f8fe57ec7f5e810e60a67b1dfbd73d461a374567426d3ceba5475581d0337f",
+    "configs/v2.yaml": "2619cfe748aa09a8ef77fd8511c261d15d955f5e60dc272c4680545b336beba4",
+    "configs/v2_1.yaml": "7b104375f30b6c8857cf712ed91ca622ffe093d4e06a4d2d5da3816317ddf2d8"
+  },
+  "inference_only_after_selection": true,
+  "no_ecm_refit": true,
+  "no_qr_retuning": true,
+  "seed": 20260803
+}

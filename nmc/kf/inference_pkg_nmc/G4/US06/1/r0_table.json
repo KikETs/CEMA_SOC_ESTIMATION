@@ -1,0 +1,27 @@
+{
+  "fit_profiles": [
+    "DST",
+    "FUDS"
+  ],
+  "fit_scope": "training_profiles_only",
+  "interpolation": "linear_with_endpoint_hold",
+  "method": "train_temperature_event_median",
+  "source_file": "s3_3l_bm_gru_g4_r_us06_s012_b2048_e200_decomposition_params.csv",
+  "table": [
+    {
+      "n_events": 6775,
+      "r0_ohm": 0.1030238776731459,
+      "temperature_C": 0.0
+    },
+    {
+      "n_events": 7788,
+      "r0_ohm": 0.0716286636066215,
+      "temperature_C": 25.0
+    },
+    {
+      "n_events": 8181,
+      "r0_ohm": 0.0766445401080541,
+      "temperature_C": 45.0
+    }
+  ]
+}

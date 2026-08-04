@@ -1,0 +1,64 @@
+ocv:
+  grid_points: 201
+  voltage_min_V: 2.45
+  voltage_max_V: 4.25
+  slope_min_V_per_soc: 0.001
+  slope_max_V_per_soc: 8.0
+  interpolation: linear_temperature_pchip_soc
+coulomb_counting:
+  coulombic_efficiency: 1.0
+temperature_handling:
+  ecm_parameter_map: per_temperature_training_only
+  observed_temperature_rule: exact_lookup
+  intermediate_temperature_rule: linear_interpolation_of_positive_R_and_log_tau
+  extrapolation_rule: clamp_to_characterized_temperature_range
+parameter_identification:
+  fit_stride: 4
+  fit_warmup_s: 60.0
+  validation_warmup_s: 60.0
+  loss: soft_l1
+  f_scale_V: 0.02
+  max_nfev: 100
+  bounds_candidates:
+    conservative:
+      R0_ohm: [0.001, 0.20]
+      R1_ohm: [0.0005, 0.20]
+      tau1_s: [2.0, 400.0]
+      R2_ohm: [0.0005, 0.20]
+      tau2_s: [30.0, 4000.0]
+    broad:
+      R0_ohm: [0.0005, 0.35]
+      R1_ohm: [0.0001, 0.35]
+      tau1_s: [1.5, 800.0]
+      R2_ohm: [0.0001, 0.35]
+      tau2_s: [15.0, 8000.0]
+  initial_guess:
+    1rc: [0.035, 0.020, 80.0]
+    2rc: [0.030, 0.012, 20.0, 0.020, 500.0]
+filter:
+  initial_covariance_diag: [0.01, 0.01, 0.01]
+  covariance_floor: 1.0e-12
+  innovation_variance_floor: 1.0e-10
+  voltage_state_limit_V: 1.0
+  noise_candidates:
+    - {name: qlow_rlow, q_soc: 1.0e-10, q_vp: 1.0e-7, r_voltage: 1.0e-5}
+    - {name: qlow_rmid, q_soc: 1.0e-10, q_vp: 1.0e-6, r_voltage: 4.0e-5}
+    - {name: qmid_rlow, q_soc: 1.0e-8, q_vp: 1.0e-6, r_voltage: 1.0e-5}
+    - {name: qmid_rmid, q_soc: 1.0e-8, q_vp: 1.0e-5, r_voltage: 4.0e-5}
+    - {name: qhigh_rmid, q_soc: 1.0e-6, q_vp: 1.0e-5, r_voltage: 4.0e-5}
+    - {name: qhigh_rhigh, q_soc: 1.0e-6, q_vp: 1.0e-4, r_voltage: 1.6e-4}
+  ukf: {alpha: 0.1, beta: 2.0, kappa: 0.0}
+  adaptive_beta_candidates: [0.001, 0.01, 0.05]
+  adaptive_r_scale_limits: [0.25, 25.0]
+initial_soc:
+  perturbations_pct_point: [-20.0, -10.0, -5.0, 0.0, 5.0, 10.0, 20.0]
+  convergence_threshold_pct: 2.0
+  sustained_duration_s: 60.0
+statistics:
+  bootstrap_seed: 20260711
+  bootstrap_replicates: 5000
+  bootstrap_block_length_samples: 60
+reproducibility:
+  kf_is_deterministic: true
+  stochastic_seeds_if_needed: [42, 43, 44, 45, 46]
+  imported_neural_seeds: [0, 1, 2]

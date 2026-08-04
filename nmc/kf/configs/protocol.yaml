@@ -1,0 +1,43 @@
+experiment_name: nmc_kf_3lopo_baselines
+source_repo: /home/user/바탕화면/CEMA_SOC_ESTIMATION/nmc/deep_learning
+data_root: /home/user/바탕화면/CEMA_SOC_ESTIMATION/Data/Preprocessed/NMC/nmc_ocvstart_25c_us06_soc0_dstfudsmean_lopo_clean
+profiles: [DST, FUDS, US06]
+temperatures_C: [0.0, 25.0, 45.0]
+folds:
+  US06: [DST, FUDS]
+  DST: [FUDS, US06]
+  FUDS: [DST, US06]
+columns:
+  time: Test_Time(s)
+  voltage: Voltage(V)
+  current_raw: Current(A)
+  reference_soc: SOC_CC
+  initial_rest_voltage: SOC0_Vinit(V)
+current_convention:
+  source: discharge_negative
+  internal: discharge_positive
+  multiplier: -1.0
+evaluation:
+  window_length: 50
+  first_end_index: 49
+  end_index_stride: 1
+  early_horizons_s: [60.0, 300.0]
+  soc_bands_pct: [[0.0, 10.0], [10.0, 30.0], [30.0, 70.0], [70.0, 90.0], [90.0, 100.0]]
+characterization:
+  root: /home/user/바탕화면/CEMA_SOC_ESTIMATION/Data/NMC/OCV
+  capacity_table: /home/user/바탕화면/CEMA_SOC_ESTIMATION/nmc/preprocessing/locked_metadata/lc_ocv_capacity_reference.csv
+  ocv_files:
+    0.0: 02_24_2016_SP20-1_0C_lowcurrentOCV.xls
+    25.0: 11_5_2015_low current OCV test_SP20-1.xlsx
+    45.0: 11_21_2015_low current OCV test_SP20-1.xlsx
+neural_results:
+  ema_root: /home/user/바탕화면/CEMA_SOC_ESTIMATION/nmc/deep_learning/nmc_goal_vcorr_it_train_dst_selector_results
+  tcn_root: /home/user/바탕화면/DL/CEMA-TCN/Results/g4_lopo3_lopo_heads/nmc_goal_vcorr_it_train_dst_selector_results
+  models:
+    Proposed_EMA_MLP_G4_residual: uniformw1_3l_bm_mlp_g4_r_{holdout}_s012_b2048_e200_seed*_sel200_*_test_prediction_rows.csv.gz
+    EMA_MLP_T6_residual: uniformw1_3l_rg_mlp_t6_r_{holdout}_s012_b2048_e200_seed*_sel200_*_test_prediction_rows.csv.gz
+    LSTM_T6_residual: uniformw1_3l_fa_lstm_t6_r_{holdout}_s012_b2048_e200_seed*_sel200_*_test_prediction_rows.csv.gz
+    GRU_T6_residual: uniformw1_3l_rg_gru_t6_r_{holdout}_s012_b2048_e200_seed*_sel200_*_test_prediction_rows.csv.gz
+    RNN_T6_residual: uniformw1_3l_rg_rnn_t6_r_{holdout}_s012_b2048_e200_seed*_sel200_*_test_prediction_rows.csv.gz
+    Transformer_T6_residual: uniformw1_3l_rg_tr_t6_r_{holdout}_s012_b2048_e200_seed*_sel200_*_test_prediction_rows.csv.gz
+    CEMA_TCN_G4_residual: cema_tcn_oneconv_3lopo_residual_g4_holdout{holdout}_s012_e160_seed*_sel160_*_test_prediction_rows.csv.gz

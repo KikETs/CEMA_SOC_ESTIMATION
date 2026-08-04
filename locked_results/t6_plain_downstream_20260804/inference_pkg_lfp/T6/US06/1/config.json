@@ -1,0 +1,97 @@
+{
+  "channels": [
+    "V_corr_raw",
+    "I_raw",
+    "T",
+    "V_corr_raw_ema50",
+    "V_corr_raw_dev_ema50",
+    "V_corr_raw_ema200",
+    "V_corr_raw_dev_ema200",
+    "V_corr_raw_ema800",
+    "V_corr_raw_dev_ema800"
+  ],
+  "chemistry": "LFP",
+  "dropout": 0.06,
+  "eval_mask": {
+    "additional_cutoff_or_mask": "none",
+    "prediction_end_indices": "window-1 through record_length-1 inclusive",
+    "reset_behavior": "49 NaN outputs after each reset, then stride-1 predictions",
+    "scope": "each_record_independently",
+    "warmup_samples": 49
+  },
+  "feature": "T6",
+  "feature_ema_taus_by_signal": {
+    "I_raw": [],
+    "V_corr_raw": [
+      50,
+      200,
+      800
+    ],
+    "absI": []
+  },
+  "feature_ema_taus_samples": [
+    50,
+    200,
+    800
+  ],
+  "fold": "US06",
+  "head": "plain_linear",
+  "hidden_size": 128,
+  "holdout_profile": "US06",
+  "inference_batch_size": 2048,
+  "inference_device_policy": "CUDA FP32 with TF32 disabled when available; CPU fallback",
+  "layers": 1,
+  "model": "GRU single sequence regressor",
+  "model_kind": "single",
+  "perturbation_order": "raw V/I noise and bias, then R0 correction, then Vcorr EMA and feature EMAs",
+  "raw_columns": {
+    "current": "Current(A)",
+    "temperature": "TempLabel",
+    "voltage": "Voltage(V)"
+  },
+  "recurrent": "gru",
+  "sampling_period_s": {
+    "nominal": 1.0,
+    "nonpositive_or_invalid_delta": "record median positive delta, else nominal",
+    "time_column_priority": [
+      "Step_Time(s)",
+      "Test_Time(s)",
+      "time_s"
+    ]
+  },
+  "schema_version": 2,
+  "source_feature_set": "paper_t6_voltage_ema_all",
+  "strides": {
+    "evaluation": 1,
+    "training": 3
+  },
+  "temperatures_C": [
+    -10,
+    0,
+    10,
+    20,
+    25,
+    30,
+    40,
+    50
+  ],
+  "train_profiles": [
+    "DST",
+    "FUDS"
+  ],
+  "training_recipe": {
+    "batch_size": 2048,
+    "epochs": 200,
+    "huber_beta": 0.02,
+    "lambda_anchor_loss": 0.0,
+    "lambda_condinv": 0.0,
+    "lambda_rex": 0.0,
+    "lr": 0.0008,
+    "stage1_selector": "last_epoch",
+    "uniform_temperature_weights": true,
+    "weight_decay": 0.0002
+  },
+  "vcorr_tau_s": 120.0,
+  "weights_file": "normalauxoff_lfp_gru_normal_t6_holdoutus06_s0123456789_b2048_e200_seed1_final_epoch200_weights.pt",
+  "window": 50
+}

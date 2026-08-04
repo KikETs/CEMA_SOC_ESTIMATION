@@ -1,0 +1,15 @@
+name: cema_soc_lfp_kf
+channels:
+  - defaults
+  - conda-forge
+dependencies:
+  # Build identifiers are intentionally omitted: they are platform-specific.
+  # The pinned package versions and OpenBLAS backend remain the numerical contract.
+  - python=3.12.0
+  - pip
+  - blas=1.0=openblas
+  - libopenblas=0.3.30
+  - numpy=2.3.4
+  - pandas=2.3.3
+  - pip:
+      - -r requirements_lfp_kf.txt

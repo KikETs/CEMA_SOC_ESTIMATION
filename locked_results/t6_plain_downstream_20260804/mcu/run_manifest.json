@@ -1,0 +1,11 @@
+{
+  "board": "NUCLEO-H563ZI",
+  "mcu": "STM32H563ZIT6 Cortex-M33 at 250 MHz",
+  "stedgeai": "4.0.1-20581; STM32CubeAI 12.0.1-RC2",
+  "precision": "FP32",
+  "models": 18,
+  "model_scope": "2 chemistries x 3 folds x seeds 0-2",
+  "network_measurement": "64 windows x 16 repetitions per model; DWT cycles",
+  "preprocessing_measurement": "representative one model per chemistry; same T6 operations across folds/seeds",
+  "all_gates_passed": true
+}

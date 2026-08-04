@@ -1,0 +1,9 @@
+execution_date=2026-07-25T13:18:30.749418+09:00
+os=Linux-6.17.0-40-generic-x86_64-with-glibc2.39
+cpu=x86_64
+python=3.12.0 | packaged by conda-forge | (main, Oct  3 2023, 08:43:22) [GCC 12.3.0]
+packages=numpy==2.3.4;pandas==3.0.1;torch==2.9.1+cu128;onnx==1.22.0;onnxruntime==1.24.3;serial==3.5
+instruction_file=external_request_snapshot
+instruction_sha256=1da4ddb530263129a8bd03b0c2660fbd212a2d6786034ae9f8c6f3a41f8e12bf
+deterministic_sampling=existing first 71 samples per record; 22 outputs after 49-sample warmup
+random_sampling=none

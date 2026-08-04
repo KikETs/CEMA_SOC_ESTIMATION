@@ -1,0 +1,5 @@
+gate,condition,observed,expected,abs_diff,tolerance,passed
+locked_hysteresis_ekf_slice_unweighted_mae,oracle,0.20710812286656874,0.20710812286657454,5.800915303666443e-15,1e-06,True
+locked_hysteresis_ekf_slice_unweighted_mae,minus5pp,1.4110274433742964,1.4110274433743026,6.217248937900877e-15,1e-06,True
+locked_hysteresis_ekf_slice_unweighted_mae,minus10pp,6.708057842173505,6.708057842173512,7.105427357601002e-15,1e-06,True
+T6_plain_10seed_headline_sanity,native,0.6446794003465546,0.644679,4.003465545743268e-07,1e-06,True

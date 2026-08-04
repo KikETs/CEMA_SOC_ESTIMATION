@@ -1,0 +1,8 @@
+item,python_reference,mcu_implementation,identical,quantified_effect_pct
+dt_source,"Step_Time(s), then Test_Time(s), else nominal 1 s; exp(-dt/120)",fixed nominal 1.0 s; timestamp not transmitted,False,0.011469887004986993
+temperature_source,TempLabel chamber scalar,benchmark host transmits TempLabel chamber scalar,True,0.0
+warmup,first 49 samples have no output,first 49 samples have ready=0,True,0.0
+reset,"discard Vcorr EMA, all channel EMAs, window",memset preprocessing state and input window,True,0.0
+r0_table_interpolation,training-fold table; linear endpoint hold,same constants; double linear endpoint hold,True,0.0
+scaler_constants,training-profile-only float32 mean/std,same float32 mean/std constants,True,0.0
+ema_precision,"float64 recurrence, float32 stored series","double recurrence state, float32 feature storage",True,0.0

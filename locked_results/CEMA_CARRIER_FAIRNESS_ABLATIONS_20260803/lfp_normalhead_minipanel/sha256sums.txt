@@ -1,0 +1,5 @@
+9c142cbd08102e20013e0401c0a70fa0736db8851bd003dfccc95d706fd77aef  ./golden_gate.csv
+87e19b6a8ac35b4906e087caa2b3b9fc7efeab350fa322640f06ea3bf56be2a8  ./paired_seed_ci.csv
+8d184707c49c889525e7857f1c5d68ebf3084b5a033fddd080c00d4c340ec14e  ./run_manifest.json
+1c0ebf784f4437e866230a4a1cf2e9d02152d6819d53365bcc873b0c18214bfe  ./seed_condition_mae.csv
+064c208efe308cb17d17f5e275276a84fd061d1be1580b35fb6fbb7e25dc8e06  ./seed_slice_unweighted_mae.csv

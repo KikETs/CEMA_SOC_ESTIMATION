@@ -1,0 +1,88 @@
+{
+  "anchor_indices": [
+    0,
+    2
+  ],
+  "channels": [
+    "V_corr_raw",
+    "I_raw",
+    "T",
+    "I_raw_ema50",
+    "I_raw_dev_ema50",
+    "I_raw_ema200",
+    "I_raw_dev_ema200",
+    "absI_ema50",
+    "absI_dev_ema50",
+    "absI_ema200",
+    "absI_dev_ema200"
+  ],
+  "dropout": 0.06,
+  "eval_mask": {
+    "additional_cutoff_or_mask": "none",
+    "prediction_end_indices": "window-1 through record_length-1 inclusive",
+    "reset_behavior": "49 NaN outputs after each reset, then stride-1 predictions",
+    "scope": "each_record_independently",
+    "warmup_samples": 49
+  },
+  "feature": "T7",
+  "feature_ema_taus_by_signal": {
+    "I_raw": [],
+    "V_corr_raw": [
+      50,
+      200,
+      800
+    ],
+    "absI": []
+  },
+  "feature_ema_taus_samples": [
+    50,
+    200,
+    800
+  ],
+  "fold": "DST",
+  "head": "residual",
+  "hidden_size": 128,
+  "holdout_profile": "DST",
+  "inference_batch_size": 2048,
+  "layers": 1,
+  "model": "GRU anchor-residual sequence",
+  "perturbation_order": "raw V/I noise and bias, then R0 correction, then Vcorr EMA and feature EMAs",
+  "raw_columns": {
+    "current": "Current(A)",
+    "temperature": "TempLabel",
+    "voltage": "Voltage(V)"
+  },
+  "residual_limit_mode": "learnable",
+  "sampling_period_s": {
+    "nominal": 1.0,
+    "nonpositive_or_invalid_delta": "record median positive delta, else nominal",
+    "time_column_priority": [
+      "Step_Time(s)",
+      "Test_Time(s)",
+      "time_s"
+    ]
+  },
+  "schema_version": 1,
+  "source_feature_set": "paper_t7_current_abs_ema_all",
+  "strides": {
+    "evaluation": 1,
+    "training": 3
+  },
+  "temperatures_C": [
+    -10,
+    0,
+    10,
+    20,
+    25,
+    30,
+    40,
+    50
+  ],
+  "train_profiles": [
+    "FUDS",
+    "US06"
+  ],
+  "vcorr_tau_s": 120.0,
+  "weights_file": "lfpconfirm_all8_train_all8_test_tier1_gru_residual_t7_holdoutdst_s012_b2048_e200_seed0_final_epoch200_weights.pt",
+  "window": 50
+}

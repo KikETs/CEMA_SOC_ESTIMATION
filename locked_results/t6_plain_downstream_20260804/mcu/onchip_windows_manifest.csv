@@ -1,0 +1,19 @@
+model,chemistry,feature,fold,seed,n_windows,shape,file
+nmc_t6plain_dst_s0,NMC,T6PLAIN,DST,0,64,"[64, 50, 9]",onchip_windows/nmc_t6plain_dst_s0.npz
+nmc_t6plain_dst_s1,NMC,T6PLAIN,DST,1,64,"[64, 50, 9]",onchip_windows/nmc_t6plain_dst_s1.npz
+nmc_t6plain_dst_s2,NMC,T6PLAIN,DST,2,64,"[64, 50, 9]",onchip_windows/nmc_t6plain_dst_s2.npz
+nmc_t6plain_fuds_s0,NMC,T6PLAIN,FUDS,0,64,"[64, 50, 9]",onchip_windows/nmc_t6plain_fuds_s0.npz
+nmc_t6plain_fuds_s1,NMC,T6PLAIN,FUDS,1,64,"[64, 50, 9]",onchip_windows/nmc_t6plain_fuds_s1.npz
+nmc_t6plain_fuds_s2,NMC,T6PLAIN,FUDS,2,64,"[64, 50, 9]",onchip_windows/nmc_t6plain_fuds_s2.npz
+nmc_t6plain_us06_s0,NMC,T6PLAIN,US06,0,64,"[64, 50, 9]",onchip_windows/nmc_t6plain_us06_s0.npz
+nmc_t6plain_us06_s1,NMC,T6PLAIN,US06,1,64,"[64, 50, 9]",onchip_windows/nmc_t6plain_us06_s1.npz
+nmc_t6plain_us06_s2,NMC,T6PLAIN,US06,2,64,"[64, 50, 9]",onchip_windows/nmc_t6plain_us06_s2.npz
+lfp_t6plain_dst_s0,LFP,T6PLAIN,DST,0,64,"[64, 50, 9]",onchip_windows/lfp_t6plain_dst_s0.npz
+lfp_t6plain_dst_s1,LFP,T6PLAIN,DST,1,64,"[64, 50, 9]",onchip_windows/lfp_t6plain_dst_s1.npz
+lfp_t6plain_dst_s2,LFP,T6PLAIN,DST,2,64,"[64, 50, 9]",onchip_windows/lfp_t6plain_dst_s2.npz
+lfp_t6plain_fuds_s0,LFP,T6PLAIN,FUDS,0,64,"[64, 50, 9]",onchip_windows/lfp_t6plain_fuds_s0.npz
+lfp_t6plain_fuds_s1,LFP,T6PLAIN,FUDS,1,64,"[64, 50, 9]",onchip_windows/lfp_t6plain_fuds_s1.npz
+lfp_t6plain_fuds_s2,LFP,T6PLAIN,FUDS,2,64,"[64, 50, 9]",onchip_windows/lfp_t6plain_fuds_s2.npz
+lfp_t6plain_us06_s0,LFP,T6PLAIN,US06,0,64,"[64, 50, 9]",onchip_windows/lfp_t6plain_us06_s0.npz
+lfp_t6plain_us06_s1,LFP,T6PLAIN,US06,1,64,"[64, 50, 9]",onchip_windows/lfp_t6plain_us06_s1.npz
+lfp_t6plain_us06_s2,LFP,T6PLAIN,US06,2,64,"[64, 50, 9]",onchip_windows/lfp_t6plain_us06_s2.npz

@@ -1,0 +1,95 @@
+{
+  "chemistry": "LFP",
+  "comparators": {
+    "SMA9": "base V_corr/I/T plus causal voltage SMA/deviation at 50, 200, 800 samples",
+    "RAW_W200": "V_corr/I/T three-channel sequence with window 200",
+    "RAW_W800": "V_corr/I/T three-channel sequence with window 800",
+    "T6_plain": "locked source reference; no retraining in C1"
+  },
+  "recipe": {
+    "head": "plain_linear",
+    "aux_losses": "all_zero",
+    "seeds": [
+      0,
+      1,
+      2
+    ],
+    "epochs": 200,
+    "batch_size_requested": 2048,
+    "RAW_W800_execution": "microbatch 1024 x gradient accumulation 2; effective batch 2048",
+    "stride_train_eval": [
+      3,
+      1
+    ],
+    "final_epoch_only": true
+  },
+  "harness_provenance": {
+    "original_read_only_path": "/home/user/\ubc14\ud0d5\ud654\uba74/DL/CEMA_SOC_REVIEW_DEFENSE_C/c1_baselines/source_repo/soc_decomp/nmc_vcorr_it_train_dst_selector_run.py",
+    "original_sha256": "643e880d5e09d7e5d25ee879b86b468194fa1c515e3a36676ba7649e838fc6b2",
+    "campaign_copy_path": "/home/user/\ubc14\ud0d5\ud654\uba74/DL/CEMA_CARRIER_FAIRNESS_ABLATIONS_20260803/t6_plain_downstream_20260804/c1_baselines/source_repo/soc_decomp/nmc_vcorr_it_train_dst_selector_run.py",
+    "campaign_copy_sha256": "48ce37f66942011bddc6c0865885c971423e41e46adfe86592ef847051ddbee1",
+    "only_behavioral_change": "RAW-W800 optimizer step every two 1024-sample microbatches"
+  },
+  "source_files": [
+    {
+      "path": "/home/user/\ubc14\ud0d5\ud654\uba74/DL/CEMA_CARRIER_FAIRNESS_ABLATIONS_20260803/t6_plain_downstream_20260804/c1_baselines/runs/c1_baselines/nmc_goal_vcorr_it_train_dst_selector_results/t6plain_c1_all8_train_all8_test_gru_normal_auxoff_raw_w200_holdoutdst_s012_b2048_e200_by_temperature.csv",
+      "size_bytes": 7365,
+      "sha256": "25ae456e5085ac2f1f73e1d1670922b1a176bf1049343e9227ff476cddc7dd4c"
+    },
+    {
+      "path": "/home/user/\ubc14\ud0d5\ud654\uba74/DL/CEMA_CARRIER_FAIRNESS_ABLATIONS_20260803/t6_plain_downstream_20260804/c1_baselines/runs/c1_baselines/nmc_goal_vcorr_it_train_dst_selector_results/t6plain_c1_all8_train_all8_test_gru_normal_auxoff_raw_w200_holdoutfuds_s012_b2048_e200_by_temperature.csv",
+      "size_bytes": 7327,
+      "sha256": "ae467b1855e421a61030f97167176902c8a0bdd85df563e26b79d686756a5c98"
+    },
+    {
+      "path": "/home/user/\ubc14\ud0d5\ud654\uba74/DL/CEMA_CARRIER_FAIRNESS_ABLATIONS_20260803/t6_plain_downstream_20260804/c1_baselines/runs/c1_baselines/nmc_goal_vcorr_it_train_dst_selector_results/t6plain_c1_all8_train_all8_test_gru_normal_auxoff_raw_w200_holdoutus06_s012_b2048_e200_by_temperature.csv",
+      "size_bytes": 7355,
+      "sha256": "1ddead0fe42d9ce44dc0d132b6e31114b4935c0e5a8b853ffd6fd669dfbdec03"
+    },
+    {
+      "path": "/home/user/\ubc14\ud0d5\ud654\uba74/DL/CEMA_CARRIER_FAIRNESS_ABLATIONS_20260803/t6_plain_downstream_20260804/c1_baselines/runs/c1_baselines/nmc_goal_vcorr_it_train_dst_selector_results/t6plain_c1_all8_train_all8_test_gru_normal_auxoff_raw_w800_holdoutdst_s012_b2048_e200_by_temperature.csv",
+      "size_bytes": 7387,
+      "sha256": "519e48ee6d8fe073e5a63ba23fccb187d491ee3a9305578fde7c4696f4d46e89"
+    },
+    {
+      "path": "/home/user/\ubc14\ud0d5\ud654\uba74/DL/CEMA_CARRIER_FAIRNESS_ABLATIONS_20260803/t6_plain_downstream_20260804/c1_baselines/runs/c1_baselines/nmc_goal_vcorr_it_train_dst_selector_results/t6plain_c1_all8_train_all8_test_gru_normal_auxoff_raw_w800_holdoutfuds_s012_b2048_e200_by_temperature.csv",
+      "size_bytes": 7391,
+      "sha256": "624c99e8b9b7fd275c3a4f2766d2bd608457ce8e8a25af7ffb5aa09906f3fa30"
+    },
+    {
+      "path": "/home/user/\ubc14\ud0d5\ud654\uba74/DL/CEMA_CARRIER_FAIRNESS_ABLATIONS_20260803/t6_plain_downstream_20260804/c1_baselines/runs/c1_baselines/nmc_goal_vcorr_it_train_dst_selector_results/t6plain_c1_all8_train_all8_test_gru_normal_auxoff_raw_w800_holdoutus06_s012_b2048_e200_by_temperature.csv",
+      "size_bytes": 7375,
+      "sha256": "ec2f8c18dce9bab9659a9330e75643d8713decfab714ef5860df149bc6087716"
+    },
+    {
+      "path": "/home/user/\ubc14\ud0d5\ud654\uba74/DL/CEMA_CARRIER_FAIRNESS_ABLATIONS_20260803/t6_plain_downstream_20260804/c1_baselines/runs/c1_baselines/nmc_goal_vcorr_it_train_dst_selector_results/t6plain_c1_all8_train_all8_test_gru_normal_auxoff_sma9_holdoutdst_s012_b2048_e200_by_temperature.csv",
+      "size_bytes": 7407,
+      "sha256": "2dc7d016b9df582dec223459f6c3aad1e7cd2555ce8cf5cfbe2c71aea8cac346"
+    },
+    {
+      "path": "/home/user/\ubc14\ud0d5\ud654\uba74/DL/CEMA_CARRIER_FAIRNESS_ABLATIONS_20260803/t6_plain_downstream_20260804/c1_baselines/runs/c1_baselines/nmc_goal_vcorr_it_train_dst_selector_results/t6plain_c1_all8_train_all8_test_gru_normal_auxoff_sma9_holdoutfuds_s012_b2048_e200_by_temperature.csv",
+      "size_bytes": 7343,
+      "sha256": "0ae9937cdb0490f7bc2017374560804c89d7fe51694dd4ed22c4c4caf30f4ba5"
+    },
+    {
+      "path": "/home/user/\ubc14\ud0d5\ud654\uba74/DL/CEMA_CARRIER_FAIRNESS_ABLATIONS_20260803/t6_plain_downstream_20260804/c1_baselines/runs/c1_baselines/nmc_goal_vcorr_it_train_dst_selector_results/t6plain_c1_all8_train_all8_test_gru_normal_auxoff_sma9_holdoutus06_s012_b2048_e200_by_temperature.csv",
+      "size_bytes": 7407,
+      "sha256": "dcf8747f11efcc01779b70d6f6acddbeb5e1e91e063af8685c61588674984c89"
+    },
+    {
+      "path": "/home/user/\ubc14\ud0d5\ud654\uba74/DL/CEMA_CARRIER_FAIRNESS_ABLATIONS_20260803/normalhead_auxoff/runs/lfp/nmc_goal_vcorr_it_train_dst_selector_results/normalauxoff_lfp_gru_normal_t6_holdoutdst_s0123456789_b2048_e200_by_temperature.csv",
+      "size_bytes": 24417,
+      "sha256": "3e74db52778af0f109530a67295eb2c0fb347ff640ee05011272eedb3825c04c"
+    },
+    {
+      "path": "/home/user/\ubc14\ud0d5\ud654\uba74/DL/CEMA_CARRIER_FAIRNESS_ABLATIONS_20260803/normalhead_auxoff/runs/lfp/nmc_goal_vcorr_it_train_dst_selector_results/normalauxoff_lfp_gru_normal_t6_holdoutfuds_s0123456789_b2048_e200_by_temperature.csv",
+      "size_bytes": 24273,
+      "sha256": "63e8c726c52ee0cdf09c025a57f6c330b1748954751dcb31de885d1b6ea878de"
+    },
+    {
+      "path": "/home/user/\ubc14\ud0d5\ud654\uba74/DL/CEMA_CARRIER_FAIRNESS_ABLATIONS_20260803/normalhead_auxoff/runs/lfp/nmc_goal_vcorr_it_train_dst_selector_results/normalauxoff_lfp_gru_normal_t6_holdoutus06_s0123456789_b2048_e200_by_temperature.csv",
+      "size_bytes": 24355,
+      "sha256": "4c8d12c9167bf3a586207eba06b6e5af572a562b3929854803820ba132a15cc0"
+    }
+  ]
+}

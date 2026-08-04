@@ -1,0 +1,17 @@
+mitigation,applied,where,mae_before_pct,mae_after_pct,note
+kahan_or_double_accumulator_for_cc,False,NMC: CC propagation,MISSING_not_measured,MISSING_not_measured,CC uses direct FP32 accumulation
+expm1_for_rc_discretization,False,NMC: RC propagation,MISSING_not_measured,MISSING_not_measured,"uses exp(-dt/tau), not expm1"
+joseph_form_covariance_update,True,NMC: EKF update,MISSING_not_measured,MISSING_not_measured,A*P*A^T + K*R*K^T
+explicit_symmetrization,True,NMC: EKF/UKF covariance,MISSING_not_measured,MISSING_not_measured,symmetrize() after update
+eigen_or_diagonal_floor_on_P,True,NMC: NMC PSD projection; LFP diagonal clamp; UKF PSD projection,MISSING_not_measured,MISSING_not_measured,backend differs from NumPy LAPACK
+double_precision_for_covariance_only,False,NMC: not covariance-only,MISSING_not_measured,MISSING_not_measured,"entire EKF/UKF state, covariance, assets and transport use FP64"
+ocv_table_precision_upgrade,True,NMC: compiled OCV/ECM assets,MISSING_not_measured,MISSING_not_measured,EKF/UKF assets stored as FP64; no before/after ablation
+innovation_gating,False,NMC: measurement update,MISSING_not_measured,MISSING_not_measured,innovation variance floor exists; no residual gate
+kahan_or_double_accumulator_for_cc,False,LFP: CC propagation,MISSING_not_measured,MISSING_not_measured,CC uses direct FP32 accumulation
+expm1_for_rc_discretization,False,LFP: RC propagation,MISSING_not_measured,MISSING_not_measured,"uses exp(-dt/tau), not expm1"
+joseph_form_covariance_update,True,LFP: EKF update,MISSING_not_measured,MISSING_not_measured,A*P*A^T + K*R*K^T
+explicit_symmetrization,True,LFP: EKF/UKF covariance,MISSING_not_measured,MISSING_not_measured,symmetrize() after update
+eigen_or_diagonal_floor_on_P,True,LFP: NMC PSD projection; LFP diagonal clamp; UKF PSD projection,MISSING_not_measured,MISSING_not_measured,backend differs from NumPy LAPACK
+double_precision_for_covariance_only,False,LFP: not covariance-only,MISSING_not_measured,MISSING_not_measured,"entire EKF/UKF state, covariance, assets and transport use FP64"
+ocv_table_precision_upgrade,True,LFP: compiled OCV/ECM assets,MISSING_not_measured,MISSING_not_measured,EKF/UKF assets stored as FP64; no before/after ablation
+innovation_gating,False,LFP: measurement update,MISSING_not_measured,MISSING_not_measured,innovation variance floor exists; no residual gate

@@ -1,0 +1,3 @@
+model,precision,clock_mhz,n_reps,cycles_median,cycles_p90,cycles_max,us_median,us_p90,estimates_per_second,includes_preprocessing,network_cycles_median,preprocessing_window_cycles_median,preprocessing_window_us_median,warmup_outputs_discarded,latency_temperature_C,chemistry,feature,fold,seed,status
+nmc_t6plain_dst_s0,fp32,250.0,1024,47959700.0,47975642.3,47981621,191838.8,191902.5692,5.212709837634514,True,47936629.5,23075.0,92.3,10,0,NMC,T6PLAIN,DST,0,PASS
+lfp_t6plain_dst_s0,fp32,250.0,1024,47947243.0,47996805.8,48003415,191788.972,191987.22319999998,5.214064132947123,True,47924174.5,23065.0,92.26,10,-10,LFP,T6PLAIN,DST,0,PASS

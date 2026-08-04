@@ -1,0 +1,282 @@
+{
+  "experiment": "B_auxiliary_loss_ablation",
+  "analysis_stage": "review_defense_retraining",
+  "locked_reference": {
+    "LFP": "${SOURCE_WORKSPACE}/LFP_REMOTE_EXACT_COPY_20260713/DL/CEMA_LFP/lfp_confirmatory_minipanel",
+    "NMC_uniform_weight": "${SOURCE_WORKSPACE}/DL/CEMA_MLP_3LOPO_UNIFORMW_FULLGRID"
+  },
+  "run_manifests": [
+    {
+      "experiment": "B_auxiliary_loss_ablation",
+      "analysis_stage": "review_defense_retraining",
+      "chemistry": "LFP",
+      "aux_config": "anchor_only",
+      "source_runner": "${SOURCE_WORKSPACE}/LFP_REMOTE_EXACT_COPY_20260713/DL/CEMA_LFP/lfp_confirmatory_minipanel/Scripts/run_confirmatory_minipanel.py",
+      "source_runner_sha256": "3a5a18ca85849b57306c595e350625867eaf3859fcd6ac96bd34eeb2e56b6c4e",
+      "training_harness": "${SOURCE_WORKSPACE}/LFP_REMOTE_EXACT_COPY_20260713/DL/CEMA_LFP/lfp_confirmatory_minipanel/source_repo/soc_decomp/nmc_vcorr_it_train_dst_selector_run.py",
+      "training_harness_sha256": "643e880d5e09d7e5d25ee879b86b468194fa1c515e3a36676ba7649e838fc6b2",
+      "jobs": [
+        {
+          "chemistry": "LFP",
+          "aux_config": "anchor_only",
+          "feature": "T6",
+          "fold": "DST",
+          "prefix": "fairB_lfp_anchor_only_gru_residual_t6_holdoutdst_s012_b2048_e200",
+          "status": "complete",
+          "elapsed_seconds": 199.95626783370972
+        },
+        {
+          "chemistry": "LFP",
+          "aux_config": "anchor_only",
+          "feature": "T6",
+          "fold": "FUDS",
+          "prefix": "fairB_lfp_anchor_only_gru_residual_t6_holdoutfuds_s012_b2048_e200",
+          "status": "complete",
+          "elapsed_seconds": 198.86440324783325
+        },
+        {
+          "chemistry": "LFP",
+          "aux_config": "anchor_only",
+          "feature": "T6",
+          "fold": "US06",
+          "prefix": "fairB_lfp_anchor_only_gru_residual_t6_holdoutus06_s012_b2048_e200",
+          "status": "complete",
+          "elapsed_seconds": 206.78737235069275
+        },
+        {
+          "chemistry": "LFP",
+          "aux_config": "anchor_only",
+          "feature": "G4",
+          "fold": "DST",
+          "prefix": "fairB_lfp_anchor_only_gru_residual_g4_holdoutdst_s012_b2048_e200",
+          "status": "complete",
+          "elapsed_seconds": 200.09596014022827
+        },
+        {
+          "chemistry": "LFP",
+          "aux_config": "anchor_only",
+          "feature": "G4",
+          "fold": "FUDS",
+          "prefix": "fairB_lfp_anchor_only_gru_residual_g4_holdoutfuds_s012_b2048_e200",
+          "status": "complete",
+          "elapsed_seconds": 198.92797708511353
+        },
+        {
+          "chemistry": "LFP",
+          "aux_config": "anchor_only",
+          "feature": "G4",
+          "fold": "US06",
+          "prefix": "fairB_lfp_anchor_only_gru_residual_g4_holdoutus06_s012_b2048_e200",
+          "status": "complete",
+          "elapsed_seconds": 206.31854510307312
+        }
+      ]
+    },
+    {
+      "experiment": "B_auxiliary_loss_ablation",
+      "analysis_stage": "review_defense_retraining",
+      "chemistry": "LFP",
+      "aux_config": "aux_all_off",
+      "source_runner": "${SOURCE_WORKSPACE}/LFP_REMOTE_EXACT_COPY_20260713/DL/CEMA_LFP/lfp_confirmatory_minipanel/Scripts/run_confirmatory_minipanel.py",
+      "source_runner_sha256": "3a5a18ca85849b57306c595e350625867eaf3859fcd6ac96bd34eeb2e56b6c4e",
+      "training_harness": "${SOURCE_WORKSPACE}/LFP_REMOTE_EXACT_COPY_20260713/DL/CEMA_LFP/lfp_confirmatory_minipanel/source_repo/soc_decomp/nmc_vcorr_it_train_dst_selector_run.py",
+      "training_harness_sha256": "643e880d5e09d7e5d25ee879b86b468194fa1c515e3a36676ba7649e838fc6b2",
+      "jobs": [
+        {
+          "chemistry": "LFP",
+          "aux_config": "aux_all_off",
+          "feature": "T6",
+          "fold": "DST",
+          "prefix": "fairB_lfp_aux_all_off_gru_residual_t6_holdoutdst_s012_b2048_e200",
+          "status": "complete",
+          "elapsed_seconds": 192.72449922561646
+        },
+        {
+          "chemistry": "LFP",
+          "aux_config": "aux_all_off",
+          "feature": "T6",
+          "fold": "FUDS",
+          "prefix": "fairB_lfp_aux_all_off_gru_residual_t6_holdoutfuds_s012_b2048_e200",
+          "status": "complete",
+          "elapsed_seconds": 191.57266664505005
+        },
+        {
+          "chemistry": "LFP",
+          "aux_config": "aux_all_off",
+          "feature": "T6",
+          "fold": "US06",
+          "prefix": "fairB_lfp_aux_all_off_gru_residual_t6_holdoutus06_s012_b2048_e200",
+          "status": "complete",
+          "elapsed_seconds": 198.76645159721375
+        },
+        {
+          "chemistry": "LFP",
+          "aux_config": "aux_all_off",
+          "feature": "G4",
+          "fold": "DST",
+          "prefix": "fairB_lfp_aux_all_off_gru_residual_g4_holdoutdst_s012_b2048_e200",
+          "status": "complete",
+          "elapsed_seconds": 192.45607042312622
+        },
+        {
+          "chemistry": "LFP",
+          "aux_config": "aux_all_off",
+          "feature": "G4",
+          "fold": "FUDS",
+          "prefix": "fairB_lfp_aux_all_off_gru_residual_g4_holdoutfuds_s012_b2048_e200",
+          "status": "complete",
+          "elapsed_seconds": 191.43850135803223
+        },
+        {
+          "chemistry": "LFP",
+          "aux_config": "aux_all_off",
+          "feature": "G4",
+          "fold": "US06",
+          "prefix": "fairB_lfp_aux_all_off_gru_residual_g4_holdoutus06_s012_b2048_e200",
+          "status": "complete",
+          "elapsed_seconds": 198.60209798812866
+        }
+      ]
+    },
+    {
+      "experiment": "B_auxiliary_loss_ablation",
+      "analysis_stage": "review_defense_retraining",
+      "chemistry": "NMC",
+      "aux_config": "anchor_only",
+      "source_runner": "${SOURCE_WORKSPACE}/DL/CEMA_MLP_OCVSTART_FULLGRID/Scripts/run_ocvstart_3lopo_fullgrid.py",
+      "source_runner_sha256": "40b7e85d9aeb34ce075bbd4a53a96eb9cc2364880ee63b56b045d74b54016a2e",
+      "training_harness": "${SOURCE_WORKSPACE}/DL/CEMA_MLP_OCVSTART_FULLGRID/soc_decomp/nmc_vcorr_it_train_dst_selector_run.py",
+      "training_harness_sha256": "a6d097ae68f83d269a96e7ea3491041ec091c13e0fef74673959ec205650b4e1",
+      "jobs": [
+        {
+          "chemistry": "NMC",
+          "aux_config": "anchor_only",
+          "feature": "T6",
+          "fold": "DST",
+          "prefix": "fairB_nmc_anchor_only_gru_residual_t6_holdoutdst_s012_b2048_e200",
+          "status": "complete",
+          "elapsed_seconds": 97.54946541786194
+        },
+        {
+          "chemistry": "NMC",
+          "aux_config": "anchor_only",
+          "feature": "T6",
+          "fold": "FUDS",
+          "prefix": "fairB_nmc_anchor_only_gru_residual_t6_holdoutfuds_s012_b2048_e200",
+          "status": "complete",
+          "elapsed_seconds": 95.84159636497498
+        },
+        {
+          "chemistry": "NMC",
+          "aux_config": "anchor_only",
+          "feature": "T6",
+          "fold": "US06",
+          "prefix": "fairB_nmc_anchor_only_gru_residual_t6_holdoutus06_s012_b2048_e200",
+          "status": "complete",
+          "elapsed_seconds": 97.08774924278259
+        },
+        {
+          "chemistry": "NMC",
+          "aux_config": "anchor_only",
+          "feature": "G4",
+          "fold": "DST",
+          "prefix": "fairB_nmc_anchor_only_gru_residual_g4_holdoutdst_s012_b2048_e200",
+          "status": "complete",
+          "elapsed_seconds": 96.73101282119751
+        },
+        {
+          "chemistry": "NMC",
+          "aux_config": "anchor_only",
+          "feature": "G4",
+          "fold": "FUDS",
+          "prefix": "fairB_nmc_anchor_only_gru_residual_g4_holdoutfuds_s012_b2048_e200",
+          "status": "complete",
+          "elapsed_seconds": 95.81276202201843
+        },
+        {
+          "chemistry": "NMC",
+          "aux_config": "anchor_only",
+          "feature": "G4",
+          "fold": "US06",
+          "prefix": "fairB_nmc_anchor_only_gru_residual_g4_holdoutus06_s012_b2048_e200",
+          "status": "complete",
+          "elapsed_seconds": 96.97088980674744
+        }
+      ]
+    },
+    {
+      "experiment": "B_auxiliary_loss_ablation",
+      "analysis_stage": "review_defense_retraining",
+      "chemistry": "NMC",
+      "aux_config": "aux_all_off",
+      "source_runner": "${SOURCE_WORKSPACE}/DL/CEMA_MLP_OCVSTART_FULLGRID/Scripts/run_ocvstart_3lopo_fullgrid.py",
+      "source_runner_sha256": "40b7e85d9aeb34ce075bbd4a53a96eb9cc2364880ee63b56b045d74b54016a2e",
+      "training_harness": "${SOURCE_WORKSPACE}/DL/CEMA_MLP_OCVSTART_FULLGRID/soc_decomp/nmc_vcorr_it_train_dst_selector_run.py",
+      "training_harness_sha256": "a6d097ae68f83d269a96e7ea3491041ec091c13e0fef74673959ec205650b4e1",
+      "jobs": [
+        {
+          "chemistry": "NMC",
+          "aux_config": "aux_all_off",
+          "feature": "T6",
+          "fold": "DST",
+          "prefix": "fairB_nmc_aux_all_off_gru_residual_t6_holdoutdst_s012_b2048_e200",
+          "status": "complete",
+          "elapsed_seconds": 92.87723875045776
+        },
+        {
+          "chemistry": "NMC",
+          "aux_config": "aux_all_off",
+          "feature": "T6",
+          "fold": "FUDS",
+          "prefix": "fairB_nmc_aux_all_off_gru_residual_t6_holdoutfuds_s012_b2048_e200",
+          "status": "complete",
+          "elapsed_seconds": 91.23168587684631
+        },
+        {
+          "chemistry": "NMC",
+          "aux_config": "aux_all_off",
+          "feature": "T6",
+          "fold": "US06",
+          "prefix": "fairB_nmc_aux_all_off_gru_residual_t6_holdoutus06_s012_b2048_e200",
+          "status": "complete",
+          "elapsed_seconds": 92.41736316680908
+        },
+        {
+          "chemistry": "NMC",
+          "aux_config": "aux_all_off",
+          "feature": "G4",
+          "fold": "DST",
+          "prefix": "fairB_nmc_aux_all_off_gru_residual_g4_holdoutdst_s012_b2048_e200",
+          "status": "complete",
+          "elapsed_seconds": 91.90444612503052
+        },
+        {
+          "chemistry": "NMC",
+          "aux_config": "aux_all_off",
+          "feature": "G4",
+          "fold": "FUDS",
+          "prefix": "fairB_nmc_aux_all_off_gru_residual_g4_holdoutfuds_s012_b2048_e200",
+          "status": "complete",
+          "elapsed_seconds": 91.052081823349
+        },
+        {
+          "chemistry": "NMC",
+          "aux_config": "aux_all_off",
+          "feature": "G4",
+          "fold": "US06",
+          "prefix": "fairB_nmc_aux_all_off_gru_residual_g4_holdoutus06_s012_b2048_e200",
+          "status": "complete",
+          "elapsed_seconds": 92.20891809463501
+        }
+      ]
+    }
+  ],
+  "coverage": {
+    "condition_rows": 594,
+    "seed_slice_rows": 36,
+    "new_aux_configs": [
+      "anchor_only",
+      "aux_all_off"
+    ]
+  }
+}

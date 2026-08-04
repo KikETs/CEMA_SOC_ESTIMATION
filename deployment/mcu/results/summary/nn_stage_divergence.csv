@@ -1,0 +1,316 @@
+chemistry,feature,fold,seed,stage,max_abs_rel_diff,note
+NMC,G4,DST,0,vcorr_ema,0.0,PC proxy of MCU C arithmetic compared with frozen Python feature builder; no on-chip intermediate capture
+NMC,G4,DST,0,channel_ema_50,0.0,PC proxy of MCU C arithmetic compared with frozen Python feature builder; no on-chip intermediate capture
+NMC,G4,DST,0,channel_ema_200,0.0,PC proxy of MCU C arithmetic compared with frozen Python feature builder; no on-chip intermediate capture
+NMC,G4,DST,0,channel_ema_800,0.0,PC proxy of MCU C arithmetic compared with frozen Python feature builder; no on-chip intermediate capture
+NMC,G4,DST,0,dev_channels,0.0,PC proxy of MCU C arithmetic compared with frozen Python feature builder; no on-chip intermediate capture
+NMC,G4,DST,0,scaler_out,0.0,PC proxy of MCU C arithmetic compared with frozen Python feature builder; no on-chip intermediate capture
+NMC,G4,DST,0,network_out,2.352400401198961e-07,Measured on chip; 66 deterministic outputs
+NMC,G4,DST,1,vcorr_ema,0.0,PC proxy of MCU C arithmetic compared with frozen Python feature builder; no on-chip intermediate capture
+NMC,G4,DST,1,channel_ema_50,0.0,PC proxy of MCU C arithmetic compared with frozen Python feature builder; no on-chip intermediate capture
+NMC,G4,DST,1,channel_ema_200,0.0,PC proxy of MCU C arithmetic compared with frozen Python feature builder; no on-chip intermediate capture
+NMC,G4,DST,1,channel_ema_800,0.0,PC proxy of MCU C arithmetic compared with frozen Python feature builder; no on-chip intermediate capture
+NMC,G4,DST,1,dev_channels,0.0,PC proxy of MCU C arithmetic compared with frozen Python feature builder; no on-chip intermediate capture
+NMC,G4,DST,1,scaler_out,0.0,PC proxy of MCU C arithmetic compared with frozen Python feature builder; no on-chip intermediate capture
+NMC,G4,DST,1,network_out,2.138721603876717e-07,Measured on chip; 66 deterministic outputs
+NMC,G4,DST,2,vcorr_ema,0.0,PC proxy of MCU C arithmetic compared with frozen Python feature builder; no on-chip intermediate capture
+NMC,G4,DST,2,channel_ema_50,0.0,PC proxy of MCU C arithmetic compared with frozen Python feature builder; no on-chip intermediate capture
+NMC,G4,DST,2,channel_ema_200,0.0,PC proxy of MCU C arithmetic compared with frozen Python feature builder; no on-chip intermediate capture
+NMC,G4,DST,2,channel_ema_800,0.0,PC proxy of MCU C arithmetic compared with frozen Python feature builder; no on-chip intermediate capture
+NMC,G4,DST,2,dev_channels,0.0,PC proxy of MCU C arithmetic compared with frozen Python feature builder; no on-chip intermediate capture
+NMC,G4,DST,2,scaler_out,0.0,PC proxy of MCU C arithmetic compared with frozen Python feature builder; no on-chip intermediate capture
+NMC,G4,DST,2,network_out,2.0464562737348006e-07,Measured on chip; 66 deterministic outputs
+NMC,G4,FUDS,0,vcorr_ema,0.0,PC proxy of MCU C arithmetic compared with frozen Python feature builder; no on-chip intermediate capture
+NMC,G4,FUDS,0,channel_ema_50,0.0,PC proxy of MCU C arithmetic compared with frozen Python feature builder; no on-chip intermediate capture
+NMC,G4,FUDS,0,channel_ema_200,0.0,PC proxy of MCU C arithmetic compared with frozen Python feature builder; no on-chip intermediate capture
+NMC,G4,FUDS,0,channel_ema_800,0.0,PC proxy of MCU C arithmetic compared with frozen Python feature builder; no on-chip intermediate capture
+NMC,G4,FUDS,0,dev_channels,0.0,PC proxy of MCU C arithmetic compared with frozen Python feature builder; no on-chip intermediate capture
+NMC,G4,FUDS,0,scaler_out,0.0,PC proxy of MCU C arithmetic compared with frozen Python feature builder; no on-chip intermediate capture
+NMC,G4,FUDS,0,network_out,1.7352530208658948e-07,Measured on chip; 66 deterministic outputs
+NMC,G4,FUDS,1,vcorr_ema,0.0,PC proxy of MCU C arithmetic compared with frozen Python feature builder; no on-chip intermediate capture
+NMC,G4,FUDS,1,channel_ema_50,0.0,PC proxy of MCU C arithmetic compared with frozen Python feature builder; no on-chip intermediate capture
+NMC,G4,FUDS,1,channel_ema_200,0.0,PC proxy of MCU C arithmetic compared with frozen Python feature builder; no on-chip intermediate capture
+NMC,G4,FUDS,1,channel_ema_800,0.0,PC proxy of MCU C arithmetic compared with frozen Python feature builder; no on-chip intermediate capture
+NMC,G4,FUDS,1,dev_channels,0.0,PC proxy of MCU C arithmetic compared with frozen Python feature builder; no on-chip intermediate capture
+NMC,G4,FUDS,1,scaler_out,0.0,PC proxy of MCU C arithmetic compared with frozen Python feature builder; no on-chip intermediate capture
+NMC,G4,FUDS,1,network_out,1.739091695662077e-07,Measured on chip; 66 deterministic outputs
+NMC,G4,FUDS,2,vcorr_ema,0.0,PC proxy of MCU C arithmetic compared with frozen Python feature builder; no on-chip intermediate capture
+NMC,G4,FUDS,2,channel_ema_50,0.0,PC proxy of MCU C arithmetic compared with frozen Python feature builder; no on-chip intermediate capture
+NMC,G4,FUDS,2,channel_ema_200,0.0,PC proxy of MCU C arithmetic compared with frozen Python feature builder; no on-chip intermediate capture
+NMC,G4,FUDS,2,channel_ema_800,0.0,PC proxy of MCU C arithmetic compared with frozen Python feature builder; no on-chip intermediate capture
+NMC,G4,FUDS,2,dev_channels,0.0,PC proxy of MCU C arithmetic compared with frozen Python feature builder; no on-chip intermediate capture
+NMC,G4,FUDS,2,scaler_out,0.0,PC proxy of MCU C arithmetic compared with frozen Python feature builder; no on-chip intermediate capture
+NMC,G4,FUDS,2,network_out,1.6735576478715253e-07,Measured on chip; 66 deterministic outputs
+NMC,G4,US06,0,vcorr_ema,0.0,PC proxy of MCU C arithmetic compared with frozen Python feature builder; no on-chip intermediate capture
+NMC,G4,US06,0,channel_ema_50,0.0,PC proxy of MCU C arithmetic compared with frozen Python feature builder; no on-chip intermediate capture
+NMC,G4,US06,0,channel_ema_200,0.0,PC proxy of MCU C arithmetic compared with frozen Python feature builder; no on-chip intermediate capture
+NMC,G4,US06,0,channel_ema_800,0.0,PC proxy of MCU C arithmetic compared with frozen Python feature builder; no on-chip intermediate capture
+NMC,G4,US06,0,dev_channels,0.0,PC proxy of MCU C arithmetic compared with frozen Python feature builder; no on-chip intermediate capture
+NMC,G4,US06,0,scaler_out,0.0,PC proxy of MCU C arithmetic compared with frozen Python feature builder; no on-chip intermediate capture
+NMC,G4,US06,0,network_out,1.4408776356021724e-07,Measured on chip; 66 deterministic outputs
+NMC,G4,US06,1,vcorr_ema,0.0,PC proxy of MCU C arithmetic compared with frozen Python feature builder; no on-chip intermediate capture
+NMC,G4,US06,1,channel_ema_50,0.0,PC proxy of MCU C arithmetic compared with frozen Python feature builder; no on-chip intermediate capture
+NMC,G4,US06,1,channel_ema_200,0.0,PC proxy of MCU C arithmetic compared with frozen Python feature builder; no on-chip intermediate capture
+NMC,G4,US06,1,channel_ema_800,0.0,PC proxy of MCU C arithmetic compared with frozen Python feature builder; no on-chip intermediate capture
+NMC,G4,US06,1,dev_channels,0.0,PC proxy of MCU C arithmetic compared with frozen Python feature builder; no on-chip intermediate capture
+NMC,G4,US06,1,scaler_out,0.0,PC proxy of MCU C arithmetic compared with frozen Python feature builder; no on-chip intermediate capture
+NMC,G4,US06,1,network_out,1.456693608552968e-07,Measured on chip; 66 deterministic outputs
+NMC,G4,US06,2,vcorr_ema,0.0,PC proxy of MCU C arithmetic compared with frozen Python feature builder; no on-chip intermediate capture
+NMC,G4,US06,2,channel_ema_50,0.0,PC proxy of MCU C arithmetic compared with frozen Python feature builder; no on-chip intermediate capture
+NMC,G4,US06,2,channel_ema_200,0.0,PC proxy of MCU C arithmetic compared with frozen Python feature builder; no on-chip intermediate capture
+NMC,G4,US06,2,channel_ema_800,0.0,PC proxy of MCU C arithmetic compared with frozen Python feature builder; no on-chip intermediate capture
+NMC,G4,US06,2,dev_channels,0.0,PC proxy of MCU C arithmetic compared with frozen Python feature builder; no on-chip intermediate capture
+NMC,G4,US06,2,scaler_out,0.0,PC proxy of MCU C arithmetic compared with frozen Python feature builder; no on-chip intermediate capture
+NMC,G4,US06,2,network_out,1.6280108241731046e-07,Measured on chip; 66 deterministic outputs
+NMC,T6,DST,0,vcorr_ema,0.0,PC proxy of MCU C arithmetic compared with frozen Python feature builder; no on-chip intermediate capture
+NMC,T6,DST,0,channel_ema_50,0.0,PC proxy of MCU C arithmetic compared with frozen Python feature builder; no on-chip intermediate capture
+NMC,T6,DST,0,channel_ema_200,0.0,PC proxy of MCU C arithmetic compared with frozen Python feature builder; no on-chip intermediate capture
+NMC,T6,DST,0,channel_ema_800,0.0,PC proxy of MCU C arithmetic compared with frozen Python feature builder; no on-chip intermediate capture
+NMC,T6,DST,0,dev_channels,0.0,PC proxy of MCU C arithmetic compared with frozen Python feature builder; no on-chip intermediate capture
+NMC,T6,DST,0,scaler_out,0.0,PC proxy of MCU C arithmetic compared with frozen Python feature builder; no on-chip intermediate capture
+NMC,T6,DST,0,network_out,1.6085196417327202e-07,Measured on chip; 66 deterministic outputs
+NMC,T6,DST,1,vcorr_ema,0.0,PC proxy of MCU C arithmetic compared with frozen Python feature builder; no on-chip intermediate capture
+NMC,T6,DST,1,channel_ema_50,0.0,PC proxy of MCU C arithmetic compared with frozen Python feature builder; no on-chip intermediate capture
+NMC,T6,DST,1,channel_ema_200,0.0,PC proxy of MCU C arithmetic compared with frozen Python feature builder; no on-chip intermediate capture
+NMC,T6,DST,1,channel_ema_800,0.0,PC proxy of MCU C arithmetic compared with frozen Python feature builder; no on-chip intermediate capture
+NMC,T6,DST,1,dev_channels,0.0,PC proxy of MCU C arithmetic compared with frozen Python feature builder; no on-chip intermediate capture
+NMC,T6,DST,1,scaler_out,0.0,PC proxy of MCU C arithmetic compared with frozen Python feature builder; no on-chip intermediate capture
+NMC,T6,DST,1,network_out,2.0343073173912753e-07,Measured on chip; 66 deterministic outputs
+NMC,T6,DST,2,vcorr_ema,0.0,PC proxy of MCU C arithmetic compared with frozen Python feature builder; no on-chip intermediate capture
+NMC,T6,DST,2,channel_ema_50,0.0,PC proxy of MCU C arithmetic compared with frozen Python feature builder; no on-chip intermediate capture
+NMC,T6,DST,2,channel_ema_200,0.0,PC proxy of MCU C arithmetic compared with frozen Python feature builder; no on-chip intermediate capture
+NMC,T6,DST,2,channel_ema_800,0.0,PC proxy of MCU C arithmetic compared with frozen Python feature builder; no on-chip intermediate capture
+NMC,T6,DST,2,dev_channels,0.0,PC proxy of MCU C arithmetic compared with frozen Python feature builder; no on-chip intermediate capture
+NMC,T6,DST,2,scaler_out,0.0,PC proxy of MCU C arithmetic compared with frozen Python feature builder; no on-chip intermediate capture
+NMC,T6,DST,2,network_out,1.7160457233589032e-07,Measured on chip; 66 deterministic outputs
+NMC,T6,FUDS,0,vcorr_ema,0.0,PC proxy of MCU C arithmetic compared with frozen Python feature builder; no on-chip intermediate capture
+NMC,T6,FUDS,0,channel_ema_50,0.0,PC proxy of MCU C arithmetic compared with frozen Python feature builder; no on-chip intermediate capture
+NMC,T6,FUDS,0,channel_ema_200,0.0,PC proxy of MCU C arithmetic compared with frozen Python feature builder; no on-chip intermediate capture
+NMC,T6,FUDS,0,channel_ema_800,0.0,PC proxy of MCU C arithmetic compared with frozen Python feature builder; no on-chip intermediate capture
+NMC,T6,FUDS,0,dev_channels,0.0,PC proxy of MCU C arithmetic compared with frozen Python feature builder; no on-chip intermediate capture
+NMC,T6,FUDS,0,scaler_out,0.0,PC proxy of MCU C arithmetic compared with frozen Python feature builder; no on-chip intermediate capture
+NMC,T6,FUDS,0,network_out,1.826955866849037e-07,Measured on chip; 66 deterministic outputs
+NMC,T6,FUDS,1,vcorr_ema,0.0,PC proxy of MCU C arithmetic compared with frozen Python feature builder; no on-chip intermediate capture
+NMC,T6,FUDS,1,channel_ema_50,0.0,PC proxy of MCU C arithmetic compared with frozen Python feature builder; no on-chip intermediate capture
+NMC,T6,FUDS,1,channel_ema_200,0.0,PC proxy of MCU C arithmetic compared with frozen Python feature builder; no on-chip intermediate capture
+NMC,T6,FUDS,1,channel_ema_800,0.0,PC proxy of MCU C arithmetic compared with frozen Python feature builder; no on-chip intermediate capture
+NMC,T6,FUDS,1,dev_channels,0.0,PC proxy of MCU C arithmetic compared with frozen Python feature builder; no on-chip intermediate capture
+NMC,T6,FUDS,1,scaler_out,0.0,PC proxy of MCU C arithmetic compared with frozen Python feature builder; no on-chip intermediate capture
+NMC,T6,FUDS,1,network_out,1.3507644915826014e-07,Measured on chip; 66 deterministic outputs
+NMC,T6,FUDS,2,vcorr_ema,0.0,PC proxy of MCU C arithmetic compared with frozen Python feature builder; no on-chip intermediate capture
+NMC,T6,FUDS,2,channel_ema_50,0.0,PC proxy of MCU C arithmetic compared with frozen Python feature builder; no on-chip intermediate capture
+NMC,T6,FUDS,2,channel_ema_200,0.0,PC proxy of MCU C arithmetic compared with frozen Python feature builder; no on-chip intermediate capture
+NMC,T6,FUDS,2,channel_ema_800,0.0,PC proxy of MCU C arithmetic compared with frozen Python feature builder; no on-chip intermediate capture
+NMC,T6,FUDS,2,dev_channels,0.0,PC proxy of MCU C arithmetic compared with frozen Python feature builder; no on-chip intermediate capture
+NMC,T6,FUDS,2,scaler_out,0.0,PC proxy of MCU C arithmetic compared with frozen Python feature builder; no on-chip intermediate capture
+NMC,T6,FUDS,2,network_out,1.5628736788700653e-07,Measured on chip; 66 deterministic outputs
+NMC,T6,US06,0,vcorr_ema,0.0,PC proxy of MCU C arithmetic compared with frozen Python feature builder; no on-chip intermediate capture
+NMC,T6,US06,0,channel_ema_50,0.0,PC proxy of MCU C arithmetic compared with frozen Python feature builder; no on-chip intermediate capture
+NMC,T6,US06,0,channel_ema_200,0.0,PC proxy of MCU C arithmetic compared with frozen Python feature builder; no on-chip intermediate capture
+NMC,T6,US06,0,channel_ema_800,0.0,PC proxy of MCU C arithmetic compared with frozen Python feature builder; no on-chip intermediate capture
+NMC,T6,US06,0,dev_channels,0.0,PC proxy of MCU C arithmetic compared with frozen Python feature builder; no on-chip intermediate capture
+NMC,T6,US06,0,scaler_out,0.0,PC proxy of MCU C arithmetic compared with frozen Python feature builder; no on-chip intermediate capture
+NMC,T6,US06,0,network_out,1.7292297833445103e-07,Measured on chip; 66 deterministic outputs
+NMC,T6,US06,1,vcorr_ema,0.0,PC proxy of MCU C arithmetic compared with frozen Python feature builder; no on-chip intermediate capture
+NMC,T6,US06,1,channel_ema_50,0.0,PC proxy of MCU C arithmetic compared with frozen Python feature builder; no on-chip intermediate capture
+NMC,T6,US06,1,channel_ema_200,0.0,PC proxy of MCU C arithmetic compared with frozen Python feature builder; no on-chip intermediate capture
+NMC,T6,US06,1,channel_ema_800,0.0,PC proxy of MCU C arithmetic compared with frozen Python feature builder; no on-chip intermediate capture
+NMC,T6,US06,1,dev_channels,0.0,PC proxy of MCU C arithmetic compared with frozen Python feature builder; no on-chip intermediate capture
+NMC,T6,US06,1,scaler_out,0.0,PC proxy of MCU C arithmetic compared with frozen Python feature builder; no on-chip intermediate capture
+NMC,T6,US06,1,network_out,1.4133367980498376e-07,Measured on chip; 66 deterministic outputs
+NMC,T6,US06,2,vcorr_ema,0.0,PC proxy of MCU C arithmetic compared with frozen Python feature builder; no on-chip intermediate capture
+NMC,T6,US06,2,channel_ema_50,0.0,PC proxy of MCU C arithmetic compared with frozen Python feature builder; no on-chip intermediate capture
+NMC,T6,US06,2,channel_ema_200,0.0,PC proxy of MCU C arithmetic compared with frozen Python feature builder; no on-chip intermediate capture
+NMC,T6,US06,2,channel_ema_800,0.0,PC proxy of MCU C arithmetic compared with frozen Python feature builder; no on-chip intermediate capture
+NMC,T6,US06,2,dev_channels,0.0,PC proxy of MCU C arithmetic compared with frozen Python feature builder; no on-chip intermediate capture
+NMC,T6,US06,2,scaler_out,0.0,PC proxy of MCU C arithmetic compared with frozen Python feature builder; no on-chip intermediate capture
+NMC,T6,US06,2,network_out,1.7258036827854277e-07,Measured on chip; 66 deterministic outputs
+LFP,G4,DST,0,vcorr_ema,0.0,PC proxy of MCU C arithmetic compared with frozen Python feature builder; no on-chip intermediate capture
+LFP,G4,DST,0,channel_ema_50,0.0,PC proxy of MCU C arithmetic compared with frozen Python feature builder; no on-chip intermediate capture
+LFP,G4,DST,0,channel_ema_200,0.0,PC proxy of MCU C arithmetic compared with frozen Python feature builder; no on-chip intermediate capture
+LFP,G4,DST,0,channel_ema_800,0.0,PC proxy of MCU C arithmetic compared with frozen Python feature builder; no on-chip intermediate capture
+LFP,G4,DST,0,dev_channels,0.0,PC proxy of MCU C arithmetic compared with frozen Python feature builder; no on-chip intermediate capture
+LFP,G4,DST,0,scaler_out,0.0,PC proxy of MCU C arithmetic compared with frozen Python feature builder; no on-chip intermediate capture
+LFP,G4,DST,0,network_out,1.4014551203250282e-07,Measured on chip; 66 deterministic outputs
+LFP,G4,DST,1,vcorr_ema,0.0,PC proxy of MCU C arithmetic compared with frozen Python feature builder; no on-chip intermediate capture
+LFP,G4,DST,1,channel_ema_50,0.0,PC proxy of MCU C arithmetic compared with frozen Python feature builder; no on-chip intermediate capture
+LFP,G4,DST,1,channel_ema_200,0.0,PC proxy of MCU C arithmetic compared with frozen Python feature builder; no on-chip intermediate capture
+LFP,G4,DST,1,channel_ema_800,0.0,PC proxy of MCU C arithmetic compared with frozen Python feature builder; no on-chip intermediate capture
+LFP,G4,DST,1,dev_channels,0.0,PC proxy of MCU C arithmetic compared with frozen Python feature builder; no on-chip intermediate capture
+LFP,G4,DST,1,scaler_out,0.0,PC proxy of MCU C arithmetic compared with frozen Python feature builder; no on-chip intermediate capture
+LFP,G4,DST,1,network_out,1.7224588290084594e-07,Measured on chip; 66 deterministic outputs
+LFP,G4,DST,2,vcorr_ema,0.0,PC proxy of MCU C arithmetic compared with frozen Python feature builder; no on-chip intermediate capture
+LFP,G4,DST,2,channel_ema_50,0.0,PC proxy of MCU C arithmetic compared with frozen Python feature builder; no on-chip intermediate capture
+LFP,G4,DST,2,channel_ema_200,0.0,PC proxy of MCU C arithmetic compared with frozen Python feature builder; no on-chip intermediate capture
+LFP,G4,DST,2,channel_ema_800,0.0,PC proxy of MCU C arithmetic compared with frozen Python feature builder; no on-chip intermediate capture
+LFP,G4,DST,2,dev_channels,0.0,PC proxy of MCU C arithmetic compared with frozen Python feature builder; no on-chip intermediate capture
+LFP,G4,DST,2,scaler_out,0.0,PC proxy of MCU C arithmetic compared with frozen Python feature builder; no on-chip intermediate capture
+LFP,G4,DST,2,network_out,1.198712318494265e-07,Measured on chip; 66 deterministic outputs
+LFP,G4,FUDS,0,vcorr_ema,0.0,PC proxy of MCU C arithmetic compared with frozen Python feature builder; no on-chip intermediate capture
+LFP,G4,FUDS,0,channel_ema_50,0.0,PC proxy of MCU C arithmetic compared with frozen Python feature builder; no on-chip intermediate capture
+LFP,G4,FUDS,0,channel_ema_200,0.0,PC proxy of MCU C arithmetic compared with frozen Python feature builder; no on-chip intermediate capture
+LFP,G4,FUDS,0,channel_ema_800,0.0,PC proxy of MCU C arithmetic compared with frozen Python feature builder; no on-chip intermediate capture
+LFP,G4,FUDS,0,dev_channels,0.0,PC proxy of MCU C arithmetic compared with frozen Python feature builder; no on-chip intermediate capture
+LFP,G4,FUDS,0,scaler_out,0.0,PC proxy of MCU C arithmetic compared with frozen Python feature builder; no on-chip intermediate capture
+LFP,G4,FUDS,0,network_out,1.4901523894402643e-07,Measured on chip; 66 deterministic outputs
+LFP,G4,FUDS,1,vcorr_ema,0.0,PC proxy of MCU C arithmetic compared with frozen Python feature builder; no on-chip intermediate capture
+LFP,G4,FUDS,1,channel_ema_50,0.0,PC proxy of MCU C arithmetic compared with frozen Python feature builder; no on-chip intermediate capture
+LFP,G4,FUDS,1,channel_ema_200,0.0,PC proxy of MCU C arithmetic compared with frozen Python feature builder; no on-chip intermediate capture
+LFP,G4,FUDS,1,channel_ema_800,0.0,PC proxy of MCU C arithmetic compared with frozen Python feature builder; no on-chip intermediate capture
+LFP,G4,FUDS,1,dev_channels,0.0,PC proxy of MCU C arithmetic compared with frozen Python feature builder; no on-chip intermediate capture
+LFP,G4,FUDS,1,scaler_out,0.0,PC proxy of MCU C arithmetic compared with frozen Python feature builder; no on-chip intermediate capture
+LFP,G4,FUDS,1,network_out,1.2223606516487632e-07,Measured on chip; 66 deterministic outputs
+LFP,G4,FUDS,2,vcorr_ema,0.0,PC proxy of MCU C arithmetic compared with frozen Python feature builder; no on-chip intermediate capture
+LFP,G4,FUDS,2,channel_ema_50,0.0,PC proxy of MCU C arithmetic compared with frozen Python feature builder; no on-chip intermediate capture
+LFP,G4,FUDS,2,channel_ema_200,0.0,PC proxy of MCU C arithmetic compared with frozen Python feature builder; no on-chip intermediate capture
+LFP,G4,FUDS,2,channel_ema_800,0.0,PC proxy of MCU C arithmetic compared with frozen Python feature builder; no on-chip intermediate capture
+LFP,G4,FUDS,2,dev_channels,0.0,PC proxy of MCU C arithmetic compared with frozen Python feature builder; no on-chip intermediate capture
+LFP,G4,FUDS,2,scaler_out,0.0,PC proxy of MCU C arithmetic compared with frozen Python feature builder; no on-chip intermediate capture
+LFP,G4,FUDS,2,network_out,1.4285637153947308e-07,Measured on chip; 66 deterministic outputs
+LFP,G4,US06,0,vcorr_ema,0.0,PC proxy of MCU C arithmetic compared with frozen Python feature builder; no on-chip intermediate capture
+LFP,G4,US06,0,channel_ema_50,0.0,PC proxy of MCU C arithmetic compared with frozen Python feature builder; no on-chip intermediate capture
+LFP,G4,US06,0,channel_ema_200,0.0,PC proxy of MCU C arithmetic compared with frozen Python feature builder; no on-chip intermediate capture
+LFP,G4,US06,0,channel_ema_800,0.0,PC proxy of MCU C arithmetic compared with frozen Python feature builder; no on-chip intermediate capture
+LFP,G4,US06,0,dev_channels,0.0,PC proxy of MCU C arithmetic compared with frozen Python feature builder; no on-chip intermediate capture
+LFP,G4,US06,0,scaler_out,0.0,PC proxy of MCU C arithmetic compared with frozen Python feature builder; no on-chip intermediate capture
+LFP,G4,US06,0,network_out,1.373763980271206e-07,Measured on chip; 66 deterministic outputs
+LFP,G4,US06,1,vcorr_ema,0.0,PC proxy of MCU C arithmetic compared with frozen Python feature builder; no on-chip intermediate capture
+LFP,G4,US06,1,channel_ema_50,0.0,PC proxy of MCU C arithmetic compared with frozen Python feature builder; no on-chip intermediate capture
+LFP,G4,US06,1,channel_ema_200,0.0,PC proxy of MCU C arithmetic compared with frozen Python feature builder; no on-chip intermediate capture
+LFP,G4,US06,1,channel_ema_800,0.0,PC proxy of MCU C arithmetic compared with frozen Python feature builder; no on-chip intermediate capture
+LFP,G4,US06,1,dev_channels,0.0,PC proxy of MCU C arithmetic compared with frozen Python feature builder; no on-chip intermediate capture
+LFP,G4,US06,1,scaler_out,0.0,PC proxy of MCU C arithmetic compared with frozen Python feature builder; no on-chip intermediate capture
+LFP,G4,US06,1,network_out,1.4856202105412244e-07,Measured on chip; 66 deterministic outputs
+LFP,G4,US06,2,vcorr_ema,0.0,PC proxy of MCU C arithmetic compared with frozen Python feature builder; no on-chip intermediate capture
+LFP,G4,US06,2,channel_ema_50,0.0,PC proxy of MCU C arithmetic compared with frozen Python feature builder; no on-chip intermediate capture
+LFP,G4,US06,2,channel_ema_200,0.0,PC proxy of MCU C arithmetic compared with frozen Python feature builder; no on-chip intermediate capture
+LFP,G4,US06,2,channel_ema_800,0.0,PC proxy of MCU C arithmetic compared with frozen Python feature builder; no on-chip intermediate capture
+LFP,G4,US06,2,dev_channels,0.0,PC proxy of MCU C arithmetic compared with frozen Python feature builder; no on-chip intermediate capture
+LFP,G4,US06,2,scaler_out,0.0,PC proxy of MCU C arithmetic compared with frozen Python feature builder; no on-chip intermediate capture
+LFP,G4,US06,2,network_out,1.346058142664656e-07,Measured on chip; 66 deterministic outputs
+LFP,T6,DST,0,vcorr_ema,0.0,PC proxy of MCU C arithmetic compared with frozen Python feature builder; no on-chip intermediate capture
+LFP,T6,DST,0,channel_ema_50,0.0,PC proxy of MCU C arithmetic compared with frozen Python feature builder; no on-chip intermediate capture
+LFP,T6,DST,0,channel_ema_200,0.0,PC proxy of MCU C arithmetic compared with frozen Python feature builder; no on-chip intermediate capture
+LFP,T6,DST,0,channel_ema_800,0.0,PC proxy of MCU C arithmetic compared with frozen Python feature builder; no on-chip intermediate capture
+LFP,T6,DST,0,dev_channels,0.0,PC proxy of MCU C arithmetic compared with frozen Python feature builder; no on-chip intermediate capture
+LFP,T6,DST,0,scaler_out,0.0,PC proxy of MCU C arithmetic compared with frozen Python feature builder; no on-chip intermediate capture
+LFP,T6,DST,0,network_out,1.2444590998821236e-07,Measured on chip; 66 deterministic outputs
+LFP,T6,DST,1,vcorr_ema,0.0,PC proxy of MCU C arithmetic compared with frozen Python feature builder; no on-chip intermediate capture
+LFP,T6,DST,1,channel_ema_50,0.0,PC proxy of MCU C arithmetic compared with frozen Python feature builder; no on-chip intermediate capture
+LFP,T6,DST,1,channel_ema_200,0.0,PC proxy of MCU C arithmetic compared with frozen Python feature builder; no on-chip intermediate capture
+LFP,T6,DST,1,channel_ema_800,0.0,PC proxy of MCU C arithmetic compared with frozen Python feature builder; no on-chip intermediate capture
+LFP,T6,DST,1,dev_channels,0.0,PC proxy of MCU C arithmetic compared with frozen Python feature builder; no on-chip intermediate capture
+LFP,T6,DST,1,scaler_out,0.0,PC proxy of MCU C arithmetic compared with frozen Python feature builder; no on-chip intermediate capture
+LFP,T6,DST,1,network_out,1.357736048836501e-07,Measured on chip; 66 deterministic outputs
+LFP,T6,DST,2,vcorr_ema,0.0,PC proxy of MCU C arithmetic compared with frozen Python feature builder; no on-chip intermediate capture
+LFP,T6,DST,2,channel_ema_50,0.0,PC proxy of MCU C arithmetic compared with frozen Python feature builder; no on-chip intermediate capture
+LFP,T6,DST,2,channel_ema_200,0.0,PC proxy of MCU C arithmetic compared with frozen Python feature builder; no on-chip intermediate capture
+LFP,T6,DST,2,channel_ema_800,0.0,PC proxy of MCU C arithmetic compared with frozen Python feature builder; no on-chip intermediate capture
+LFP,T6,DST,2,dev_channels,0.0,PC proxy of MCU C arithmetic compared with frozen Python feature builder; no on-chip intermediate capture
+LFP,T6,DST,2,scaler_out,0.0,PC proxy of MCU C arithmetic compared with frozen Python feature builder; no on-chip intermediate capture
+LFP,T6,DST,2,network_out,1.2153639826760142e-07,Measured on chip; 66 deterministic outputs
+LFP,T6,FUDS,0,vcorr_ema,0.0,PC proxy of MCU C arithmetic compared with frozen Python feature builder; no on-chip intermediate capture
+LFP,T6,FUDS,0,channel_ema_50,0.0,PC proxy of MCU C arithmetic compared with frozen Python feature builder; no on-chip intermediate capture
+LFP,T6,FUDS,0,channel_ema_200,0.0,PC proxy of MCU C arithmetic compared with frozen Python feature builder; no on-chip intermediate capture
+LFP,T6,FUDS,0,channel_ema_800,0.0,PC proxy of MCU C arithmetic compared with frozen Python feature builder; no on-chip intermediate capture
+LFP,T6,FUDS,0,dev_channels,0.0,PC proxy of MCU C arithmetic compared with frozen Python feature builder; no on-chip intermediate capture
+LFP,T6,FUDS,0,scaler_out,0.0,PC proxy of MCU C arithmetic compared with frozen Python feature builder; no on-chip intermediate capture
+LFP,T6,FUDS,0,network_out,1.2720802194606135e-07,Measured on chip; 66 deterministic outputs
+LFP,T6,FUDS,1,vcorr_ema,0.0,PC proxy of MCU C arithmetic compared with frozen Python feature builder; no on-chip intermediate capture
+LFP,T6,FUDS,1,channel_ema_50,0.0,PC proxy of MCU C arithmetic compared with frozen Python feature builder; no on-chip intermediate capture
+LFP,T6,FUDS,1,channel_ema_200,0.0,PC proxy of MCU C arithmetic compared with frozen Python feature builder; no on-chip intermediate capture
+LFP,T6,FUDS,1,channel_ema_800,0.0,PC proxy of MCU C arithmetic compared with frozen Python feature builder; no on-chip intermediate capture
+LFP,T6,FUDS,1,dev_channels,0.0,PC proxy of MCU C arithmetic compared with frozen Python feature builder; no on-chip intermediate capture
+LFP,T6,FUDS,1,scaler_out,0.0,PC proxy of MCU C arithmetic compared with frozen Python feature builder; no on-chip intermediate capture
+LFP,T6,FUDS,1,network_out,1.3873203272834636e-07,Measured on chip; 66 deterministic outputs
+LFP,T6,FUDS,2,vcorr_ema,0.0,PC proxy of MCU C arithmetic compared with frozen Python feature builder; no on-chip intermediate capture
+LFP,T6,FUDS,2,channel_ema_50,0.0,PC proxy of MCU C arithmetic compared with frozen Python feature builder; no on-chip intermediate capture
+LFP,T6,FUDS,2,channel_ema_200,0.0,PC proxy of MCU C arithmetic compared with frozen Python feature builder; no on-chip intermediate capture
+LFP,T6,FUDS,2,channel_ema_800,0.0,PC proxy of MCU C arithmetic compared with frozen Python feature builder; no on-chip intermediate capture
+LFP,T6,FUDS,2,dev_channels,0.0,PC proxy of MCU C arithmetic compared with frozen Python feature builder; no on-chip intermediate capture
+LFP,T6,FUDS,2,scaler_out,0.0,PC proxy of MCU C arithmetic compared with frozen Python feature builder; no on-chip intermediate capture
+LFP,T6,FUDS,2,network_out,1.3942222241354552e-07,Measured on chip; 66 deterministic outputs
+LFP,T6,US06,0,vcorr_ema,0.0,PC proxy of MCU C arithmetic compared with frozen Python feature builder; no on-chip intermediate capture
+LFP,T6,US06,0,channel_ema_50,0.0,PC proxy of MCU C arithmetic compared with frozen Python feature builder; no on-chip intermediate capture
+LFP,T6,US06,0,channel_ema_200,0.0,PC proxy of MCU C arithmetic compared with frozen Python feature builder; no on-chip intermediate capture
+LFP,T6,US06,0,channel_ema_800,0.0,PC proxy of MCU C arithmetic compared with frozen Python feature builder; no on-chip intermediate capture
+LFP,T6,US06,0,dev_channels,0.0,PC proxy of MCU C arithmetic compared with frozen Python feature builder; no on-chip intermediate capture
+LFP,T6,US06,0,scaler_out,0.0,PC proxy of MCU C arithmetic compared with frozen Python feature builder; no on-chip intermediate capture
+LFP,T6,US06,0,network_out,1.228569038799183e-07,Measured on chip; 66 deterministic outputs
+LFP,T6,US06,1,vcorr_ema,0.0,PC proxy of MCU C arithmetic compared with frozen Python feature builder; no on-chip intermediate capture
+LFP,T6,US06,1,channel_ema_50,0.0,PC proxy of MCU C arithmetic compared with frozen Python feature builder; no on-chip intermediate capture
+LFP,T6,US06,1,channel_ema_200,0.0,PC proxy of MCU C arithmetic compared with frozen Python feature builder; no on-chip intermediate capture
+LFP,T6,US06,1,channel_ema_800,0.0,PC proxy of MCU C arithmetic compared with frozen Python feature builder; no on-chip intermediate capture
+LFP,T6,US06,1,dev_channels,0.0,PC proxy of MCU C arithmetic compared with frozen Python feature builder; no on-chip intermediate capture
+LFP,T6,US06,1,scaler_out,0.0,PC proxy of MCU C arithmetic compared with frozen Python feature builder; no on-chip intermediate capture
+LFP,T6,US06,1,network_out,1.273544107813724e-07,Measured on chip; 66 deterministic outputs
+LFP,T6,US06,2,vcorr_ema,0.0,PC proxy of MCU C arithmetic compared with frozen Python feature builder; no on-chip intermediate capture
+LFP,T6,US06,2,channel_ema_50,0.0,PC proxy of MCU C arithmetic compared with frozen Python feature builder; no on-chip intermediate capture
+LFP,T6,US06,2,channel_ema_200,0.0,PC proxy of MCU C arithmetic compared with frozen Python feature builder; no on-chip intermediate capture
+LFP,T6,US06,2,channel_ema_800,0.0,PC proxy of MCU C arithmetic compared with frozen Python feature builder; no on-chip intermediate capture
+LFP,T6,US06,2,dev_channels,0.0,PC proxy of MCU C arithmetic compared with frozen Python feature builder; no on-chip intermediate capture
+LFP,T6,US06,2,scaler_out,0.0,PC proxy of MCU C arithmetic compared with frozen Python feature builder; no on-chip intermediate capture
+LFP,T6,US06,2,network_out,1.1476526758300465e-07,Measured on chip; 66 deterministic outputs
+LFP,T7,DST,0,vcorr_ema,0.0,PC proxy of MCU C arithmetic compared with frozen Python feature builder; no on-chip intermediate capture
+LFP,T7,DST,0,channel_ema_50,0.0,PC proxy of MCU C arithmetic compared with frozen Python feature builder; no on-chip intermediate capture
+LFP,T7,DST,0,channel_ema_200,0.0,PC proxy of MCU C arithmetic compared with frozen Python feature builder; no on-chip intermediate capture
+LFP,T7,DST,0,channel_ema_800,MISSING_not_in_feature_set,PC proxy of MCU C arithmetic compared with frozen Python feature builder; no on-chip intermediate capture
+LFP,T7,DST,0,dev_channels,0.0,PC proxy of MCU C arithmetic compared with frozen Python feature builder; no on-chip intermediate capture
+LFP,T7,DST,0,scaler_out,0.0,PC proxy of MCU C arithmetic compared with frozen Python feature builder; no on-chip intermediate capture
+LFP,T7,DST,0,network_out,1.4775110276907154e-07,Measured on chip; 66 deterministic outputs
+LFP,T7,DST,1,vcorr_ema,0.0,PC proxy of MCU C arithmetic compared with frozen Python feature builder; no on-chip intermediate capture
+LFP,T7,DST,1,channel_ema_50,0.0,PC proxy of MCU C arithmetic compared with frozen Python feature builder; no on-chip intermediate capture
+LFP,T7,DST,1,channel_ema_200,0.0,PC proxy of MCU C arithmetic compared with frozen Python feature builder; no on-chip intermediate capture
+LFP,T7,DST,1,channel_ema_800,MISSING_not_in_feature_set,PC proxy of MCU C arithmetic compared with frozen Python feature builder; no on-chip intermediate capture
+LFP,T7,DST,1,dev_channels,0.0,PC proxy of MCU C arithmetic compared with frozen Python feature builder; no on-chip intermediate capture
+LFP,T7,DST,1,scaler_out,0.0,PC proxy of MCU C arithmetic compared with frozen Python feature builder; no on-chip intermediate capture
+LFP,T7,DST,1,network_out,1.2422245068287437e-07,Measured on chip; 66 deterministic outputs
+LFP,T7,DST,2,vcorr_ema,0.0,PC proxy of MCU C arithmetic compared with frozen Python feature builder; no on-chip intermediate capture
+LFP,T7,DST,2,channel_ema_50,0.0,PC proxy of MCU C arithmetic compared with frozen Python feature builder; no on-chip intermediate capture
+LFP,T7,DST,2,channel_ema_200,0.0,PC proxy of MCU C arithmetic compared with frozen Python feature builder; no on-chip intermediate capture
+LFP,T7,DST,2,channel_ema_800,MISSING_not_in_feature_set,PC proxy of MCU C arithmetic compared with frozen Python feature builder; no on-chip intermediate capture
+LFP,T7,DST,2,dev_channels,0.0,PC proxy of MCU C arithmetic compared with frozen Python feature builder; no on-chip intermediate capture
+LFP,T7,DST,2,scaler_out,0.0,PC proxy of MCU C arithmetic compared with frozen Python feature builder; no on-chip intermediate capture
+LFP,T7,DST,2,network_out,1.943362716527244e-07,Measured on chip; 66 deterministic outputs
+LFP,T7,FUDS,0,vcorr_ema,0.0,PC proxy of MCU C arithmetic compared with frozen Python feature builder; no on-chip intermediate capture
+LFP,T7,FUDS,0,channel_ema_50,0.0,PC proxy of MCU C arithmetic compared with frozen Python feature builder; no on-chip intermediate capture
+LFP,T7,FUDS,0,channel_ema_200,0.0,PC proxy of MCU C arithmetic compared with frozen Python feature builder; no on-chip intermediate capture
+LFP,T7,FUDS,0,channel_ema_800,MISSING_not_in_feature_set,PC proxy of MCU C arithmetic compared with frozen Python feature builder; no on-chip intermediate capture
+LFP,T7,FUDS,0,dev_channels,0.0,PC proxy of MCU C arithmetic compared with frozen Python feature builder; no on-chip intermediate capture
+LFP,T7,FUDS,0,scaler_out,0.0,PC proxy of MCU C arithmetic compared with frozen Python feature builder; no on-chip intermediate capture
+LFP,T7,FUDS,0,network_out,1.3646073013318947e-07,Measured on chip; 66 deterministic outputs
+LFP,T7,FUDS,1,vcorr_ema,0.0,PC proxy of MCU C arithmetic compared with frozen Python feature builder; no on-chip intermediate capture
+LFP,T7,FUDS,1,channel_ema_50,0.0,PC proxy of MCU C arithmetic compared with frozen Python feature builder; no on-chip intermediate capture
+LFP,T7,FUDS,1,channel_ema_200,0.0,PC proxy of MCU C arithmetic compared with frozen Python feature builder; no on-chip intermediate capture
+LFP,T7,FUDS,1,channel_ema_800,MISSING_not_in_feature_set,PC proxy of MCU C arithmetic compared with frozen Python feature builder; no on-chip intermediate capture
+LFP,T7,FUDS,1,dev_channels,0.0,PC proxy of MCU C arithmetic compared with frozen Python feature builder; no on-chip intermediate capture
+LFP,T7,FUDS,1,scaler_out,0.0,PC proxy of MCU C arithmetic compared with frozen Python feature builder; no on-chip intermediate capture
+LFP,T7,FUDS,1,network_out,1.308125643253989e-07,Measured on chip; 66 deterministic outputs
+LFP,T7,FUDS,2,vcorr_ema,0.0,PC proxy of MCU C arithmetic compared with frozen Python feature builder; no on-chip intermediate capture
+LFP,T7,FUDS,2,channel_ema_50,0.0,PC proxy of MCU C arithmetic compared with frozen Python feature builder; no on-chip intermediate capture
+LFP,T7,FUDS,2,channel_ema_200,0.0,PC proxy of MCU C arithmetic compared with frozen Python feature builder; no on-chip intermediate capture
+LFP,T7,FUDS,2,channel_ema_800,MISSING_not_in_feature_set,PC proxy of MCU C arithmetic compared with frozen Python feature builder; no on-chip intermediate capture
+LFP,T7,FUDS,2,dev_channels,0.0,PC proxy of MCU C arithmetic compared with frozen Python feature builder; no on-chip intermediate capture
+LFP,T7,FUDS,2,scaler_out,0.0,PC proxy of MCU C arithmetic compared with frozen Python feature builder; no on-chip intermediate capture
+LFP,T7,FUDS,2,network_out,1.4392539389946766e-07,Measured on chip; 66 deterministic outputs
+LFP,T7,US06,0,vcorr_ema,0.0,PC proxy of MCU C arithmetic compared with frozen Python feature builder; no on-chip intermediate capture
+LFP,T7,US06,0,channel_ema_50,0.0,PC proxy of MCU C arithmetic compared with frozen Python feature builder; no on-chip intermediate capture
+LFP,T7,US06,0,channel_ema_200,0.0,PC proxy of MCU C arithmetic compared with frozen Python feature builder; no on-chip intermediate capture
+LFP,T7,US06,0,channel_ema_800,MISSING_not_in_feature_set,PC proxy of MCU C arithmetic compared with frozen Python feature builder; no on-chip intermediate capture
+LFP,T7,US06,0,dev_channels,0.0,PC proxy of MCU C arithmetic compared with frozen Python feature builder; no on-chip intermediate capture
+LFP,T7,US06,0,scaler_out,0.0,PC proxy of MCU C arithmetic compared with frozen Python feature builder; no on-chip intermediate capture
+LFP,T7,US06,0,network_out,1.3718358916960044e-07,Measured on chip; 66 deterministic outputs
+LFP,T7,US06,1,vcorr_ema,0.0,PC proxy of MCU C arithmetic compared with frozen Python feature builder; no on-chip intermediate capture
+LFP,T7,US06,1,channel_ema_50,0.0,PC proxy of MCU C arithmetic compared with frozen Python feature builder; no on-chip intermediate capture
+LFP,T7,US06,1,channel_ema_200,0.0,PC proxy of MCU C arithmetic compared with frozen Python feature builder; no on-chip intermediate capture
+LFP,T7,US06,1,channel_ema_800,MISSING_not_in_feature_set,PC proxy of MCU C arithmetic compared with frozen Python feature builder; no on-chip intermediate capture
+LFP,T7,US06,1,dev_channels,0.0,PC proxy of MCU C arithmetic compared with frozen Python feature builder; no on-chip intermediate capture
+LFP,T7,US06,1,scaler_out,0.0,PC proxy of MCU C arithmetic compared with frozen Python feature builder; no on-chip intermediate capture
+LFP,T7,US06,1,network_out,1.4830550211583422e-07,Measured on chip; 66 deterministic outputs
+LFP,T7,US06,2,vcorr_ema,0.0,PC proxy of MCU C arithmetic compared with frozen Python feature builder; no on-chip intermediate capture
+LFP,T7,US06,2,channel_ema_50,0.0,PC proxy of MCU C arithmetic compared with frozen Python feature builder; no on-chip intermediate capture
+LFP,T7,US06,2,channel_ema_200,0.0,PC proxy of MCU C arithmetic compared with frozen Python feature builder; no on-chip intermediate capture
+LFP,T7,US06,2,channel_ema_800,MISSING_not_in_feature_set,PC proxy of MCU C arithmetic compared with frozen Python feature builder; no on-chip intermediate capture
+LFP,T7,US06,2,dev_channels,0.0,PC proxy of MCU C arithmetic compared with frozen Python feature builder; no on-chip intermediate capture
+LFP,T7,US06,2,scaler_out,0.0,PC proxy of MCU C arithmetic compared with frozen Python feature builder; no on-chip intermediate capture
+LFP,T7,US06,2,network_out,1.3723705736406325e-07,Measured on chip; 66 deterministic outputs

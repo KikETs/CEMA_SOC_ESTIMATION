@@ -1,0 +1,174 @@
+{
+  "experiment": "normalhead_auxoff",
+  "analysis_stage": "method_recipe_alignment_retraining",
+  "chemistry": "NMC",
+  "source_runner": "${SOURCE_WORKSPACE}/DL/CEMA_MLP_OCVSTART_FULLGRID/Scripts/run_ocvstart_3lopo_fullgrid.py",
+  "source_runner_sha256": "40b7e85d9aeb34ce075bbd4a53a96eb9cc2364880ee63b56b045d74b54016a2e",
+  "training_harness": "${SOURCE_WORKSPACE}/DL/CEMA_MLP_OCVSTART_FULLGRID/soc_decomp/nmc_vcorr_it_train_dst_selector_run.py",
+  "training_harness_sha256": "a6d097ae68f83d269a96e7ea3491041ec091c13e0fef74673959ec205650b4e1",
+  "locked_workspace_read_only": true,
+  "locked_hashes_before": {
+    "${SOURCE_WORKSPACE}/DL/CEMA_MLP_OCVSTART_FULLGRID/Scripts/run_ocvstart_3lopo_fullgrid.py": "40b7e85d9aeb34ce075bbd4a53a96eb9cc2364880ee63b56b045d74b54016a2e",
+    "${SOURCE_WORKSPACE}/DL/CEMA_MLP_OCVSTART_FULLGRID/soc_decomp/nmc_vcorr_it_train_dst_selector_run.py": "a6d097ae68f83d269a96e7ea3491041ec091c13e0fef74673959ec205650b4e1"
+  },
+  "features": {
+    "G0": "paper_g0_raw",
+    "T6": "paper_t6_voltage_ema_all",
+    "T7": "paper_t7_current_abs_ema_all",
+    "G4": "paper_g4_all_ema"
+  },
+  "folds": [
+    "DST",
+    "FUDS",
+    "US06"
+  ],
+  "seeds": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9
+  ],
+  "seed_runs": 120,
+  "config_jobs": 12,
+  "recipe": {
+    "lr": 0.0008,
+    "weight_decay": 0.0002,
+    "huber_beta": 0.02,
+    "batch_size": 2048,
+    "epochs": 200,
+    "window_len": 50,
+    "stride": 3,
+    "stage1_selector": "last_epoch",
+    "recurrent": "gru",
+    "model_kind": "single",
+    "head_kind": "linear",
+    "weight_0": 1.0,
+    "weight_25": 1.0,
+    "weight_45": 1.0,
+    "lambda_rex": 0.0,
+    "lambda_condinv": 0.0,
+    "lambda_anchor_loss": 0.0
+  },
+  "jobs": [
+    {
+      "chemistry": "NMC",
+      "feature": "G0",
+      "fold": "DST",
+      "prefix": "normalauxoff_nmc_gru_normal_g0_holdoutdst_s0123456789_b2048_e200",
+      "status": "complete",
+      "started_unix": 1785769749.753933,
+      "elapsed_seconds": 272.9994111061096
+    },
+    {
+      "chemistry": "NMC",
+      "feature": "G0",
+      "fold": "FUDS",
+      "prefix": "normalauxoff_nmc_gru_normal_g0_holdoutfuds_s0123456789_b2048_e200",
+      "status": "complete",
+      "started_unix": 1785770022.8611002,
+      "elapsed_seconds": 270.31994795799255
+    },
+    {
+      "chemistry": "NMC",
+      "feature": "G0",
+      "fold": "US06",
+      "prefix": "normalauxoff_nmc_gru_normal_g0_holdoutus06_s0123456789_b2048_e200",
+      "status": "complete",
+      "started_unix": 1785770293.2867336,
+      "elapsed_seconds": 273.6096262931824
+    },
+    {
+      "chemistry": "NMC",
+      "feature": "T6",
+      "fold": "DST",
+      "prefix": "normalauxoff_nmc_gru_normal_t6_holdoutdst_s0123456789_b2048_e200",
+      "status": "complete",
+      "started_unix": 1785770567.006786,
+      "elapsed_seconds": 272.8255019187927
+    },
+    {
+      "chemistry": "NMC",
+      "feature": "T6",
+      "fold": "FUDS",
+      "prefix": "normalauxoff_nmc_gru_normal_t6_holdoutfuds_s0123456789_b2048_e200",
+      "status": "complete",
+      "started_unix": 1785770839.964692,
+      "elapsed_seconds": 269.96734070777893
+    },
+    {
+      "chemistry": "NMC",
+      "feature": "T6",
+      "fold": "US06",
+      "prefix": "normalauxoff_nmc_gru_normal_t6_holdoutus06_s0123456789_b2048_e200",
+      "status": "complete",
+      "started_unix": 1785771110.0419302,
+      "elapsed_seconds": 273.6565957069397
+    },
+    {
+      "chemistry": "NMC",
+      "feature": "T7",
+      "fold": "DST",
+      "prefix": "normalauxoff_nmc_gru_normal_t7_holdoutdst_s0123456789_b2048_e200",
+      "status": "complete",
+      "started_unix": 1785771383.8260686,
+      "elapsed_seconds": 272.7352840900421
+    },
+    {
+      "chemistry": "NMC",
+      "feature": "T7",
+      "fold": "FUDS",
+      "prefix": "normalauxoff_nmc_gru_normal_t7_holdoutfuds_s0123456789_b2048_e200",
+      "status": "complete",
+      "started_unix": 1785771656.6643765,
+      "elapsed_seconds": 269.90234184265137
+    },
+    {
+      "chemistry": "NMC",
+      "feature": "T7",
+      "fold": "US06",
+      "prefix": "normalauxoff_nmc_gru_normal_t7_holdoutus06_s0123456789_b2048_e200",
+      "status": "complete",
+      "started_unix": 1785771926.679812,
+      "elapsed_seconds": 273.6874544620514
+    },
+    {
+      "chemistry": "NMC",
+      "feature": "G4",
+      "fold": "DST",
+      "prefix": "normalauxoff_nmc_gru_normal_g4_holdoutdst_s0123456789_b2048_e200",
+      "status": "complete",
+      "started_unix": 1785772200.475513,
+      "elapsed_seconds": 272.7880232334137
+    },
+    {
+      "chemistry": "NMC",
+      "feature": "G4",
+      "fold": "FUDS",
+      "prefix": "normalauxoff_nmc_gru_normal_g4_holdoutfuds_s0123456789_b2048_e200",
+      "status": "complete",
+      "started_unix": 1785772473.375245,
+      "elapsed_seconds": 269.99697279930115
+    },
+    {
+      "chemistry": "NMC",
+      "feature": "G4",
+      "fold": "US06",
+      "prefix": "normalauxoff_nmc_gru_normal_g4_holdoutus06_s0123456789_b2048_e200",
+      "status": "complete",
+      "started_unix": 1785772743.4846058,
+      "elapsed_seconds": 273.79257559776306
+    }
+  ],
+  "locked_hashes_after": {
+    "${SOURCE_WORKSPACE}/DL/CEMA_MLP_OCVSTART_FULLGRID/Scripts/run_ocvstart_3lopo_fullgrid.py": "40b7e85d9aeb34ce075bbd4a53a96eb9cc2364880ee63b56b045d74b54016a2e",
+    "${SOURCE_WORKSPACE}/DL/CEMA_MLP_OCVSTART_FULLGRID/soc_decomp/nmc_vcorr_it_train_dst_selector_run.py": "a6d097ae68f83d269a96e7ea3491041ec091c13e0fef74673959ec205650b4e1"
+  },
+  "locked_hashes_unchanged": true,
+  "all_jobs_complete": true
+}

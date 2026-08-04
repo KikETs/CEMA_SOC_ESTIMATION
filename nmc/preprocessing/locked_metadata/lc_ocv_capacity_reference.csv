@@ -1,0 +1,4 @@
+temperature_C,source_file,format,selected_region,selection_rule,Q_ref_lc_ocv_Ah,I_mean_A_or_mA,V_start_V_or_mV,V_end_V_or_mV,duration_s
+0.0,02_24_2016_SP20-1_0C_lowcurrentOCV.xls,Arbin split sheets,"Cycle 1, Step 6","largest negative-current low-current discharge step, Qdis_max",1.881668420784214,-0.09985063642461793,4.163778305053711,2.4999029636383057,67840.00846148637
+25.0,11_5_2015_low current OCV test_SP20-1.xlsx,Duration/mV/mA,sign segment 3,"largest contiguous negative-current low-current discharge segment, integrated -mA dt",2.156871388888889,-99.56464085563692,4175.0,2518.0,77986.0
+45.0,11_21_2015_low current OCV test_SP20-1.xlsx,Duration/mV/mA,sign segment 3,"largest contiguous negative-current low-current discharge segment, integrated -mA dt",2.0221686111111112,-99.52433489186012,4160.0,2501.0,73145.0

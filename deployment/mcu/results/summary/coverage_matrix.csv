@@ -1,0 +1,389 @@
+track,chemistry,method_or_feature,fold,seed_or_init,precision,measured,reason
+A_nn_partial_record_e2e,NMC,G4,DST,0,fp32,True,22 outputs x 3 temperatures after warmup
+A_nn_full_record_e2e,NMC,G4,DST,0,fp32,False,MISSING_not_measured; would require multi-hour MCU replay
+A_nn_latency,NMC,G4,DST,0,fp32,True,1024 DWT repetitions
+A_nn_memory,NMC,G4,DST,0,fp32,True,"linker map, stack watermark, ST report"
+A_nn_stage_proxy,NMC,G4,DST,0,fp32,True,PC proxy; MCU intermediate stages not captured
+A_nn_partial_record_e2e,NMC,G4,DST,1,fp32,True,22 outputs x 3 temperatures after warmup
+A_nn_full_record_e2e,NMC,G4,DST,1,fp32,False,MISSING_not_measured; would require multi-hour MCU replay
+A_nn_latency,NMC,G4,DST,1,fp32,True,1024 DWT repetitions
+A_nn_memory,NMC,G4,DST,1,fp32,True,"linker map, stack watermark, ST report"
+A_nn_stage_proxy,NMC,G4,DST,1,fp32,True,PC proxy; MCU intermediate stages not captured
+A_nn_partial_record_e2e,NMC,G4,DST,2,fp32,True,22 outputs x 3 temperatures after warmup
+A_nn_full_record_e2e,NMC,G4,DST,2,fp32,False,MISSING_not_measured; would require multi-hour MCU replay
+A_nn_latency,NMC,G4,DST,2,fp32,True,1024 DWT repetitions
+A_nn_memory,NMC,G4,DST,2,fp32,True,"linker map, stack watermark, ST report"
+A_nn_stage_proxy,NMC,G4,DST,2,fp32,True,PC proxy; MCU intermediate stages not captured
+A_nn_partial_record_e2e,NMC,G4,FUDS,0,fp32,True,22 outputs x 3 temperatures after warmup
+A_nn_full_record_e2e,NMC,G4,FUDS,0,fp32,False,MISSING_not_measured; would require multi-hour MCU replay
+A_nn_latency,NMC,G4,FUDS,0,fp32,True,1024 DWT repetitions
+A_nn_memory,NMC,G4,FUDS,0,fp32,True,"linker map, stack watermark, ST report"
+A_nn_stage_proxy,NMC,G4,FUDS,0,fp32,True,PC proxy; MCU intermediate stages not captured
+A_nn_partial_record_e2e,NMC,G4,FUDS,1,fp32,True,22 outputs x 3 temperatures after warmup
+A_nn_full_record_e2e,NMC,G4,FUDS,1,fp32,False,MISSING_not_measured; would require multi-hour MCU replay
+A_nn_latency,NMC,G4,FUDS,1,fp32,True,1024 DWT repetitions
+A_nn_memory,NMC,G4,FUDS,1,fp32,True,"linker map, stack watermark, ST report"
+A_nn_stage_proxy,NMC,G4,FUDS,1,fp32,True,PC proxy; MCU intermediate stages not captured
+A_nn_partial_record_e2e,NMC,G4,FUDS,2,fp32,True,22 outputs x 3 temperatures after warmup
+A_nn_full_record_e2e,NMC,G4,FUDS,2,fp32,False,MISSING_not_measured; would require multi-hour MCU replay
+A_nn_latency,NMC,G4,FUDS,2,fp32,True,1024 DWT repetitions
+A_nn_memory,NMC,G4,FUDS,2,fp32,True,"linker map, stack watermark, ST report"
+A_nn_stage_proxy,NMC,G4,FUDS,2,fp32,True,PC proxy; MCU intermediate stages not captured
+A_nn_partial_record_e2e,NMC,G4,US06,0,fp32,True,22 outputs x 3 temperatures after warmup
+A_nn_full_record_e2e,NMC,G4,US06,0,fp32,False,MISSING_not_measured; would require multi-hour MCU replay
+A_nn_latency,NMC,G4,US06,0,fp32,True,1024 DWT repetitions
+A_nn_memory,NMC,G4,US06,0,fp32,True,"linker map, stack watermark, ST report"
+A_nn_stage_proxy,NMC,G4,US06,0,fp32,True,PC proxy; MCU intermediate stages not captured
+A_nn_partial_record_e2e,NMC,G4,US06,1,fp32,True,22 outputs x 3 temperatures after warmup
+A_nn_full_record_e2e,NMC,G4,US06,1,fp32,False,MISSING_not_measured; would require multi-hour MCU replay
+A_nn_latency,NMC,G4,US06,1,fp32,True,1024 DWT repetitions
+A_nn_memory,NMC,G4,US06,1,fp32,True,"linker map, stack watermark, ST report"
+A_nn_stage_proxy,NMC,G4,US06,1,fp32,True,PC proxy; MCU intermediate stages not captured
+A_nn_partial_record_e2e,NMC,G4,US06,2,fp32,True,22 outputs x 3 temperatures after warmup
+A_nn_full_record_e2e,NMC,G4,US06,2,fp32,False,MISSING_not_measured; would require multi-hour MCU replay
+A_nn_latency,NMC,G4,US06,2,fp32,True,1024 DWT repetitions
+A_nn_memory,NMC,G4,US06,2,fp32,True,"linker map, stack watermark, ST report"
+A_nn_stage_proxy,NMC,G4,US06,2,fp32,True,PC proxy; MCU intermediate stages not captured
+A_nn_partial_record_e2e,NMC,T6,DST,0,fp32,True,22 outputs x 3 temperatures after warmup
+A_nn_full_record_e2e,NMC,T6,DST,0,fp32,False,MISSING_not_measured; would require multi-hour MCU replay
+A_nn_latency,NMC,T6,DST,0,fp32,True,1024 DWT repetitions
+A_nn_memory,NMC,T6,DST,0,fp32,True,"linker map, stack watermark, ST report"
+A_nn_stage_proxy,NMC,T6,DST,0,fp32,True,PC proxy; MCU intermediate stages not captured
+A_nn_partial_record_e2e,NMC,T6,DST,1,fp32,True,22 outputs x 3 temperatures after warmup
+A_nn_full_record_e2e,NMC,T6,DST,1,fp32,False,MISSING_not_measured; would require multi-hour MCU replay
+A_nn_latency,NMC,T6,DST,1,fp32,True,1024 DWT repetitions
+A_nn_memory,NMC,T6,DST,1,fp32,True,"linker map, stack watermark, ST report"
+A_nn_stage_proxy,NMC,T6,DST,1,fp32,True,PC proxy; MCU intermediate stages not captured
+A_nn_partial_record_e2e,NMC,T6,DST,2,fp32,True,22 outputs x 3 temperatures after warmup
+A_nn_full_record_e2e,NMC,T6,DST,2,fp32,False,MISSING_not_measured; would require multi-hour MCU replay
+A_nn_latency,NMC,T6,DST,2,fp32,True,1024 DWT repetitions
+A_nn_memory,NMC,T6,DST,2,fp32,True,"linker map, stack watermark, ST report"
+A_nn_stage_proxy,NMC,T6,DST,2,fp32,True,PC proxy; MCU intermediate stages not captured
+A_nn_partial_record_e2e,NMC,T6,FUDS,0,fp32,True,22 outputs x 3 temperatures after warmup
+A_nn_full_record_e2e,NMC,T6,FUDS,0,fp32,False,MISSING_not_measured; would require multi-hour MCU replay
+A_nn_latency,NMC,T6,FUDS,0,fp32,True,1024 DWT repetitions
+A_nn_memory,NMC,T6,FUDS,0,fp32,True,"linker map, stack watermark, ST report"
+A_nn_stage_proxy,NMC,T6,FUDS,0,fp32,True,PC proxy; MCU intermediate stages not captured
+A_nn_partial_record_e2e,NMC,T6,FUDS,1,fp32,True,22 outputs x 3 temperatures after warmup
+A_nn_full_record_e2e,NMC,T6,FUDS,1,fp32,False,MISSING_not_measured; would require multi-hour MCU replay
+A_nn_latency,NMC,T6,FUDS,1,fp32,True,1024 DWT repetitions
+A_nn_memory,NMC,T6,FUDS,1,fp32,True,"linker map, stack watermark, ST report"
+A_nn_stage_proxy,NMC,T6,FUDS,1,fp32,True,PC proxy; MCU intermediate stages not captured
+A_nn_partial_record_e2e,NMC,T6,FUDS,2,fp32,True,22 outputs x 3 temperatures after warmup
+A_nn_full_record_e2e,NMC,T6,FUDS,2,fp32,False,MISSING_not_measured; would require multi-hour MCU replay
+A_nn_latency,NMC,T6,FUDS,2,fp32,True,1024 DWT repetitions
+A_nn_memory,NMC,T6,FUDS,2,fp32,True,"linker map, stack watermark, ST report"
+A_nn_stage_proxy,NMC,T6,FUDS,2,fp32,True,PC proxy; MCU intermediate stages not captured
+A_nn_partial_record_e2e,NMC,T6,US06,0,fp32,True,22 outputs x 3 temperatures after warmup
+A_nn_full_record_e2e,NMC,T6,US06,0,fp32,False,MISSING_not_measured; would require multi-hour MCU replay
+A_nn_latency,NMC,T6,US06,0,fp32,True,1024 DWT repetitions
+A_nn_memory,NMC,T6,US06,0,fp32,True,"linker map, stack watermark, ST report"
+A_nn_stage_proxy,NMC,T6,US06,0,fp32,True,PC proxy; MCU intermediate stages not captured
+A_nn_partial_record_e2e,NMC,T6,US06,1,fp32,True,22 outputs x 3 temperatures after warmup
+A_nn_full_record_e2e,NMC,T6,US06,1,fp32,False,MISSING_not_measured; would require multi-hour MCU replay
+A_nn_latency,NMC,T6,US06,1,fp32,True,1024 DWT repetitions
+A_nn_memory,NMC,T6,US06,1,fp32,True,"linker map, stack watermark, ST report"
+A_nn_stage_proxy,NMC,T6,US06,1,fp32,True,PC proxy; MCU intermediate stages not captured
+A_nn_partial_record_e2e,NMC,T6,US06,2,fp32,True,22 outputs x 3 temperatures after warmup
+A_nn_full_record_e2e,NMC,T6,US06,2,fp32,False,MISSING_not_measured; would require multi-hour MCU replay
+A_nn_latency,NMC,T6,US06,2,fp32,True,1024 DWT repetitions
+A_nn_memory,NMC,T6,US06,2,fp32,True,"linker map, stack watermark, ST report"
+A_nn_stage_proxy,NMC,T6,US06,2,fp32,True,PC proxy; MCU intermediate stages not captured
+A_nn_partial_record_e2e,LFP,G4,DST,0,fp32,True,22 outputs x 3 temperatures after warmup
+A_nn_full_record_e2e,LFP,G4,DST,0,fp32,False,MISSING_not_measured; would require multi-hour MCU replay
+A_nn_latency,LFP,G4,DST,0,fp32,True,1024 DWT repetitions
+A_nn_memory,LFP,G4,DST,0,fp32,True,"linker map, stack watermark, ST report"
+A_nn_stage_proxy,LFP,G4,DST,0,fp32,True,PC proxy; MCU intermediate stages not captured
+A_nn_partial_record_e2e,LFP,G4,DST,1,fp32,True,22 outputs x 3 temperatures after warmup
+A_nn_full_record_e2e,LFP,G4,DST,1,fp32,False,MISSING_not_measured; would require multi-hour MCU replay
+A_nn_latency,LFP,G4,DST,1,fp32,True,1024 DWT repetitions
+A_nn_memory,LFP,G4,DST,1,fp32,True,"linker map, stack watermark, ST report"
+A_nn_stage_proxy,LFP,G4,DST,1,fp32,True,PC proxy; MCU intermediate stages not captured
+A_nn_partial_record_e2e,LFP,G4,DST,2,fp32,True,22 outputs x 3 temperatures after warmup
+A_nn_full_record_e2e,LFP,G4,DST,2,fp32,False,MISSING_not_measured; would require multi-hour MCU replay
+A_nn_latency,LFP,G4,DST,2,fp32,True,1024 DWT repetitions
+A_nn_memory,LFP,G4,DST,2,fp32,True,"linker map, stack watermark, ST report"
+A_nn_stage_proxy,LFP,G4,DST,2,fp32,True,PC proxy; MCU intermediate stages not captured
+A_nn_partial_record_e2e,LFP,G4,FUDS,0,fp32,True,22 outputs x 3 temperatures after warmup
+A_nn_full_record_e2e,LFP,G4,FUDS,0,fp32,False,MISSING_not_measured; would require multi-hour MCU replay
+A_nn_latency,LFP,G4,FUDS,0,fp32,True,1024 DWT repetitions
+A_nn_memory,LFP,G4,FUDS,0,fp32,True,"linker map, stack watermark, ST report"
+A_nn_stage_proxy,LFP,G4,FUDS,0,fp32,True,PC proxy; MCU intermediate stages not captured
+A_nn_partial_record_e2e,LFP,G4,FUDS,1,fp32,True,22 outputs x 3 temperatures after warmup
+A_nn_full_record_e2e,LFP,G4,FUDS,1,fp32,False,MISSING_not_measured; would require multi-hour MCU replay
+A_nn_latency,LFP,G4,FUDS,1,fp32,True,1024 DWT repetitions
+A_nn_memory,LFP,G4,FUDS,1,fp32,True,"linker map, stack watermark, ST report"
+A_nn_stage_proxy,LFP,G4,FUDS,1,fp32,True,PC proxy; MCU intermediate stages not captured
+A_nn_partial_record_e2e,LFP,G4,FUDS,2,fp32,True,22 outputs x 3 temperatures after warmup
+A_nn_full_record_e2e,LFP,G4,FUDS,2,fp32,False,MISSING_not_measured; would require multi-hour MCU replay
+A_nn_latency,LFP,G4,FUDS,2,fp32,True,1024 DWT repetitions
+A_nn_memory,LFP,G4,FUDS,2,fp32,True,"linker map, stack watermark, ST report"
+A_nn_stage_proxy,LFP,G4,FUDS,2,fp32,True,PC proxy; MCU intermediate stages not captured
+A_nn_partial_record_e2e,LFP,G4,US06,0,fp32,True,22 outputs x 3 temperatures after warmup
+A_nn_full_record_e2e,LFP,G4,US06,0,fp32,False,MISSING_not_measured; would require multi-hour MCU replay
+A_nn_latency,LFP,G4,US06,0,fp32,True,1024 DWT repetitions
+A_nn_memory,LFP,G4,US06,0,fp32,True,"linker map, stack watermark, ST report"
+A_nn_stage_proxy,LFP,G4,US06,0,fp32,True,PC proxy; MCU intermediate stages not captured
+A_nn_partial_record_e2e,LFP,G4,US06,1,fp32,True,22 outputs x 3 temperatures after warmup
+A_nn_full_record_e2e,LFP,G4,US06,1,fp32,False,MISSING_not_measured; would require multi-hour MCU replay
+A_nn_latency,LFP,G4,US06,1,fp32,True,1024 DWT repetitions
+A_nn_memory,LFP,G4,US06,1,fp32,True,"linker map, stack watermark, ST report"
+A_nn_stage_proxy,LFP,G4,US06,1,fp32,True,PC proxy; MCU intermediate stages not captured
+A_nn_partial_record_e2e,LFP,G4,US06,2,fp32,True,22 outputs x 3 temperatures after warmup
+A_nn_full_record_e2e,LFP,G4,US06,2,fp32,False,MISSING_not_measured; would require multi-hour MCU replay
+A_nn_latency,LFP,G4,US06,2,fp32,True,1024 DWT repetitions
+A_nn_memory,LFP,G4,US06,2,fp32,True,"linker map, stack watermark, ST report"
+A_nn_stage_proxy,LFP,G4,US06,2,fp32,True,PC proxy; MCU intermediate stages not captured
+A_nn_partial_record_e2e,LFP,T6,DST,0,fp32,True,22 outputs x 3 temperatures after warmup
+A_nn_full_record_e2e,LFP,T6,DST,0,fp32,False,MISSING_not_measured; would require multi-hour MCU replay
+A_nn_latency,LFP,T6,DST,0,fp32,True,1024 DWT repetitions
+A_nn_memory,LFP,T6,DST,0,fp32,True,"linker map, stack watermark, ST report"
+A_nn_stage_proxy,LFP,T6,DST,0,fp32,True,PC proxy; MCU intermediate stages not captured
+A_nn_partial_record_e2e,LFP,T6,DST,1,fp32,True,22 outputs x 3 temperatures after warmup
+A_nn_full_record_e2e,LFP,T6,DST,1,fp32,False,MISSING_not_measured; would require multi-hour MCU replay
+A_nn_latency,LFP,T6,DST,1,fp32,True,1024 DWT repetitions
+A_nn_memory,LFP,T6,DST,1,fp32,True,"linker map, stack watermark, ST report"
+A_nn_stage_proxy,LFP,T6,DST,1,fp32,True,PC proxy; MCU intermediate stages not captured
+A_nn_partial_record_e2e,LFP,T6,DST,2,fp32,True,22 outputs x 3 temperatures after warmup
+A_nn_full_record_e2e,LFP,T6,DST,2,fp32,False,MISSING_not_measured; would require multi-hour MCU replay
+A_nn_latency,LFP,T6,DST,2,fp32,True,1024 DWT repetitions
+A_nn_memory,LFP,T6,DST,2,fp32,True,"linker map, stack watermark, ST report"
+A_nn_stage_proxy,LFP,T6,DST,2,fp32,True,PC proxy; MCU intermediate stages not captured
+A_nn_partial_record_e2e,LFP,T6,FUDS,0,fp32,True,22 outputs x 3 temperatures after warmup
+A_nn_full_record_e2e,LFP,T6,FUDS,0,fp32,False,MISSING_not_measured; would require multi-hour MCU replay
+A_nn_latency,LFP,T6,FUDS,0,fp32,True,1024 DWT repetitions
+A_nn_memory,LFP,T6,FUDS,0,fp32,True,"linker map, stack watermark, ST report"
+A_nn_stage_proxy,LFP,T6,FUDS,0,fp32,True,PC proxy; MCU intermediate stages not captured
+A_nn_partial_record_e2e,LFP,T6,FUDS,1,fp32,True,22 outputs x 3 temperatures after warmup
+A_nn_full_record_e2e,LFP,T6,FUDS,1,fp32,False,MISSING_not_measured; would require multi-hour MCU replay
+A_nn_latency,LFP,T6,FUDS,1,fp32,True,1024 DWT repetitions
+A_nn_memory,LFP,T6,FUDS,1,fp32,True,"linker map, stack watermark, ST report"
+A_nn_stage_proxy,LFP,T6,FUDS,1,fp32,True,PC proxy; MCU intermediate stages not captured
+A_nn_partial_record_e2e,LFP,T6,FUDS,2,fp32,True,22 outputs x 3 temperatures after warmup
+A_nn_full_record_e2e,LFP,T6,FUDS,2,fp32,False,MISSING_not_measured; would require multi-hour MCU replay
+A_nn_latency,LFP,T6,FUDS,2,fp32,True,1024 DWT repetitions
+A_nn_memory,LFP,T6,FUDS,2,fp32,True,"linker map, stack watermark, ST report"
+A_nn_stage_proxy,LFP,T6,FUDS,2,fp32,True,PC proxy; MCU intermediate stages not captured
+A_nn_partial_record_e2e,LFP,T6,US06,0,fp32,True,22 outputs x 3 temperatures after warmup
+A_nn_full_record_e2e,LFP,T6,US06,0,fp32,False,MISSING_not_measured; would require multi-hour MCU replay
+A_nn_latency,LFP,T6,US06,0,fp32,True,1024 DWT repetitions
+A_nn_memory,LFP,T6,US06,0,fp32,True,"linker map, stack watermark, ST report"
+A_nn_stage_proxy,LFP,T6,US06,0,fp32,True,PC proxy; MCU intermediate stages not captured
+A_nn_partial_record_e2e,LFP,T6,US06,1,fp32,True,22 outputs x 3 temperatures after warmup
+A_nn_full_record_e2e,LFP,T6,US06,1,fp32,False,MISSING_not_measured; would require multi-hour MCU replay
+A_nn_latency,LFP,T6,US06,1,fp32,True,1024 DWT repetitions
+A_nn_memory,LFP,T6,US06,1,fp32,True,"linker map, stack watermark, ST report"
+A_nn_stage_proxy,LFP,T6,US06,1,fp32,True,PC proxy; MCU intermediate stages not captured
+A_nn_partial_record_e2e,LFP,T6,US06,2,fp32,True,22 outputs x 3 temperatures after warmup
+A_nn_full_record_e2e,LFP,T6,US06,2,fp32,False,MISSING_not_measured; would require multi-hour MCU replay
+A_nn_latency,LFP,T6,US06,2,fp32,True,1024 DWT repetitions
+A_nn_memory,LFP,T6,US06,2,fp32,True,"linker map, stack watermark, ST report"
+A_nn_stage_proxy,LFP,T6,US06,2,fp32,True,PC proxy; MCU intermediate stages not captured
+A_nn_partial_record_e2e,LFP,T7,DST,0,fp32,True,22 outputs x 3 temperatures after warmup
+A_nn_full_record_e2e,LFP,T7,DST,0,fp32,False,MISSING_not_measured; would require multi-hour MCU replay
+A_nn_latency,LFP,T7,DST,0,fp32,True,1024 DWT repetitions
+A_nn_memory,LFP,T7,DST,0,fp32,True,"linker map, stack watermark, ST report"
+A_nn_stage_proxy,LFP,T7,DST,0,fp32,True,PC proxy; MCU intermediate stages not captured
+A_nn_partial_record_e2e,LFP,T7,DST,1,fp32,True,22 outputs x 3 temperatures after warmup
+A_nn_full_record_e2e,LFP,T7,DST,1,fp32,False,MISSING_not_measured; would require multi-hour MCU replay
+A_nn_latency,LFP,T7,DST,1,fp32,True,1024 DWT repetitions
+A_nn_memory,LFP,T7,DST,1,fp32,True,"linker map, stack watermark, ST report"
+A_nn_stage_proxy,LFP,T7,DST,1,fp32,True,PC proxy; MCU intermediate stages not captured
+A_nn_partial_record_e2e,LFP,T7,DST,2,fp32,True,22 outputs x 3 temperatures after warmup
+A_nn_full_record_e2e,LFP,T7,DST,2,fp32,False,MISSING_not_measured; would require multi-hour MCU replay
+A_nn_latency,LFP,T7,DST,2,fp32,True,1024 DWT repetitions
+A_nn_memory,LFP,T7,DST,2,fp32,True,"linker map, stack watermark, ST report"
+A_nn_stage_proxy,LFP,T7,DST,2,fp32,True,PC proxy; MCU intermediate stages not captured
+A_nn_partial_record_e2e,LFP,T7,FUDS,0,fp32,True,22 outputs x 3 temperatures after warmup
+A_nn_full_record_e2e,LFP,T7,FUDS,0,fp32,False,MISSING_not_measured; would require multi-hour MCU replay
+A_nn_latency,LFP,T7,FUDS,0,fp32,True,1024 DWT repetitions
+A_nn_memory,LFP,T7,FUDS,0,fp32,True,"linker map, stack watermark, ST report"
+A_nn_stage_proxy,LFP,T7,FUDS,0,fp32,True,PC proxy; MCU intermediate stages not captured
+A_nn_partial_record_e2e,LFP,T7,FUDS,1,fp32,True,22 outputs x 3 temperatures after warmup
+A_nn_full_record_e2e,LFP,T7,FUDS,1,fp32,False,MISSING_not_measured; would require multi-hour MCU replay
+A_nn_latency,LFP,T7,FUDS,1,fp32,True,1024 DWT repetitions
+A_nn_memory,LFP,T7,FUDS,1,fp32,True,"linker map, stack watermark, ST report"
+A_nn_stage_proxy,LFP,T7,FUDS,1,fp32,True,PC proxy; MCU intermediate stages not captured
+A_nn_partial_record_e2e,LFP,T7,FUDS,2,fp32,True,22 outputs x 3 temperatures after warmup
+A_nn_full_record_e2e,LFP,T7,FUDS,2,fp32,False,MISSING_not_measured; would require multi-hour MCU replay
+A_nn_latency,LFP,T7,FUDS,2,fp32,True,1024 DWT repetitions
+A_nn_memory,LFP,T7,FUDS,2,fp32,True,"linker map, stack watermark, ST report"
+A_nn_stage_proxy,LFP,T7,FUDS,2,fp32,True,PC proxy; MCU intermediate stages not captured
+A_nn_partial_record_e2e,LFP,T7,US06,0,fp32,True,22 outputs x 3 temperatures after warmup
+A_nn_full_record_e2e,LFP,T7,US06,0,fp32,False,MISSING_not_measured; would require multi-hour MCU replay
+A_nn_latency,LFP,T7,US06,0,fp32,True,1024 DWT repetitions
+A_nn_memory,LFP,T7,US06,0,fp32,True,"linker map, stack watermark, ST report"
+A_nn_stage_proxy,LFP,T7,US06,0,fp32,True,PC proxy; MCU intermediate stages not captured
+A_nn_partial_record_e2e,LFP,T7,US06,1,fp32,True,22 outputs x 3 temperatures after warmup
+A_nn_full_record_e2e,LFP,T7,US06,1,fp32,False,MISSING_not_measured; would require multi-hour MCU replay
+A_nn_latency,LFP,T7,US06,1,fp32,True,1024 DWT repetitions
+A_nn_memory,LFP,T7,US06,1,fp32,True,"linker map, stack watermark, ST report"
+A_nn_stage_proxy,LFP,T7,US06,1,fp32,True,PC proxy; MCU intermediate stages not captured
+A_nn_partial_record_e2e,LFP,T7,US06,2,fp32,True,22 outputs x 3 temperatures after warmup
+A_nn_full_record_e2e,LFP,T7,US06,2,fp32,False,MISSING_not_measured; would require multi-hour MCU replay
+A_nn_latency,LFP,T7,US06,2,fp32,True,1024 DWT repetitions
+A_nn_memory,LFP,T7,US06,2,fp32,True,"linker map, stack watermark, ST report"
+A_nn_stage_proxy,LFP,T7,US06,2,fp32,True,PC proxy; MCU intermediate stages not captured
+A_nn_oneoff_G4_MLP,NMC,G4_MLP_residual,US06,0,fp32,False,MISSING_not_archived; user explicitly requested no persistent result
+B_kf_onchip_result,LFP,adaptive_hysteresis_2rc_ekf,DST,oracle,fp64,True,full-record MCU replay
+B_kf_fp32_filter,LFP,adaptive_hysteresis_2rc_ekf,DST,oracle,fp32,False,MISSING_not_measured; actual filter build is FP64 software
+B_kf_onchip_result,LFP,adaptive_hysteresis_2rc_ekf,DST,minus5pp,fp64,False,MISSING_not_measured_initial_perturbation
+B_kf_fp32_filter,LFP,adaptive_hysteresis_2rc_ekf,DST,minus5pp,fp32,False,MISSING_not_measured; actual filter build is FP64 software
+B_kf_onchip_result,LFP,adaptive_hysteresis_2rc_ekf,DST,minus10pp,fp64,False,MISSING_not_measured_initial_perturbation
+B_kf_fp32_filter,LFP,adaptive_hysteresis_2rc_ekf,DST,minus10pp,fp32,False,MISSING_not_measured; actual filter build is FP64 software
+B_kf_onchip_result,LFP,cc,DST,oracle,fp32,True,full-record MCU replay
+B_kf_onchip_result,LFP,cc,DST,minus5pp,fp32,False,MISSING_not_measured_initial_perturbation
+B_kf_onchip_result,LFP,cc,DST,minus10pp,fp32,False,MISSING_not_measured_initial_perturbation
+B_kf_onchip_result,LFP,hysteresis_2rc_ekf,DST,oracle,fp64,True,full-record MCU replay
+B_kf_fp32_filter,LFP,hysteresis_2rc_ekf,DST,oracle,fp32,False,MISSING_not_measured; actual filter build is FP64 software
+B_kf_onchip_result,LFP,hysteresis_2rc_ekf,DST,minus5pp,fp64,False,MISSING_not_measured_initial_perturbation
+B_kf_fp32_filter,LFP,hysteresis_2rc_ekf,DST,minus5pp,fp32,False,MISSING_not_measured; actual filter build is FP64 software
+B_kf_onchip_result,LFP,hysteresis_2rc_ekf,DST,minus10pp,fp64,False,MISSING_not_measured_initial_perturbation
+B_kf_fp32_filter,LFP,hysteresis_2rc_ekf,DST,minus10pp,fp32,False,MISSING_not_measured; actual filter build is FP64 software
+B_kf_onchip_result,LFP,2rc_ukf,DST,oracle,fp64,True,full-record MCU replay
+B_kf_fp32_filter,LFP,2rc_ukf,DST,oracle,fp32,False,MISSING_not_measured; actual filter build is FP64 software
+B_kf_onchip_result,LFP,2rc_ukf,DST,minus5pp,fp64,False,MISSING_not_measured_initial_perturbation
+B_kf_fp32_filter,LFP,2rc_ukf,DST,minus5pp,fp32,False,MISSING_not_measured; actual filter build is FP64 software
+B_kf_onchip_result,LFP,2rc_ukf,DST,minus10pp,fp64,False,MISSING_not_measured_initial_perturbation
+B_kf_fp32_filter,LFP,2rc_ukf,DST,minus10pp,fp32,False,MISSING_not_measured; actual filter build is FP64 software
+B_kf_onchip_result,LFP,plain_2rc_ekf,DST,oracle,fp64,True,full-record MCU replay
+B_kf_fp32_filter,LFP,plain_2rc_ekf,DST,oracle,fp32,False,MISSING_not_measured; actual filter build is FP64 software
+B_kf_onchip_result,LFP,plain_2rc_ekf,DST,minus5pp,fp64,False,MISSING_not_measured_initial_perturbation
+B_kf_fp32_filter,LFP,plain_2rc_ekf,DST,minus5pp,fp32,False,MISSING_not_measured; actual filter build is FP64 software
+B_kf_onchip_result,LFP,plain_2rc_ekf,DST,minus10pp,fp64,False,MISSING_not_measured_initial_perturbation
+B_kf_fp32_filter,LFP,plain_2rc_ekf,DST,minus10pp,fp32,False,MISSING_not_measured; actual filter build is FP64 software
+B_kf_onchip_result,LFP,adaptive_hysteresis_2rc_ekf,FUDS,oracle,fp64,True,full-record MCU replay
+B_kf_fp32_filter,LFP,adaptive_hysteresis_2rc_ekf,FUDS,oracle,fp32,False,MISSING_not_measured; actual filter build is FP64 software
+B_kf_onchip_result,LFP,adaptive_hysteresis_2rc_ekf,FUDS,minus5pp,fp64,False,MISSING_not_measured_initial_perturbation
+B_kf_fp32_filter,LFP,adaptive_hysteresis_2rc_ekf,FUDS,minus5pp,fp32,False,MISSING_not_measured; actual filter build is FP64 software
+B_kf_onchip_result,LFP,adaptive_hysteresis_2rc_ekf,FUDS,minus10pp,fp64,False,MISSING_not_measured_initial_perturbation
+B_kf_fp32_filter,LFP,adaptive_hysteresis_2rc_ekf,FUDS,minus10pp,fp32,False,MISSING_not_measured; actual filter build is FP64 software
+B_kf_onchip_result,LFP,cc,FUDS,oracle,fp32,True,full-record MCU replay
+B_kf_onchip_result,LFP,cc,FUDS,minus5pp,fp32,False,MISSING_not_measured_initial_perturbation
+B_kf_onchip_result,LFP,cc,FUDS,minus10pp,fp32,False,MISSING_not_measured_initial_perturbation
+B_kf_onchip_result,LFP,hysteresis_2rc_ekf,FUDS,oracle,fp64,True,full-record MCU replay
+B_kf_fp32_filter,LFP,hysteresis_2rc_ekf,FUDS,oracle,fp32,False,MISSING_not_measured; actual filter build is FP64 software
+B_kf_onchip_result,LFP,hysteresis_2rc_ekf,FUDS,minus5pp,fp64,False,MISSING_not_measured_initial_perturbation
+B_kf_fp32_filter,LFP,hysteresis_2rc_ekf,FUDS,minus5pp,fp32,False,MISSING_not_measured; actual filter build is FP64 software
+B_kf_onchip_result,LFP,hysteresis_2rc_ekf,FUDS,minus10pp,fp64,False,MISSING_not_measured_initial_perturbation
+B_kf_fp32_filter,LFP,hysteresis_2rc_ekf,FUDS,minus10pp,fp32,False,MISSING_not_measured; actual filter build is FP64 software
+B_kf_onchip_result,LFP,2rc_ukf,FUDS,oracle,fp64,True,full-record MCU replay
+B_kf_fp32_filter,LFP,2rc_ukf,FUDS,oracle,fp32,False,MISSING_not_measured; actual filter build is FP64 software
+B_kf_onchip_result,LFP,2rc_ukf,FUDS,minus5pp,fp64,False,MISSING_not_measured_initial_perturbation
+B_kf_fp32_filter,LFP,2rc_ukf,FUDS,minus5pp,fp32,False,MISSING_not_measured; actual filter build is FP64 software
+B_kf_onchip_result,LFP,2rc_ukf,FUDS,minus10pp,fp64,False,MISSING_not_measured_initial_perturbation
+B_kf_fp32_filter,LFP,2rc_ukf,FUDS,minus10pp,fp32,False,MISSING_not_measured; actual filter build is FP64 software
+B_kf_onchip_result,LFP,plain_2rc_ekf,FUDS,oracle,fp64,True,full-record MCU replay
+B_kf_fp32_filter,LFP,plain_2rc_ekf,FUDS,oracle,fp32,False,MISSING_not_measured; actual filter build is FP64 software
+B_kf_onchip_result,LFP,plain_2rc_ekf,FUDS,minus5pp,fp64,False,MISSING_not_measured_initial_perturbation
+B_kf_fp32_filter,LFP,plain_2rc_ekf,FUDS,minus5pp,fp32,False,MISSING_not_measured; actual filter build is FP64 software
+B_kf_onchip_result,LFP,plain_2rc_ekf,FUDS,minus10pp,fp64,False,MISSING_not_measured_initial_perturbation
+B_kf_fp32_filter,LFP,plain_2rc_ekf,FUDS,minus10pp,fp32,False,MISSING_not_measured; actual filter build is FP64 software
+B_kf_onchip_result,LFP,adaptive_hysteresis_2rc_ekf,US06,oracle,fp64,True,full-record MCU replay
+B_kf_fp32_filter,LFP,adaptive_hysteresis_2rc_ekf,US06,oracle,fp32,False,MISSING_not_measured; actual filter build is FP64 software
+B_kf_onchip_result,LFP,adaptive_hysteresis_2rc_ekf,US06,minus5pp,fp64,False,MISSING_not_measured_initial_perturbation
+B_kf_fp32_filter,LFP,adaptive_hysteresis_2rc_ekf,US06,minus5pp,fp32,False,MISSING_not_measured; actual filter build is FP64 software
+B_kf_onchip_result,LFP,adaptive_hysteresis_2rc_ekf,US06,minus10pp,fp64,False,MISSING_not_measured_initial_perturbation
+B_kf_fp32_filter,LFP,adaptive_hysteresis_2rc_ekf,US06,minus10pp,fp32,False,MISSING_not_measured; actual filter build is FP64 software
+B_kf_onchip_result,LFP,cc,US06,oracle,fp32,True,full-record MCU replay
+B_kf_onchip_result,LFP,cc,US06,minus5pp,fp32,False,MISSING_not_measured_initial_perturbation
+B_kf_onchip_result,LFP,cc,US06,minus10pp,fp32,False,MISSING_not_measured_initial_perturbation
+B_kf_onchip_result,LFP,hysteresis_2rc_ekf,US06,oracle,fp64,True,full-record MCU replay
+B_kf_fp32_filter,LFP,hysteresis_2rc_ekf,US06,oracle,fp32,False,MISSING_not_measured; actual filter build is FP64 software
+B_kf_onchip_result,LFP,hysteresis_2rc_ekf,US06,minus5pp,fp64,False,MISSING_not_measured_initial_perturbation
+B_kf_fp32_filter,LFP,hysteresis_2rc_ekf,US06,minus5pp,fp32,False,MISSING_not_measured; actual filter build is FP64 software
+B_kf_onchip_result,LFP,hysteresis_2rc_ekf,US06,minus10pp,fp64,False,MISSING_not_measured_initial_perturbation
+B_kf_fp32_filter,LFP,hysteresis_2rc_ekf,US06,minus10pp,fp32,False,MISSING_not_measured; actual filter build is FP64 software
+B_kf_onchip_result,LFP,2rc_ukf,US06,oracle,fp64,True,full-record MCU replay
+B_kf_fp32_filter,LFP,2rc_ukf,US06,oracle,fp32,False,MISSING_not_measured; actual filter build is FP64 software
+B_kf_onchip_result,LFP,2rc_ukf,US06,minus5pp,fp64,False,MISSING_not_measured_initial_perturbation
+B_kf_fp32_filter,LFP,2rc_ukf,US06,minus5pp,fp32,False,MISSING_not_measured; actual filter build is FP64 software
+B_kf_onchip_result,LFP,2rc_ukf,US06,minus10pp,fp64,False,MISSING_not_measured_initial_perturbation
+B_kf_fp32_filter,LFP,2rc_ukf,US06,minus10pp,fp32,False,MISSING_not_measured; actual filter build is FP64 software
+B_kf_onchip_result,LFP,plain_2rc_ekf,US06,oracle,fp64,True,full-record MCU replay
+B_kf_fp32_filter,LFP,plain_2rc_ekf,US06,oracle,fp32,False,MISSING_not_measured; actual filter build is FP64 software
+B_kf_onchip_result,LFP,plain_2rc_ekf,US06,minus5pp,fp64,False,MISSING_not_measured_initial_perturbation
+B_kf_fp32_filter,LFP,plain_2rc_ekf,US06,minus5pp,fp32,False,MISSING_not_measured; actual filter build is FP64 software
+B_kf_onchip_result,LFP,plain_2rc_ekf,US06,minus10pp,fp64,False,MISSING_not_measured_initial_perturbation
+B_kf_fp32_filter,LFP,plain_2rc_ekf,US06,minus10pp,fp32,False,MISSING_not_measured; actual filter build is FP64 software
+B_kf_onchip_result,NMC,1RC_EKF,DST,oracle,fp64,True,full-record MCU replay
+B_kf_fp32_filter,NMC,1RC_EKF,DST,oracle,fp32,False,MISSING_not_measured; actual filter build is FP64 software
+B_kf_onchip_result,NMC,1RC_EKF,DST,minus5pp,fp64,False,MISSING_not_measured_initial_perturbation
+B_kf_fp32_filter,NMC,1RC_EKF,DST,minus5pp,fp32,False,MISSING_not_measured; actual filter build is FP64 software
+B_kf_onchip_result,NMC,1RC_EKF,DST,minus10pp,fp64,False,MISSING_not_measured_initial_perturbation
+B_kf_fp32_filter,NMC,1RC_EKF,DST,minus10pp,fp32,False,MISSING_not_measured; actual filter build is FP64 software
+B_kf_onchip_result,NMC,2RC_EKF,DST,oracle,fp64,True,full-record MCU replay
+B_kf_fp32_filter,NMC,2RC_EKF,DST,oracle,fp32,False,MISSING_not_measured; actual filter build is FP64 software
+B_kf_onchip_result,NMC,2RC_EKF,DST,minus5pp,fp64,False,MISSING_not_measured_initial_perturbation
+B_kf_fp32_filter,NMC,2RC_EKF,DST,minus5pp,fp32,False,MISSING_not_measured; actual filter build is FP64 software
+B_kf_onchip_result,NMC,2RC_EKF,DST,minus10pp,fp64,False,MISSING_not_measured_initial_perturbation
+B_kf_fp32_filter,NMC,2RC_EKF,DST,minus10pp,fp32,False,MISSING_not_measured; actual filter build is FP64 software
+B_kf_onchip_result,NMC,2RC_UKF,DST,oracle,fp64,True,full-record MCU replay
+B_kf_fp32_filter,NMC,2RC_UKF,DST,oracle,fp32,False,MISSING_not_measured; actual filter build is FP64 software
+B_kf_onchip_result,NMC,2RC_UKF,DST,minus5pp,fp64,False,MISSING_not_measured_initial_perturbation
+B_kf_fp32_filter,NMC,2RC_UKF,DST,minus5pp,fp32,False,MISSING_not_measured; actual filter build is FP64 software
+B_kf_onchip_result,NMC,2RC_UKF,DST,minus10pp,fp64,False,MISSING_not_measured_initial_perturbation
+B_kf_fp32_filter,NMC,2RC_UKF,DST,minus10pp,fp32,False,MISSING_not_measured; actual filter build is FP64 software
+B_kf_onchip_result,NMC,Adaptive_2RC_EKF,DST,oracle,fp64,True,full-record MCU replay
+B_kf_fp32_filter,NMC,Adaptive_2RC_EKF,DST,oracle,fp32,False,MISSING_not_measured; actual filter build is FP64 software
+B_kf_onchip_result,NMC,Adaptive_2RC_EKF,DST,minus5pp,fp64,False,MISSING_not_measured_initial_perturbation
+B_kf_fp32_filter,NMC,Adaptive_2RC_EKF,DST,minus5pp,fp32,False,MISSING_not_measured; actual filter build is FP64 software
+B_kf_onchip_result,NMC,Adaptive_2RC_EKF,DST,minus10pp,fp64,False,MISSING_not_measured_initial_perturbation
+B_kf_fp32_filter,NMC,Adaptive_2RC_EKF,DST,minus10pp,fp32,False,MISSING_not_measured; actual filter build is FP64 software
+B_kf_onchip_result,NMC,CC,DST,oracle,fp32,True,full-record MCU replay
+B_kf_onchip_result,NMC,CC,DST,minus5pp,fp32,False,MISSING_not_measured_initial_perturbation
+B_kf_onchip_result,NMC,CC,DST,minus10pp,fp32,False,MISSING_not_measured_initial_perturbation
+B_kf_onchip_result,NMC,1RC_EKF,FUDS,oracle,fp64,True,full-record MCU replay
+B_kf_fp32_filter,NMC,1RC_EKF,FUDS,oracle,fp32,False,MISSING_not_measured; actual filter build is FP64 software
+B_kf_onchip_result,NMC,1RC_EKF,FUDS,minus5pp,fp64,False,MISSING_not_measured_initial_perturbation
+B_kf_fp32_filter,NMC,1RC_EKF,FUDS,minus5pp,fp32,False,MISSING_not_measured; actual filter build is FP64 software
+B_kf_onchip_result,NMC,1RC_EKF,FUDS,minus10pp,fp64,False,MISSING_not_measured_initial_perturbation
+B_kf_fp32_filter,NMC,1RC_EKF,FUDS,minus10pp,fp32,False,MISSING_not_measured; actual filter build is FP64 software
+B_kf_onchip_result,NMC,2RC_EKF,FUDS,oracle,fp64,True,full-record MCU replay
+B_kf_fp32_filter,NMC,2RC_EKF,FUDS,oracle,fp32,False,MISSING_not_measured; actual filter build is FP64 software
+B_kf_onchip_result,NMC,2RC_EKF,FUDS,minus5pp,fp64,False,MISSING_not_measured_initial_perturbation
+B_kf_fp32_filter,NMC,2RC_EKF,FUDS,minus5pp,fp32,False,MISSING_not_measured; actual filter build is FP64 software
+B_kf_onchip_result,NMC,2RC_EKF,FUDS,minus10pp,fp64,False,MISSING_not_measured_initial_perturbation
+B_kf_fp32_filter,NMC,2RC_EKF,FUDS,minus10pp,fp32,False,MISSING_not_measured; actual filter build is FP64 software
+B_kf_onchip_result,NMC,2RC_UKF,FUDS,oracle,fp64,True,full-record MCU replay
+B_kf_fp32_filter,NMC,2RC_UKF,FUDS,oracle,fp32,False,MISSING_not_measured; actual filter build is FP64 software
+B_kf_onchip_result,NMC,2RC_UKF,FUDS,minus5pp,fp64,False,MISSING_not_measured_initial_perturbation
+B_kf_fp32_filter,NMC,2RC_UKF,FUDS,minus5pp,fp32,False,MISSING_not_measured; actual filter build is FP64 software
+B_kf_onchip_result,NMC,2RC_UKF,FUDS,minus10pp,fp64,False,MISSING_not_measured_initial_perturbation
+B_kf_fp32_filter,NMC,2RC_UKF,FUDS,minus10pp,fp32,False,MISSING_not_measured; actual filter build is FP64 software
+B_kf_onchip_result,NMC,Adaptive_2RC_EKF,FUDS,oracle,fp64,True,full-record MCU replay
+B_kf_fp32_filter,NMC,Adaptive_2RC_EKF,FUDS,oracle,fp32,False,MISSING_not_measured; actual filter build is FP64 software
+B_kf_onchip_result,NMC,Adaptive_2RC_EKF,FUDS,minus5pp,fp64,False,MISSING_not_measured_initial_perturbation
+B_kf_fp32_filter,NMC,Adaptive_2RC_EKF,FUDS,minus5pp,fp32,False,MISSING_not_measured; actual filter build is FP64 software
+B_kf_onchip_result,NMC,Adaptive_2RC_EKF,FUDS,minus10pp,fp64,False,MISSING_not_measured_initial_perturbation
+B_kf_fp32_filter,NMC,Adaptive_2RC_EKF,FUDS,minus10pp,fp32,False,MISSING_not_measured; actual filter build is FP64 software
+B_kf_onchip_result,NMC,CC,FUDS,oracle,fp32,True,full-record MCU replay
+B_kf_onchip_result,NMC,CC,FUDS,minus5pp,fp32,False,MISSING_not_measured_initial_perturbation
+B_kf_onchip_result,NMC,CC,FUDS,minus10pp,fp32,False,MISSING_not_measured_initial_perturbation
+B_kf_onchip_result,NMC,1RC_EKF,US06,oracle,fp64,True,full-record MCU replay
+B_kf_fp32_filter,NMC,1RC_EKF,US06,oracle,fp32,False,MISSING_not_measured; actual filter build is FP64 software
+B_kf_onchip_result,NMC,1RC_EKF,US06,minus5pp,fp64,False,MISSING_not_measured_initial_perturbation
+B_kf_fp32_filter,NMC,1RC_EKF,US06,minus5pp,fp32,False,MISSING_not_measured; actual filter build is FP64 software
+B_kf_onchip_result,NMC,1RC_EKF,US06,minus10pp,fp64,False,MISSING_not_measured_initial_perturbation
+B_kf_fp32_filter,NMC,1RC_EKF,US06,minus10pp,fp32,False,MISSING_not_measured; actual filter build is FP64 software
+B_kf_onchip_result,NMC,2RC_EKF,US06,oracle,fp64,True,full-record MCU replay
+B_kf_fp32_filter,NMC,2RC_EKF,US06,oracle,fp32,False,MISSING_not_measured; actual filter build is FP64 software
+B_kf_onchip_result,NMC,2RC_EKF,US06,minus5pp,fp64,False,MISSING_not_measured_initial_perturbation
+B_kf_fp32_filter,NMC,2RC_EKF,US06,minus5pp,fp32,False,MISSING_not_measured; actual filter build is FP64 software
+B_kf_onchip_result,NMC,2RC_EKF,US06,minus10pp,fp64,False,MISSING_not_measured_initial_perturbation
+B_kf_fp32_filter,NMC,2RC_EKF,US06,minus10pp,fp32,False,MISSING_not_measured; actual filter build is FP64 software
+B_kf_onchip_result,NMC,2RC_UKF,US06,oracle,fp64,True,full-record MCU replay
+B_kf_fp32_filter,NMC,2RC_UKF,US06,oracle,fp32,False,MISSING_not_measured; actual filter build is FP64 software
+B_kf_onchip_result,NMC,2RC_UKF,US06,minus5pp,fp64,False,MISSING_not_measured_initial_perturbation
+B_kf_fp32_filter,NMC,2RC_UKF,US06,minus5pp,fp32,False,MISSING_not_measured; actual filter build is FP64 software
+B_kf_onchip_result,NMC,2RC_UKF,US06,minus10pp,fp64,False,MISSING_not_measured_initial_perturbation
+B_kf_fp32_filter,NMC,2RC_UKF,US06,minus10pp,fp32,False,MISSING_not_measured; actual filter build is FP64 software
+B_kf_onchip_result,NMC,Adaptive_2RC_EKF,US06,oracle,fp64,True,full-record MCU replay
+B_kf_fp32_filter,NMC,Adaptive_2RC_EKF,US06,oracle,fp32,False,MISSING_not_measured; actual filter build is FP64 software
+B_kf_onchip_result,NMC,Adaptive_2RC_EKF,US06,minus5pp,fp64,False,MISSING_not_measured_initial_perturbation
+B_kf_fp32_filter,NMC,Adaptive_2RC_EKF,US06,minus5pp,fp32,False,MISSING_not_measured; actual filter build is FP64 software
+B_kf_onchip_result,NMC,Adaptive_2RC_EKF,US06,minus10pp,fp64,False,MISSING_not_measured_initial_perturbation
+B_kf_fp32_filter,NMC,Adaptive_2RC_EKF,US06,minus10pp,fp32,False,MISSING_not_measured; actual filter build is FP64 software
+B_kf_onchip_result,NMC,CC,US06,oracle,fp32,True,full-record MCU replay
+B_kf_onchip_result,NMC,CC,US06,minus5pp,fp32,False,MISSING_not_measured_initial_perturbation
+B_kf_onchip_result,NMC,CC,US06,minus10pp,fp32,False,MISSING_not_measured_initial_perturbation

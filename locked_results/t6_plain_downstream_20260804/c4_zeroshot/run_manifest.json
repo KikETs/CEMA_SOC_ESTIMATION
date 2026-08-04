@@ -1,0 +1,17 @@
+{
+  "network_weights": "NMC T6 GRU plain-linear aux-off final epoch 200, seeds 0-2",
+  "strict": "NMC scaler and NMC fold-local R0; out-of-range LFP temperature clamped by np.interp",
+  "measurement_adapted": "LFP fold-local scaler and R0 from existing frozen package; NMC weights unchanged",
+  "aggregation": "24 conditions equal-weighted within seed, then seed mean",
+  "package_hash_before": {
+    "NMC": "899a19116957af0ae8686569b88d2869195b075da32fdbe3a4c6cf83e156d121",
+    "LFP": "df654a2e7b8a86d52bafbf20dbe4a7e1ab802af274ec1878675b4ceb5543a769"
+  },
+  "package_hash_after": {
+    "NMC": "899a19116957af0ae8686569b88d2869195b075da32fdbe3a4c6cf83e156d121",
+    "LFP": "df654a2e7b8a86d52bafbf20dbe4a7e1ab802af274ec1878675b4ceb5543a769"
+  },
+  "package_unchanged": true,
+  "workers": 3,
+  "elapsed_wall_s": 3.5142228603363037
+}

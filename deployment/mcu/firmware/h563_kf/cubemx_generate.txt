@@ -1,0 +1,6 @@
+config load @IOC@
+project toolchain STM32CubeIDE
+project path @PROJECT_ROOT@
+project name STM32H563ZI_AI_KF_BENCH
+project generate
+exit

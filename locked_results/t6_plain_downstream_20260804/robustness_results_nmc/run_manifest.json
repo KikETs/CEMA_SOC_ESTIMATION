@@ -1,0 +1,47 @@
+{
+  "package_root": "/home/user/\ubc14\ud0d5\ud654\uba74/DL/CEMA_CARRIER_FAIRNESS_ABLATIONS_20260803/t6_plain_downstream_20260804/inference_pkg_nmc",
+  "package_tree_sha256_before": "78d819485040a907cca3263ca0f4420a6267284fe709d8413a52730f0cd00730",
+  "package_tree_sha256_after": "78d819485040a907cca3263ca0f4420a6267284fe709d8413a52730f0cd00730",
+  "package_unchanged": true,
+  "chemistry": "nmc",
+  "features": [
+    "T6_plain"
+  ],
+  "folds": [
+    "DST",
+    "FUDS",
+    "US06"
+  ],
+  "model_seeds": [
+    0,
+    1,
+    2
+  ],
+  "temperatures_C": [
+    0,
+    25,
+    45
+  ],
+  "injection_point": "raw_voltage_or_current_before_R0_correction_Vcorr_EMA_normalization_and_windowing",
+  "noise_seeds": [
+    0,
+    1,
+    2
+  ],
+  "cold_start_seed": 20260711,
+  "metric_unit": "SOC percentage points",
+  "csv_columns": [
+    "feature",
+    "fold",
+    "seed",
+    "perturbation_type",
+    "level",
+    "temp",
+    "soc_band",
+    "mae",
+    "rmse",
+    "bias"
+  ],
+  "workers": 3,
+  "cold_trial_aggregation": "pool samples across five reset trials before metrics"
+}

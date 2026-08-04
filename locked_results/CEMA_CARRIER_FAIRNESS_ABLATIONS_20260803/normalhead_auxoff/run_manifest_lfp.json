@@ -1,0 +1,176 @@
+{
+  "experiment": "normalhead_auxoff",
+  "analysis_stage": "method_recipe_alignment_retraining",
+  "chemistry": "LFP",
+  "source_runner": "${SOURCE_WORKSPACE}/LFP_REMOTE_EXACT_COPY_20260713/DL/CEMA_LFP/lfp_confirmatory_minipanel/Scripts/run_confirmatory_minipanel.py",
+  "source_runner_sha256": "3a5a18ca85849b57306c595e350625867eaf3859fcd6ac96bd34eeb2e56b6c4e",
+  "training_harness": "${SOURCE_WORKSPACE}/LFP_REMOTE_EXACT_COPY_20260713/DL/CEMA_LFP/lfp_confirmatory_minipanel/source_repo/soc_decomp/nmc_vcorr_it_train_dst_selector_run.py",
+  "training_harness_sha256": "643e880d5e09d7e5d25ee879b86b468194fa1c515e3a36676ba7649e838fc6b2",
+  "locked_workspace_read_only": true,
+  "locked_hashes_before": {
+    "${SOURCE_WORKSPACE}/LFP_REMOTE_EXACT_COPY_20260713/DL/CEMA_LFP/lfp_confirmatory_minipanel/Scripts/run_confirmatory_minipanel.py": "3a5a18ca85849b57306c595e350625867eaf3859fcd6ac96bd34eeb2e56b6c4e",
+    "${SOURCE_WORKSPACE}/LFP_REMOTE_EXACT_COPY_20260713/DL/CEMA_LFP/lfp_confirmatory_minipanel/source_repo/soc_decomp/nmc_vcorr_it_train_dst_selector_run.py": "643e880d5e09d7e5d25ee879b86b468194fa1c515e3a36676ba7649e838fc6b2",
+    "${SOURCE_WORKSPACE}/LFP_REMOTE_EXACT_COPY_20260713/DL/CEMA_LFP/lfp_confirmatory_minipanel/manifests/prepared_dataset_manifest.csv": "a291f81ce4f611627683cac4b74fcde9c925d71dc7aebde7e28bb996175c8fcb"
+  },
+  "features": {
+    "G0": "paper_g0_raw",
+    "T6": "paper_t6_voltage_ema_all",
+    "T7": "paper_t7_current_abs_ema_all",
+    "G4": "paper_g4_all_ema"
+  },
+  "folds": [
+    "DST",
+    "FUDS",
+    "US06"
+  ],
+  "seeds": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9
+  ],
+  "seed_runs": 120,
+  "config_jobs": 12,
+  "recipe": {
+    "lr": 0.0008,
+    "weight_decay": 0.0002,
+    "huber_beta": 0.02,
+    "batch_size": 2048,
+    "epochs": 200,
+    "window_len": 50,
+    "stride": 3,
+    "stage1_selector": "last_epoch",
+    "recurrent": "gru",
+    "model_kind": "single",
+    "head_kind": "linear",
+    "weight_0": 1.0,
+    "weight_25": 1.0,
+    "weight_45": 1.0,
+    "lambda_rex": 0.0,
+    "lambda_condinv": 0.0,
+    "lambda_anchor_loss": 0.0
+  },
+  "jobs": [
+    {
+      "chemistry": "LFP",
+      "feature": "G0",
+      "fold": "DST",
+      "prefix": "normalauxoff_lfp_gru_normal_g0_holdoutdst_s0123456789_b2048_e200",
+      "status": "complete",
+      "started_unix": 1785762333.3289375,
+      "elapsed_seconds": 583.4710631370544
+    },
+    {
+      "chemistry": "LFP",
+      "feature": "G0",
+      "fold": "FUDS",
+      "prefix": "normalauxoff_lfp_gru_normal_g0_holdoutfuds_s0123456789_b2048_e200",
+      "status": "complete",
+      "started_unix": 1785762916.9076827,
+      "elapsed_seconds": 581.3132667541504
+    },
+    {
+      "chemistry": "LFP",
+      "feature": "G0",
+      "fold": "US06",
+      "prefix": "normalauxoff_lfp_gru_normal_g0_holdoutus06_s0123456789_b2048_e200",
+      "status": "complete",
+      "started_unix": 1785763498.3271742,
+      "elapsed_seconds": 604.0404081344604
+    },
+    {
+      "chemistry": "LFP",
+      "feature": "T6",
+      "fold": "DST",
+      "prefix": "normalauxoff_lfp_gru_normal_t6_holdoutdst_s0123456789_b2048_e200",
+      "status": "complete",
+      "started_unix": 1785764102.4747515,
+      "elapsed_seconds": 583.9848868846893
+    },
+    {
+      "chemistry": "LFP",
+      "feature": "T6",
+      "fold": "FUDS",
+      "prefix": "normalauxoff_lfp_gru_normal_t6_holdoutfuds_s0123456789_b2048_e200",
+      "status": "complete",
+      "started_unix": 1785764686.566923,
+      "elapsed_seconds": 580.6640105247498
+    },
+    {
+      "chemistry": "LFP",
+      "feature": "T6",
+      "fold": "US06",
+      "prefix": "normalauxoff_lfp_gru_normal_t6_holdoutus06_s0123456789_b2048_e200",
+      "status": "complete",
+      "started_unix": 1785765267.3355346,
+      "elapsed_seconds": 604.4821357727051
+    },
+    {
+      "chemistry": "LFP",
+      "feature": "T7",
+      "fold": "DST",
+      "prefix": "normalauxoff_lfp_gru_normal_t7_holdoutdst_s0123456789_b2048_e200",
+      "status": "complete",
+      "started_unix": 1785765871.9265804,
+      "elapsed_seconds": 584.1710019111633
+    },
+    {
+      "chemistry": "LFP",
+      "feature": "T7",
+      "fold": "FUDS",
+      "prefix": "normalauxoff_lfp_gru_normal_t7_holdoutfuds_s0123456789_b2048_e200",
+      "status": "complete",
+      "started_unix": 1785766456.20454,
+      "elapsed_seconds": 580.8552353382111
+    },
+    {
+      "chemistry": "LFP",
+      "feature": "T7",
+      "fold": "US06",
+      "prefix": "normalauxoff_lfp_gru_normal_t7_holdoutus06_s0123456789_b2048_e200",
+      "status": "complete",
+      "started_unix": 1785767037.1908412,
+      "elapsed_seconds": 604.7896211147308
+    },
+    {
+      "chemistry": "LFP",
+      "feature": "G4",
+      "fold": "DST",
+      "prefix": "normalauxoff_lfp_gru_normal_g4_holdoutdst_s0123456789_b2048_e200",
+      "status": "complete",
+      "started_unix": 1785767642.0852501,
+      "elapsed_seconds": 588.0482442378998
+    },
+    {
+      "chemistry": "LFP",
+      "feature": "G4",
+      "fold": "FUDS",
+      "prefix": "normalauxoff_lfp_gru_normal_g4_holdoutfuds_s0123456789_b2048_e200",
+      "status": "complete",
+      "started_unix": 1785768230.2642486,
+      "elapsed_seconds": 581.6394753456116
+    },
+    {
+      "chemistry": "LFP",
+      "feature": "G4",
+      "fold": "US06",
+      "prefix": "normalauxoff_lfp_gru_normal_g4_holdoutus06_s0123456789_b2048_e200",
+      "status": "complete",
+      "started_unix": 1785768812.0104728,
+      "elapsed_seconds": 604.6842300891876
+    }
+  ],
+  "locked_hashes_after": {
+    "${SOURCE_WORKSPACE}/LFP_REMOTE_EXACT_COPY_20260713/DL/CEMA_LFP/lfp_confirmatory_minipanel/Scripts/run_confirmatory_minipanel.py": "3a5a18ca85849b57306c595e350625867eaf3859fcd6ac96bd34eeb2e56b6c4e",
+    "${SOURCE_WORKSPACE}/LFP_REMOTE_EXACT_COPY_20260713/DL/CEMA_LFP/lfp_confirmatory_minipanel/source_repo/soc_decomp/nmc_vcorr_it_train_dst_selector_run.py": "643e880d5e09d7e5d25ee879b86b468194fa1c515e3a36676ba7649e838fc6b2",
+    "${SOURCE_WORKSPACE}/LFP_REMOTE_EXACT_COPY_20260713/DL/CEMA_LFP/lfp_confirmatory_minipanel/manifests/prepared_dataset_manifest.csv": "a291f81ce4f611627683cac4b74fcde9c925d71dc7aebde7e28bb996175c8fcb"
+  },
+  "locked_hashes_unchanged": true,
+  "all_jobs_complete": true
+}

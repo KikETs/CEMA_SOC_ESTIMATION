@@ -1,0 +1,46 @@
+{
+  "status": "PASS",
+  "prepared_records": 24,
+  "label": "ocvdischarge_soc0qref",
+  "features": {
+    "RAW_W200": [
+      "paper_g0_raw",
+      200
+    ],
+    "RAW_W800": [
+      "paper_g0_raw",
+      800
+    ],
+    "SMA9": [
+      "c1_sma9",
+      50
+    ]
+  },
+  "seeds": [
+    0,
+    1,
+    2
+  ],
+  "temperatures_C": [
+    -10.0,
+    0.0,
+    10.0,
+    20.0,
+    25.0,
+    30.0,
+    40.0,
+    50.0
+  ],
+  "device": "cuda",
+  "SMA9_channels": [
+    "V_corr_raw",
+    "I_raw",
+    "T",
+    "V_corr_raw_sma50",
+    "V_corr_raw_dev_sma50",
+    "V_corr_raw_sma200",
+    "V_corr_raw_dev_sma200",
+    "V_corr_raw_sma800",
+    "V_corr_raw_dev_sma800"
+  ]
+}

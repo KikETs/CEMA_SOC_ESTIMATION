@@ -1,0 +1,67 @@
+{
+  "columns": [
+    "V_corr_raw",
+    "I_raw",
+    "T",
+    "I_raw_ema50",
+    "I_raw_dev_ema50",
+    "I_raw_ema200",
+    "I_raw_dev_ema200",
+    "absI_ema50",
+    "absI_dev_ema50",
+    "absI_ema200",
+    "absI_dev_ema200"
+  ],
+  "epsilon": 1e-08,
+  "fit_files": [
+    "LFP_-10C_DST.csv",
+    "LFP_-10C_US06.csv",
+    "LFP_0C_DST.csv",
+    "LFP_0C_US06.csv",
+    "LFP_10C_DST.csv",
+    "LFP_10C_US06.csv",
+    "LFP_20C_DST.csv",
+    "LFP_20C_US06.csv",
+    "LFP_25C_DST.csv",
+    "LFP_25C_US06.csv",
+    "LFP_30C_DST.csv",
+    "LFP_30C_US06.csv",
+    "LFP_40C_DST.csv",
+    "LFP_40C_US06.csv",
+    "LFP_50C_DST.csv",
+    "LFP_50C_US06.csv"
+  ],
+  "fit_profiles": [
+    "DST",
+    "US06"
+  ],
+  "fit_scope": "training_profiles_only",
+  "mean": [
+    3.24906849861145,
+    -0.5168519616127014,
+    22.161884307861328,
+    -0.5122326612472534,
+    -0.004619378596544266,
+    -0.5015040040016174,
+    -0.01534795481711626,
+    0.6703013777732849,
+    0.0051727257668972015,
+    0.656390368938446,
+    0.019083762541413307
+  ],
+  "method": "numpy_nanmean_nanstd_float32",
+  "source_numeric_layout": "Fortran-contiguous column-major",
+  "std": [
+    0.09392312914133072,
+    0.8340123295783997,
+    18.194421768188477,
+    0.2586808204650879,
+    0.7858415246009827,
+    0.10672085732221603,
+    0.8293707370758057,
+    0.26288723945617676,
+    0.6568832993507385,
+    0.12227069586515427,
+    0.7081052660942078
+  ]
+}

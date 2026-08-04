@@ -1,0 +1,3 @@
+variant,condition_equal_MAE_pct,seed_SD_pct,n_seeds,n_conditions,clamped_sample_fraction
+measurement_adapted,12.80832383190709,0.18752249599449966,3,72,0.0
+strict,47.47902287135179,0.3865594776288078,3,72,0.25

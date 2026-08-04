@@ -1,0 +1,42 @@
+project:
+  output_root: results_v2_1
+  seed: 20260712
+base_config: configs/remote.yaml
+v2_config: configs/v2.yaml
+
+ecm_fit:
+  r1_bounds_ohm: [1.0e-5, 0.5]
+  r2_bounds_ohm: [1.0e-5, 0.5]
+  tau1_bounds_s: [1.1, 40.0]
+  tau2_bounds_s: [20.0, 600.0]
+  gamma_bounds: [1.0e-6, 1.0e-2]
+  max_nfev: 300
+  rmse_flag_mV: 10.0
+  tau_separation_ratio_max: 0.25
+
+selection:
+  representative_holdout: DST
+  trials: 200
+  sampler: TPE
+  seed: 20260712
+  range_decades: 6
+  boundary_log_fraction: 0.005
+  max_range_extensions: 1
+  extension_factor: 100.0
+  initial_errors_pp: [0, 5, -5]
+  recovery_threshold_pp: 1.5
+  recovery_deadline_s: 1800
+  minimum_recovered_fraction: 0.90
+
+tradeoff:
+  q_soc_values: [1.0e-12, 1.389495494e-11, 1.930697729e-10, 2.682695795e-9, 3.727593720e-8, 5.179474679e-7, 7.196856730e-6, 1.0e-4]
+  initial_errors_pp: [0, 5, -5]
+
+statistics:
+  circular_block_samples: 60
+  bootstrap_replicates: 10000
+  bootstrap_seed: 20260712
+
+nmc:
+  requested_root: /home/user/바탕화면/DL/NMC_KF_3LOPO_BASELINES
+  local_mirror: /home/lab/바탕화면/DL/NMC_KF_3LOPO_BASELINES

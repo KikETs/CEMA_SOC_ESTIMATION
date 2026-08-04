@@ -1,0 +1,51 @@
+{
+  "columns": [
+    "V_corr_raw",
+    "I_raw",
+    "T",
+    "V_corr_raw_ema50",
+    "V_corr_raw_dev_ema50",
+    "V_corr_raw_ema200",
+    "V_corr_raw_dev_ema200",
+    "V_corr_raw_ema800",
+    "V_corr_raw_dev_ema800"
+  ],
+  "epsilon": 1e-08,
+  "fit_files": [
+    "NMC_0C_DST.csv",
+    "NMC_0C_US06.csv",
+    "NMC_25C_DST.csv",
+    "NMC_25C_US06.csv",
+    "NMC_45C_DST.csv",
+    "NMC_45C_US06.csv"
+  ],
+  "fit_profiles": [
+    "DST",
+    "US06"
+  ],
+  "fit_scope": "training_profiles_only",
+  "mean": [
+    3.6340277194976807,
+    -0.5428510308265686,
+    24.496543884277344,
+    3.6374635696411133,
+    -0.0034359556157141924,
+    3.6468732357025146,
+    -0.012845305725932121,
+    3.677828550338745,
+    -0.04380078986287117
+  ],
+  "method": "numpy_nanmean_nanstd_float32",
+  "source_numeric_layout": "Fortran-contiguous column-major",
+  "std": [
+    0.15451903641223907,
+    0.8602707982063293,
+    18.216760635375977,
+    0.15315775573253632,
+    0.005855167284607887,
+    0.15105783939361572,
+    0.01431606337428093,
+    0.14942002296447754,
+    0.027145201340317726
+  ]
+}

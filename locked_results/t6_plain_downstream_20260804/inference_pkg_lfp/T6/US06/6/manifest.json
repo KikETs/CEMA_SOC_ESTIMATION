@@ -1,0 +1,213 @@
+{
+  "archived_predictions": "normalauxoff_lfp_gru_normal_t6_holdoutus06_s0123456789_b2048_e200_seed6_sel200_condinv_trainDST25_selected_seed6_ep200_base_test_prediction_rows.csv.gz",
+  "entry": {
+    "chemistry": "lfp",
+    "feature": "T6",
+    "fold": "US06",
+    "seed": 6
+  },
+  "evaluation_records": [
+    "-10C/LFP_-10C_US06.csv",
+    "0C/LFP_0C_US06.csv",
+    "10C/LFP_10C_US06.csv",
+    "20C/LFP_20C_US06.csv",
+    "25C/LFP_25C_US06.csv",
+    "30C/LFP_30C_US06.csv",
+    "40C/LFP_40C_US06.csv",
+    "50C/LFP_50C_US06.csv"
+  ],
+  "package_files": [
+    {
+      "path": "code/__init__.py",
+      "sha256": "cae1b55e8b1bc4d6d62c29cf6f9222eafc9aee86611f555280c975dbd206b422",
+      "size_bytes": 96
+    },
+    {
+      "path": "code/inference.py",
+      "sha256": "a51d264c8c987a3808ffd753552bbcc1af38614f3dae65c59627b81f2b8ead47",
+      "size_bytes": 12436
+    },
+    {
+      "path": "config.json",
+      "sha256": "264ce216edc10b64b89e8de89dd4fc98b1db9dca4b8e3a143d0308da6c1da759",
+      "size_bytes": 2262
+    },
+    {
+      "path": "normalauxoff_lfp_gru_normal_t6_holdoutus06_s0123456789_b2048_e200_seed6_final_epoch200_weights.pt",
+      "sha256": "57614492588733716616ba2682e5ad8b75929427208d49cf879ca234be5c4dd6",
+      "size_bytes": 408319
+    },
+    {
+      "path": "r0_table.json",
+      "sha256": "34c87bb662e6ded5808456475144320bc85ed23eae262e29e7bebfc4cc93429a",
+      "size_bytes": 1119
+    },
+    {
+      "path": "scaler.json",
+      "sha256": "8549d7d4045f941155772142112971f2b8f28cc0931fd388c3df6525e531681e",
+      "size_bytes": 1312
+    }
+  ],
+  "schema_version": 2,
+  "source_artifacts": [
+    {
+      "path": "normalauxoff_lfp_gru_normal_t6_holdoutus06_s0123456789_b2048_e200_seed6_final_epoch200_weights.pt",
+      "sha256": "57614492588733716616ba2682e5ad8b75929427208d49cf879ca234be5c4dd6",
+      "size_bytes": 408319
+    },
+    {
+      "path": "normalauxoff_lfp_gru_normal_t6_holdoutus06_s0123456789_b2048_e200_seed6_sel200_condinv_trainDST25_selected_seed6_ep200_base_test_prediction_rows.csv.gz",
+      "sha256": "e59389c1018808ffced3b69b85d2d8b3b5b922e9f14e7b7300a52dee5b74a818",
+      "size_bytes": 1235993
+    },
+    {
+      "path": "normalauxoff_lfp_gru_normal_t6_holdoutus06_s0123456789_b2048_e200_metadata.json",
+      "sha256": "323a6cdf1ba82b10b17e0ce216befac99c6dd504fa477d2472c69dfed57565a6",
+      "size_bytes": 7840
+    },
+    {
+      "path": "normalauxoff_lfp_gru_normal_t6_holdoutus06_s0123456789_b2048_e200_input_schema.csv",
+      "sha256": "1d86766fee30b27628e1a786d68fa9ea8f329ccd21de30ae79f3ccb38f2ebd48",
+      "size_bytes": 765
+    },
+    {
+      "path": "normalauxoff_lfp_gru_normal_t6_holdoutus06_s0123456789_b2048_e200_decomposition_params.csv",
+      "sha256": "be8af926cad7f0dedd242b6c5ee8c1d2e5301c04db01eeedd554dd65a02f1689",
+      "size_bytes": 603
+    },
+    {
+      "path": "LFP_-10C_DST.csv",
+      "sha256": "a1c61ce62f41e5278b5f53d1db9b36539ce273e3f8ccc8cf8049c260ed4497cb",
+      "size_bytes": 1617043
+    },
+    {
+      "path": "LFP_-10C_FUDS.csv",
+      "sha256": "fca4c4029fcf79349478028304e90b2049008ee75eb59b35c8037b1c765d96a5",
+      "size_bytes": 1719471
+    },
+    {
+      "path": "LFP_0C_DST.csv",
+      "sha256": "b9d65f6cc08652ef142f252284bbc558e1518e9a1f9e3564e750641c0ccdab8b",
+      "size_bytes": 2117738
+    },
+    {
+      "path": "LFP_0C_FUDS.csv",
+      "sha256": "be97e397d8e0cc640b5d0228ef010ce93c2618d48e900446f3a9356676487eb7",
+      "size_bytes": 2222688
+    },
+    {
+      "path": "LFP_10C_DST.csv",
+      "sha256": "69ab856855289bf595eb95105980470a35a4d516fe3e4b89ccd94f4487b7aaa5",
+      "size_bytes": 2218853
+    },
+    {
+      "path": "LFP_10C_FUDS.csv",
+      "sha256": "001f8d7cd09cefa9f05bb3ffdbe3d2e865f4e3ea284894ea6d700c4445a3bf3e",
+      "size_bytes": 2190972
+    },
+    {
+      "path": "LFP_20C_DST.csv",
+      "sha256": "e1f09fe07481d6fb3ca0c9b9f93617b70fbb1bf0dc31ca46af5e16de47b87db4",
+      "size_bytes": 2298459
+    },
+    {
+      "path": "LFP_20C_FUDS.csv",
+      "sha256": "f2e90aa53b4b6b4b008ee510801c394a117222211949e03f5a2965a0a804823d",
+      "size_bytes": 2326863
+    },
+    {
+      "path": "LFP_25C_DST.csv",
+      "sha256": "cc82549f6a31f8ab6faaee042fd90c515cff0457624111dc3fccb84ea0ff82fc",
+      "size_bytes": 2180952
+    },
+    {
+      "path": "LFP_25C_FUDS.csv",
+      "sha256": "d8089862a0502881873d6d7de2ca91c4727e0636550f3d1038ce8124013fbab9",
+      "size_bytes": 2254884
+    },
+    {
+      "path": "LFP_30C_DST.csv",
+      "sha256": "b1c677cdc62b153e3d3ad4871556354e33ab923ddbdf9819a9d91819e0a5c32c",
+      "size_bytes": 2345550
+    },
+    {
+      "path": "LFP_30C_FUDS.csv",
+      "sha256": "29f63361ef64ae0901596dc02b9a85185f2a8776721b10c930e32aca7b75a1ea",
+      "size_bytes": 2318351
+    },
+    {
+      "path": "LFP_40C_DST.csv",
+      "sha256": "b3e6acb96f463d52e8b8707ffb76ea08fd17c2af99230a44dd1d6563af2c37bb",
+      "size_bytes": 2261725
+    },
+    {
+      "path": "LFP_40C_FUDS.csv",
+      "sha256": "9b11a3cb0122e1db8685ed32ac7bbdc2260dd56c963e3fc055cda1468de9637f",
+      "size_bytes": 2326176
+    },
+    {
+      "path": "LFP_50C_DST.csv",
+      "sha256": "26345362c60928f04cf0408ed9ccb9485b43d3059cba6128e852e4dfc673ab34",
+      "size_bytes": 2264078
+    },
+    {
+      "path": "LFP_50C_FUDS.csv",
+      "sha256": "dea2411b645750917433b2fcbe14efddb7054cc18894357e00f9a8360d4e8e6b",
+      "size_bytes": 2337668
+    },
+    {
+      "path": "LFP_-10C_US06.csv",
+      "sha256": "7464de821388da9abb20f80ef68dc5c8038019ed970bacd1bd18da178b84d64a",
+      "size_bytes": 1548096
+    },
+    {
+      "path": "LFP_0C_US06.csv",
+      "sha256": "9cfee7f5d8c8e5e4ed40876c9c61c3b7e78fda2dcfce764cceacfc783aba4b9b",
+      "size_bytes": 2009083
+    },
+    {
+      "path": "LFP_10C_US06.csv",
+      "sha256": "1c4a5552b2373c6f838c68786e039c9916c1c8a9df0a0642f38ab5cd58dfe621",
+      "size_bytes": 2162456
+    },
+    {
+      "path": "LFP_20C_US06.csv",
+      "sha256": "bdbe02ee59c2dac625d8ac6fe40f595c1d8a5f9f813f572ca0cab455c187d8b0",
+      "size_bytes": 2204849
+    },
+    {
+      "path": "LFP_25C_US06.csv",
+      "sha256": "59839273f722a9926b91d39f76493d72e0b588cac6ededdc58671eb187e15767",
+      "size_bytes": 2133218
+    },
+    {
+      "path": "LFP_30C_US06.csv",
+      "sha256": "fb4f0bf3495b05904dc9103e10bb7c71f537e1af055d6be454c60175bf191001",
+      "size_bytes": 2236750
+    },
+    {
+      "path": "LFP_40C_US06.csv",
+      "sha256": "43d188581f49fbc832b30742b3e37d4c9e05f443d0a9da9c345e3464e3271794",
+      "size_bytes": 2150427
+    },
+    {
+      "path": "LFP_50C_US06.csv",
+      "sha256": "4dc9e66c2419de5b76b81e78eca3b1a0356624f2b1fa51daa038f7a43fbc5cd4",
+      "size_bytes": 2204159
+    }
+  ],
+  "source_git_commits": [
+    {
+      "commit": null,
+      "path": "/home/user/\ubc14\ud0d5\ud654\uba74/DL/CEMA_CARRIER_FAIRNESS_ABLATIONS_20260803",
+      "status": "unavailable"
+    },
+    {
+      "commit": null,
+      "path": "/home/user/\ubc14\ud0d5\ud654\uba74/LFP_REMOTE_EXACT_COPY_20260713/DL/CEMA_LFP/lfp_confirmatory_minipanel",
+      "status": "unavailable"
+    }
+  ],
+  "source_root": "/home/user/\ubc14\ud0d5\ud654\uba74",
+  "source_repo": "external_training_workspace_not_distributed"
+}

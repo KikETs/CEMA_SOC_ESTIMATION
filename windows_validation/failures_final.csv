@@ -1,0 +1,9 @@
+stage,status,original_issue,resolution
+NMC environment creation,RESOLVED,Linux-only Conda build identifiers were unavailable on win-64,Portable YAML plus exact per-platform Conda and pip locks
+LFP KF environment creation,RESOLVED,Windows numpy-base package conflicted with the required OpenBLAS build,Portable YAML omits packaging-only numpy-base and the win-64 lock freezes the resolved build
+PyTorch installation,RESOLVED,Initial large-wheel download timed out,Official cached CUDA wheel completed and environment preflight passes
+LFP UTF-8 configuration,RESOLVED,Windows CP949 could not decode UTF-8 metadata,All reachable configuration and metadata reads explicitly use UTF-8
+Contract test Git discovery,RESOLVED,Existing process did not inherit the newly installed Git PATH,Test helper discovers standard Windows Git executable locations
+NMC preprocessing hashes,RESOLVED,Byte hashes differed from platform floating serialization,Raw hashes and core values are exact while causal derived values are recomputed at atol 1e-12
+NMC fresh-fit result gates,RESOLVED_AS_AUDIT_MODE,Near-tied optimizer selections changed across platforms,Paper replay uses frozen training-only selections and fresh refit is a separate audit command
+KF platform arithmetic,RESOLVED_WITH_DECLARED_GATES,Covariance repair differs on isolated sensitive trajectories,Single-thread execution plus method-specific measured platform gates; stable rows remain at 1e-6

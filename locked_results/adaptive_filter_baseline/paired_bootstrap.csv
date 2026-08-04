@@ -1,0 +1,7 @@
+method,reference_method,init,weighting,mean_diff_mae_pct,ci_lo_pct,ci_hi_pct,block_samples,B,seed,n_records,n_reference_seeds
+vff_hysteresis_2rc_ekf,hysteresis_2rc_ekf,oracle,slice_unweighted,0.00014975127729847107,1.0351712313053607e-05,0.00034032686188189437,60,10000,20260803,24,1
+vff_hysteresis_2rc_ekf,hysteresis_2rc_ekf,minus5pp,slice_unweighted,0.0029080011908695553,0.0007251171374591845,0.00531692776253085,60,10000,20260803,24,1
+vff_hysteresis_2rc_ekf,hysteresis_2rc_ekf,minus10pp,slice_unweighted,0.15255564935639546,0.1425047014849452,0.16249280100825894,60,10000,20260803,24,1
+vff_hysteresis_2rc_ekf,proposed_17ch_g4_gru_residual,oracle,per-seed_slice-unweighted,-0.33439021238798344,-0.3509090496669385,-0.31759015674739377,60,10000,20260804,24,5
+vff_hysteresis_2rc_ekf,proposed_17ch_g4_gru_residual,minus5pp,per-seed_slice-unweighted,0.8722873580333154,0.8546494388600282,0.8903895451898163,60,10000,20260804,24,5
+vff_hysteresis_2rc_ekf,proposed_17ch_g4_gru_residual,minus10pp,per-seed_slice-unweighted,6.318965404998051,6.28337155536045,6.35446681444828,60,10000,20260804,24,5

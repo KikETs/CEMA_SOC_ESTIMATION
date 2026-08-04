@@ -1,0 +1,116 @@
+{
+  "entries": [
+    {
+      "feature": "T6",
+      "fold": "DST",
+      "path": "T6/DST/0",
+      "seed": 0
+    },
+    {
+      "feature": "T6",
+      "fold": "DST",
+      "path": "T6/DST/1",
+      "seed": 1
+    },
+    {
+      "feature": "T6",
+      "fold": "DST",
+      "path": "T6/DST/2",
+      "seed": 2
+    },
+    {
+      "feature": "T6",
+      "fold": "FUDS",
+      "path": "T6/FUDS/0",
+      "seed": 0
+    },
+    {
+      "feature": "T6",
+      "fold": "FUDS",
+      "path": "T6/FUDS/1",
+      "seed": 1
+    },
+    {
+      "feature": "T6",
+      "fold": "FUDS",
+      "path": "T6/FUDS/2",
+      "seed": 2
+    },
+    {
+      "feature": "T6",
+      "fold": "US06",
+      "path": "T6/US06/0",
+      "seed": 0
+    },
+    {
+      "feature": "T6",
+      "fold": "US06",
+      "path": "T6/US06/1",
+      "seed": 1
+    },
+    {
+      "feature": "T6",
+      "fold": "US06",
+      "path": "T6/US06/2",
+      "seed": 2
+    },
+    {
+      "feature": "G4",
+      "fold": "DST",
+      "path": "G4/DST/0",
+      "seed": 0
+    },
+    {
+      "feature": "G4",
+      "fold": "DST",
+      "path": "G4/DST/1",
+      "seed": 1
+    },
+    {
+      "feature": "G4",
+      "fold": "DST",
+      "path": "G4/DST/2",
+      "seed": 2
+    },
+    {
+      "feature": "G4",
+      "fold": "FUDS",
+      "path": "G4/FUDS/0",
+      "seed": 0
+    },
+    {
+      "feature": "G4",
+      "fold": "FUDS",
+      "path": "G4/FUDS/1",
+      "seed": 1
+    },
+    {
+      "feature": "G4",
+      "fold": "FUDS",
+      "path": "G4/FUDS/2",
+      "seed": 2
+    },
+    {
+      "feature": "G4",
+      "fold": "US06",
+      "path": "G4/US06/0",
+      "seed": 0
+    },
+    {
+      "feature": "G4",
+      "fold": "US06",
+      "path": "G4/US06/1",
+      "seed": 1
+    },
+    {
+      "feature": "G4",
+      "fold": "US06",
+      "path": "G4/US06/2",
+      "seed": 2
+    }
+  ],
+  "schema_version": 1,
+  "source_git_commit": null,
+  "source_git_status": "unavailable_unborn_git_branch",
+  "source_repo": "/home/user/\ubc14\ud0d5\ud654\uba74/DL/CEMA_MLP_OCVSTART_FULLGRID"
+}

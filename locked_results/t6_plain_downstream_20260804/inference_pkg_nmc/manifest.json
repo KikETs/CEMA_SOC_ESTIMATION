@@ -1,0 +1,200 @@
+{
+  "chemistry": "nmc",
+  "entries": [
+    {
+      "feature": "T6",
+      "fold": "DST",
+      "path": "T6/DST/0",
+      "seed": 0
+    },
+    {
+      "feature": "T6",
+      "fold": "DST",
+      "path": "T6/DST/1",
+      "seed": 1
+    },
+    {
+      "feature": "T6",
+      "fold": "DST",
+      "path": "T6/DST/2",
+      "seed": 2
+    },
+    {
+      "feature": "T6",
+      "fold": "DST",
+      "path": "T6/DST/3",
+      "seed": 3
+    },
+    {
+      "feature": "T6",
+      "fold": "DST",
+      "path": "T6/DST/4",
+      "seed": 4
+    },
+    {
+      "feature": "T6",
+      "fold": "DST",
+      "path": "T6/DST/5",
+      "seed": 5
+    },
+    {
+      "feature": "T6",
+      "fold": "DST",
+      "path": "T6/DST/6",
+      "seed": 6
+    },
+    {
+      "feature": "T6",
+      "fold": "DST",
+      "path": "T6/DST/7",
+      "seed": 7
+    },
+    {
+      "feature": "T6",
+      "fold": "DST",
+      "path": "T6/DST/8",
+      "seed": 8
+    },
+    {
+      "feature": "T6",
+      "fold": "DST",
+      "path": "T6/DST/9",
+      "seed": 9
+    },
+    {
+      "feature": "T6",
+      "fold": "FUDS",
+      "path": "T6/FUDS/0",
+      "seed": 0
+    },
+    {
+      "feature": "T6",
+      "fold": "FUDS",
+      "path": "T6/FUDS/1",
+      "seed": 1
+    },
+    {
+      "feature": "T6",
+      "fold": "FUDS",
+      "path": "T6/FUDS/2",
+      "seed": 2
+    },
+    {
+      "feature": "T6",
+      "fold": "FUDS",
+      "path": "T6/FUDS/3",
+      "seed": 3
+    },
+    {
+      "feature": "T6",
+      "fold": "FUDS",
+      "path": "T6/FUDS/4",
+      "seed": 4
+    },
+    {
+      "feature": "T6",
+      "fold": "FUDS",
+      "path": "T6/FUDS/5",
+      "seed": 5
+    },
+    {
+      "feature": "T6",
+      "fold": "FUDS",
+      "path": "T6/FUDS/6",
+      "seed": 6
+    },
+    {
+      "feature": "T6",
+      "fold": "FUDS",
+      "path": "T6/FUDS/7",
+      "seed": 7
+    },
+    {
+      "feature": "T6",
+      "fold": "FUDS",
+      "path": "T6/FUDS/8",
+      "seed": 8
+    },
+    {
+      "feature": "T6",
+      "fold": "FUDS",
+      "path": "T6/FUDS/9",
+      "seed": 9
+    },
+    {
+      "feature": "T6",
+      "fold": "US06",
+      "path": "T6/US06/0",
+      "seed": 0
+    },
+    {
+      "feature": "T6",
+      "fold": "US06",
+      "path": "T6/US06/1",
+      "seed": 1
+    },
+    {
+      "feature": "T6",
+      "fold": "US06",
+      "path": "T6/US06/2",
+      "seed": 2
+    },
+    {
+      "feature": "T6",
+      "fold": "US06",
+      "path": "T6/US06/3",
+      "seed": 3
+    },
+    {
+      "feature": "T6",
+      "fold": "US06",
+      "path": "T6/US06/4",
+      "seed": 4
+    },
+    {
+      "feature": "T6",
+      "fold": "US06",
+      "path": "T6/US06/5",
+      "seed": 5
+    },
+    {
+      "feature": "T6",
+      "fold": "US06",
+      "path": "T6/US06/6",
+      "seed": 6
+    },
+    {
+      "feature": "T6",
+      "fold": "US06",
+      "path": "T6/US06/7",
+      "seed": 7
+    },
+    {
+      "feature": "T6",
+      "fold": "US06",
+      "path": "T6/US06/8",
+      "seed": 8
+    },
+    {
+      "feature": "T6",
+      "fold": "US06",
+      "path": "T6/US06/9",
+      "seed": 9
+    }
+  ],
+  "schema_version": 2,
+  "source_git_commits": [
+    {
+      "commit": null,
+      "path": "/home/user/\ubc14\ud0d5\ud654\uba74/DL/CEMA_CARRIER_FAIRNESS_ABLATIONS_20260803",
+      "status": "unavailable"
+    },
+    {
+      "commit": null,
+      "path": "/home/user/\ubc14\ud0d5\ud654\uba74/DL/CEMA_MLP_OCVSTART_FULLGRID",
+      "status": "unavailable"
+    }
+  ],
+  "source_root": "/home/user/\ubc14\ud0d5\ud654\uba74",
+  "source_repo": "external_training_workspace_not_distributed"
+}

@@ -1,0 +1,66 @@
+{
+  "experiment": "B_auxiliary_loss_ablation",
+  "analysis_stage": "review_defense_retraining",
+  "chemistry": "NMC",
+  "aux_config": "anchor_only",
+  "source_runner": "${SOURCE_WORKSPACE}/DL/CEMA_MLP_OCVSTART_FULLGRID/Scripts/run_ocvstart_3lopo_fullgrid.py",
+  "source_runner_sha256": "40b7e85d9aeb34ce075bbd4a53a96eb9cc2364880ee63b56b045d74b54016a2e",
+  "training_harness": "${SOURCE_WORKSPACE}/DL/CEMA_MLP_OCVSTART_FULLGRID/soc_decomp/nmc_vcorr_it_train_dst_selector_run.py",
+  "training_harness_sha256": "a6d097ae68f83d269a96e7ea3491041ec091c13e0fef74673959ec205650b4e1",
+  "jobs": [
+    {
+      "chemistry": "NMC",
+      "aux_config": "anchor_only",
+      "feature": "T6",
+      "fold": "DST",
+      "prefix": "fairB_nmc_anchor_only_gru_residual_t6_holdoutdst_s012_b2048_e200",
+      "status": "complete",
+      "elapsed_seconds": 97.54946541786194
+    },
+    {
+      "chemistry": "NMC",
+      "aux_config": "anchor_only",
+      "feature": "T6",
+      "fold": "FUDS",
+      "prefix": "fairB_nmc_anchor_only_gru_residual_t6_holdoutfuds_s012_b2048_e200",
+      "status": "complete",
+      "elapsed_seconds": 95.84159636497498
+    },
+    {
+      "chemistry": "NMC",
+      "aux_config": "anchor_only",
+      "feature": "T6",
+      "fold": "US06",
+      "prefix": "fairB_nmc_anchor_only_gru_residual_t6_holdoutus06_s012_b2048_e200",
+      "status": "complete",
+      "elapsed_seconds": 97.08774924278259
+    },
+    {
+      "chemistry": "NMC",
+      "aux_config": "anchor_only",
+      "feature": "G4",
+      "fold": "DST",
+      "prefix": "fairB_nmc_anchor_only_gru_residual_g4_holdoutdst_s012_b2048_e200",
+      "status": "complete",
+      "elapsed_seconds": 96.73101282119751
+    },
+    {
+      "chemistry": "NMC",
+      "aux_config": "anchor_only",
+      "feature": "G4",
+      "fold": "FUDS",
+      "prefix": "fairB_nmc_anchor_only_gru_residual_g4_holdoutfuds_s012_b2048_e200",
+      "status": "complete",
+      "elapsed_seconds": 95.81276202201843
+    },
+    {
+      "chemistry": "NMC",
+      "aux_config": "anchor_only",
+      "feature": "G4",
+      "fold": "US06",
+      "prefix": "fairB_nmc_anchor_only_gru_residual_g4_holdoutus06_s012_b2048_e200",
+      "status": "complete",
+      "elapsed_seconds": 96.97088980674744
+    }
+  ]
+}

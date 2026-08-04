@@ -1,0 +1,52 @@
+{
+  "package_root": "/home/user/\ubc14\ud0d5\ud654\uba74/DL/CEMA_CARRIER_FAIRNESS_ABLATIONS_20260803/t6_plain_downstream_20260804/inference_pkg_lfp",
+  "package_tree_sha256_before": "5f09faf55457db8cbfa38adc215b6eb6dff0d6620b2f614f417bf99315834cf9",
+  "package_tree_sha256_after": "5f09faf55457db8cbfa38adc215b6eb6dff0d6620b2f614f417bf99315834cf9",
+  "package_unchanged": true,
+  "chemistry": "lfp",
+  "features": [
+    "T6_plain"
+  ],
+  "folds": [
+    "DST",
+    "FUDS",
+    "US06"
+  ],
+  "model_seeds": [
+    0,
+    1,
+    2
+  ],
+  "temperatures_C": [
+    -10,
+    0,
+    10,
+    20,
+    25,
+    30,
+    40,
+    50
+  ],
+  "injection_point": "raw_voltage_or_current_before_R0_correction_Vcorr_EMA_normalization_and_windowing",
+  "noise_seeds": [
+    0,
+    1,
+    2
+  ],
+  "cold_start_seed": 20260711,
+  "metric_unit": "SOC percentage points",
+  "csv_columns": [
+    "feature",
+    "fold",
+    "seed",
+    "perturbation_type",
+    "level",
+    "temp",
+    "soc_band",
+    "mae",
+    "rmse",
+    "bias"
+  ],
+  "workers": 3,
+  "cold_trial_aggregation": "pool samples across five reset trials before metrics"
+}

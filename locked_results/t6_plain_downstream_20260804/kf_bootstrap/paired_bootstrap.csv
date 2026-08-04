@@ -1,0 +1,4 @@
+method,reference_method,initial_condition,weighting,delta_MAE_method_minus_proposed_pct,ci_low_pct,ci_high_pct,B,block_samples,seed,n_records,n_proposed_seeds
+hysteresis_2rc_ekf,T6_plain_GRU_linear_auxoff,minus10pp,per-seed slice-unweighted,6.063378441826951,6.024976570247011,6.101779846842299,10000,60,20260804,24,10
+hysteresis_2rc_ekf,T6_plain_GRU_linear_auxoff,minus5pp,per-seed slice-unweighted,0.766348043027742,0.7456922339313213,0.7862695838854411,10000,60,20260804,24,10
+hysteresis_2rc_ekf,T6_plain_GRU_linear_auxoff,oracle,per-seed slice-unweighted,-0.4375712774799858,-0.4574900985817109,-0.41869847144238587,10000,60,20260804,24,10

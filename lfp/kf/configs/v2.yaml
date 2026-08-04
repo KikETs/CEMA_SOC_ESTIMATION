@@ -1,0 +1,69 @@
+project:
+  output_root: results_v2
+  seed: 20260711
+
+base_config: configs/remote.yaml
+
+proposed_confirmatory:
+  tier1_root: /home/user/바탕화면/CEMA_SOC_ESTIMATION/runs/lfp_dl/nmc_goal_vcorr_it_train_dst_selector_results
+  winner_promotion_root: /home/user/바탕화면/CEMA_SOC_ESTIMATION/runs/lfp_dl/nmc_goal_vcorr_it_train_dst_selector_results
+  feature_set: paper_g4_all_ema
+  channels: 17
+  seeds: [0, 1, 2, 3, 4]
+
+fixes:
+  f1_fold_training_ecm: true
+  f2_slope_aware_measurement_noise: true
+  f3_hysteresis_rest_init: true
+  f4_training_soc_mae_optuna: true
+
+r0_estimator:
+  min_abs_delta_i_A: 0.05
+  min_ratio_ohm: 0.001
+  max_ratio_ohm: 0.5
+
+ecm_fit:
+  r1_bounds_ohm: [1.0e-5, 0.5]
+  r2_bounds_ohm: [1.0e-5, 0.5]
+  tau1_bounds_s: [1.1, 40.0]
+  tau2_bounds_s: [20.0, 600.0]
+  record_offset_bounds_V: [-0.5, 0.5]
+  max_nfev: 200
+  rmse_flag_mV: 10.0
+  tau_separation_ratio_max: 0.25
+
+slope_noise:
+  savgol_window: 11
+  savgol_polyorder: 3
+  s_ref_mV_per_pctSOC: 2.0
+  s_min_mV_per_pctSOC: 0.05
+  factor_min: 1.0
+  factor_max: 400.0
+
+selection:
+  representative_filter: hysteresis_2rc_ekf
+  trials: 200
+  sampler: TPE
+  seed: 20260711
+  boundary_log_fraction: 0.005
+  max_range_extensions: 1
+  shared_across_filters: true
+  study_tag: training_ecm_ls_confirmatory17
+  ranges:
+    q_soc: [1.0e-12, 1.0e-6]
+    q_vp: [1.0e-10, 1.0e-4]
+    q_h: [1.0e-10, 1.0e-4]
+    r_voltage: [1.0e-8, 1.0e-2]
+
+diagnostics:
+  initial_soc_errors_pct: [0, -5, 5]
+
+statistics:
+  circular_block_samples: 60
+  bootstrap_replicates: 10000
+  bootstrap_seed: 20260711
+
+stop_rule:
+  representative_holdout: DST
+  hysteresis_ekf_mean_mae_pct: 8.0
+  max_retuning_cycles: 1
