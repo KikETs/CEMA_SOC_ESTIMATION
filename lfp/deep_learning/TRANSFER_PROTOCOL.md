@@ -1,3 +1,7 @@
+> **HISTORICAL (superseded)**
+>
+> This pre-pivot protocol is retained unchanged below as an audit artifact. It is not the current proposed-model protocol. See [`TRANSFER_PROTOCOL_T6_PLAIN.md`](TRANSFER_PROTOCOL_T6_PLAIN.md) for the active T6-plain configuration.
+
 # LFP Confirmatory Transfer Protocol (locked before unblinding)
 
 Protocol lock date: 2026-07-11 KST
